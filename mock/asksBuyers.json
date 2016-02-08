@@ -1,0 +1,1341 @@
+{
+  "type": "listAskResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 3,
+  "data": [
+    {
+      "id": "9",
+      "num": "9",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 5",
+          "shopRatng": 5,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 2,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 4,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 3,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "num": "10",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 5,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 1,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "num": "11",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "num": "12",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "num": "13",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "num": "14",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "num": "15",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "num": "16",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "num": "17",
+      "creationTime": "2015-03-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "num": "18",
+      "creationTime": "2015-04-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "num": "19",
+      "creationTime": "2015-06-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "num": "20",
+      "creationTime": "2015-05-10T14:41:59.464+03:00",
+      "endTime": "2015-04-10T14:41:59.464+03:00",
+      "shipmentDays": "2015-04-10T14:41:59.464+03:00",
+      "product": {
+        "id": "064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name": "Купальник \"Marie\"",
+        "barCode": "699 005 575 122 5"
+      },
+      "amount": "1",
+      "price": "1264.45",
+      "cost": "1264.45",
+      "region": "Москва",
+      "state": "ENABLED",
+      "min": 560,
+      "max": 1560,
+      "offers":[
+        {
+          "shopId": 5,
+          "shopName": "магазин 1",
+          "shopRatng": 3,
+          "price": 400.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 2,
+          "shopName": "магазин 2",
+          "shopRatng": 4,
+          "price": 600.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 1,
+          "shopName": "магазин 1",
+          "shopRatng": 1,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 4,
+          "shopName": "магазин 4",
+          "shopRatng": 2,
+          "price": 500.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        },
+        {
+          "shopId": 3,
+          "shopName": "магазин 3",
+          "shopRatng": 4,
+          "price": 800.10,
+          "amount": 100,
+          "shipments":[
+            {
+              "type": "SHIPMENT_TYPE_1"
+            },
+            {
+              "type": "SHIPMENT_TYPE_2"
+            },
+            {
+              "type": "SHIPMENT_TYPE_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

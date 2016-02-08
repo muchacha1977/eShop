@@ -1,0 +1,27 @@
+{
+  "type": "managersResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 26,
+
+  "data": [
+    {
+      "id": 342,
+      "name": "Вася",
+	  "shopsCount": 7,
+	  "sellQuality"	: 7
+    },
+    {
+      "id": 343,
+      "name": "Петя",
+	  "shopsCount": 12,
+	  "sellQuality"	: 3
+    },
+    {
+      "id": 348,
+      "name": "Борис Михалыч",
+	  "shopsCount": 55,
+	  "sellQuality"	: 10
+    }
+  ]
+}

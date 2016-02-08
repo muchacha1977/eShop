@@ -1,0 +1,18 @@
+<div class="row">	
+	<% if (typeof level !== 'undefined') { %>
+		<div style="padding-left: <%- level %>0px" class="td category-name text-left col-xs-4"><%- name %>
+	<% } else { %>
+		<div class="td category-name text-left col-xs-4"><%- name %>
+	<% } %>
+			<span class="td js-arrow arrow closed glyphicon glyphicon-chevron-right text-center col-xs-1"></span>
+		</div>
+	<div class="td category-parameters text-center col-xs-6">
+		<div class="chars-wrapper js-chars-wrapper"></div>
+	</div>
+	<div class="td category-action col-xs-2 text-center">
+		<span data-id="<%- id %>" data-next-level="<%- (typeof level !== 'undefined' ? level : 1) %>" class="js-add-sub glyphicon glyphicon-plus" title="Добавить подкатегорию"></span>
+		<span class="js-add-char-btn glyphicon glyphicon-align-justify" title="Добавить характеристику"></span>		
+		<span data-id="<%- id %>" class="js-remove glyphicon glyphicon-remove" title="Удалить"></span>
+	</div>
+</div>
+<div class="js-subcontainer subcontainer" style="display:none;"></div>

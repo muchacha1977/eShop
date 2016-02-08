@@ -1,0 +1,26 @@
+<td>
+    <% if (read) { %>
+    <span class="fa fa-circle-o fa-fw"> </span>
+    <% } else { %>
+    <span class="fa fa-circle fa-fw"> </span>
+    <% } %>
+</td>
+<td>
+    <span style="white-space: nowrap;">
+        <%= date %>
+    </span>
+</td>
+<td>
+    <% if (flagged) { %>
+    <span class="fa fa-flag-o fa-fw"> </span>
+    <% } %>
+</td>
+<td>
+    <span style="white-space: nowrap;">
+        <%= from %>
+    </span></td>
+<td>
+    <div>
+        <%= subject %>
+    </div>
+</td>

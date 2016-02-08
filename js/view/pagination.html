@@ -1,0 +1,44 @@
+
+<% if(state.totalPages > 1 && state.windowPager){ %>
+<ul class="pagination" style="margin: 0 10px 0 0;  padding: 0;  float: left;  position: relative;  top: -1px;">
+    <% if(state.currentPage > 1){ %>
+    <li><a href="#<%- state.link %>/<%- state.firstPage %>" data-page="first">&laquo;</a></li>
+    <li><a href="#<%- state.link %>/<%= state.currentPage-1 %>" data-page="prev">&lsaquo;</a></li>
+    <% } else { %>
+    <li class="disabled"><a data-page="disabled" href="#">&laquo;</a></li>
+    <li class="disabled"><a data-page="disabled" href="#">&lsaquo;</a></li>
+    <% } %>
+
+    <% for (var i = state.windowStart; i <= state.windowEnd; i++) { %>
+    <li <% if (state.currentPage == i) print('class="active"') %> ><a data-page="<%= (state.currentPage == i)? 'disabled': 'page' %>" href="#<%- state.link %>/<%- i %>"><%- i %></a></li>
+    <% } %>
+
+
+    <% if(state.currentPage !== state.lastPage){ %>
+    <li><a href="#<%- state.link %>/<%= state.currentPage+1 %>" data-page="next">&rsaquo;</a></li>
+    <li><a href="#<%- state.link %>/<%= state.lastPage %>" data-page="last">&raquo;</a></li>
+    <% } else { %>
+    <li class="disabled"><a data-page="disabled" href="#">&rsaquo;</a></li>
+    <li class="disabled"><a data-page="disabled" href="#">&raquo;</a></li>
+    <% } %>
+
+</ul>
+<% } %>
+
+<%if (state.windowPerPage == true && state.windowPerPageSize < state.totalRecords){%>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary">Показано <span class="badge"><%- state.pageSize %></span></button>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        <span class="caret"></span>
+        <span class="sr-only">Показано <%- state.pageSize %></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a data-page="size" href="#<%- state.link %>/10">10</a></li>
+        <li><a data-page="size" href="#<%- state.link %>/20">20</a></li>
+        <li><a data-page="size" href="#<%- state.link %>/30">30</a></li>
+    </ul>
+</div>
+<% } %>
+<% if(state.totalPages > 1 && state.windowTotalPages == true) { %>
+<div class="btn-group"> Страниц <span class="badge badge-border"><%- state.totalPages %></span></div>
+<% } %>

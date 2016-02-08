@@ -1,0 +1,220 @@
+<div id="GoodprofyRegistration">
+    <div id="GoodprofyRegistrationModal">
+        <div class="modal-dialog">
+            <div class="modal-content" id="registrationContent">
+                </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            </div>
+            <script type="text/template" id="blank-Modal">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Регистрация - шаг 1 из 3</h4>
+                </div>
+                <div class="modal-body" >
+                        <p>Кто вы?</p>
+                </div>
+                <div class="modal-footer">
+                        <button id="registration-customer" class="btn btn-default btn-registration-customer">Покупатель</button>
+                        <button id="registration-seller" class="btn btn-default btn-registration-seller">Продавец</button>
+                </div>
+            </script>
+            <script type="text/template" id="template-RegistrationLayoutView">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Регистрация - шаг 1 из 3</h4>
+                </div>
+                <div class="modal-body" >
+                        <p>Кто вы?</p>
+                </div>
+                <div class="modal-footer">
+                        <button id="registration-customer" class="btn btn-default btn-registration-customer">Покупатель</button>
+                        <button id="registration-seller" class="btn btn-default btn-registration-seller">Продавец</button>
+                </div>
+            </script>
+            <script type="text/template" id="template-RegistrationLayoutViewStep2Custumer">
+                <div class="modal-header" id="modalFirst">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Регистрация - шаг 2 из 3</h4>
+                </div>
+                <div class="modal-body"  >
+                        <p><i class="glyphicon glyphicon-info-sign"> </i> Вы регистрируeтесь как Покупатель</p>
+                        <form action="#registration/step3" method="post" id="GoodprofyRegistrationSubmitCustumer">
+                                <input type="hidden" name="role" value="buyer">
+                                <input type="hidden" name="code" value="132456">
+                                <input type="hidden" name="lastName" value="">
+                                <div class="form-group">
+                                        <label for="inputNameCustumer">Представьтесь:</label>
+                                        <div class="input-group ">
+                                                <div class="input-group-addon"><i class="glyphicon glyphicon-user"></i></div>
+                                                <input type="text" class="form-control" id="inputNameCustumer" required name="firstName" placeholder="Введите имя">
+                                        </div>
+                                        <p id="firstNameStatus" class="help-block"></p>
+                                        <div class="input-group ">
+                                                <div class="input-group-addon"><i class="glyphicon glyphicon-user"></i></div>
+                                                <input type="text" class="form-control" id="inputLastNameCustumer" required name="lastName" placeholder="Введите фамилию">
+                                        </div>
+                                        <p id="lastNameStatus" class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                        <label for="inputEmailCustumer">Электронная почта:</label>
+                                        <div class="input-group">
+                                                <div class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></div>
+                                                <input type="email" class="form-control" id="inputEmailCustumer" reguired name="email" placeholder="Введите ваш e-mail">
+                                        </div>
+                                        <p id="emailStatus" class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                        <label for="inputPhoneCustumer">Телефон:</label>
+                                        <div class="input-group">
+                                                <div class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></div>
+                                                <input type="text" clean="false"  class="form-control" id="inputPhoneCustumer" reguired name="phone" placeholder="Например, +79090000000">
+                                        </div>
+                                        <p id="phoneStatus" class="help-block"></p>
+                                </div>
+                        
+                                <div class="form-group">
+                                        <label for="inputPasswordCustumer">Пароль:</label>
+                                    
+                                        <div class="input-group">
+                                                <div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
+                                                <input type="password" class="form-control" id="inputPasswordCustumer" reguired name="password" placeholder="Минимум 6 символов">
+                                                <label>
+                                            </div>
+                                            <p id="passwordStatus" class="help-block"></p>
+                                            <label for="inputPasswordCustumer">Пароль повторно:</label>
+                                            <div class="input-group">
+                                                    <div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
+                                                    <input type="password"  class="form-control" id="inputPasswordCustumerRepeat" reguired name="passwordRepeat" placeholder="Минимум 6 символов">
+                                            </div>
+                                            <p id="passwordStatusRepeat" class="help-block"></p>
+                                            <label>
+                                                <input type="checkbox" value="true"  id="showPasswordCheckbox" name="showPasswordCheckbox">
+                                                Пароль показать
+                                            </label>
+                                            <p id="referStatus" class="help-block"></p>
+                                            
+                                            <div class="input-group">
+                                                 <div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
+                                                    <input type="text"  class="form-control" id="myReferInput" name="myReferCodeInput" placeholder="Введите код реферера">
+                                                      <button type="button" class="btn btn-default btn-sm" id="referId">
+                                                      	<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> 
+                                                    </button>
+
+                                            </div>
+                                            <p id="referStatusNick" class="help-block"></p>
+                                    </div>
+                                    <div class="form-group">
+                                            <label>
+                                                    <input type="checkbox" required value="" id="termsAccepted" name="termsAccepted">
+                                                    я принимаю<a href="#page/userAgreement" target="_blank" class=""> пользовательское соглашение</a>
+                                            </label>
+            
+                                    <div class="form-group alert alert-danger" id="registration-form-status">
+                                            <p>Покупатель с таким email/телефоном существует</p>
+                                    </div>
+                                    <div class="modal-footer step2">
+                                            <div class="before-arrow-left"><button type="button" id="registration-back" class="btn btn-link btn-back">Назад</button></div>
+                                            <button type="submit" class="btn btn-default btn-registration-submit GoodprofyRegistrationSubmit">Зарегистрироваться</button>
+                                    </div>
+                            </form>
+                    </div>
+                </script>
+                <script type="text/template" id="template-RegistrationLayoutViewStep2Seler">
+                    <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Регистрация - шаг 2 из 3</h4>
+                    </div>
+                    <div class="modal-body" >
+                            <p><i class="glyphicon glyphicon-info-sign"> </i> Вы регистрируeтесь как Продавец</p>
+                            <form action="#registration/step3" method="post" id="GoodprofyRegistrationSubmitSeller">
+                                    <input type="hidden" name="role" value="trader">
+                                    <input type="hidden" name="code" value="132456">
+                                    <input type="hidden" name="lastName" value="">
+                                       <div class="form-group">
+                                            <label for="inputNameShop">Краткое название магазина</label>
+                                            <div class="input-group">
+                                                    <div class="input-group-addon"><i class="glyphicon glyphicon-user"></i></div>
+                                                    <input type="text" class="form-control" required name="shopName"  id="inputNameShop" placeholder="Введите название магазина">
+                                            </div>
+                                            <p id="shopNameStatus" class="help-block"></p>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="inputNameSeller">Контактное лицо:</label>
+                                            <div class="input-group">
+                                                    <div class="input-group-addon"><i class="glyphicon glyphicon-user"></i></div>
+                                                    <input type="text" class="form-control" required name="firstName"  id="inputNameSeller" placeholder="Введите имя">
+                                            </div>
+                                            <p id="firstNameStatus" class="help-block"></p>
+                                            <div class="input-group">
+                                                    <div class="input-group-addon"><i class="glyphicon glyphicon-user"></i></div>
+                                                    <input type="text" class="form-control" id="inputLastNameCustumer" required name="lastName" placeholder="Введите фамилию">
+                                            </div>
+                                            <p id="lastNameStatus" class="help-block"></p>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="inputEmailSeller">Электронная почта:</label>
+                                            <div class="input-group">
+                                                    <div class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></div>
+                                                    <input type="email" class="form-control" name="email" reguired id="inputEmailSeller" placeholder="Введите ваш e-mail">
+                                            </div>
+                                            <p id="emailStatus" class="help-block"></p>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="inputPhoneSeller">Телефон:</label>
+                                            <div class="input-group">
+                                                    <div class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></div>
+                                                    <input type="text" class="form-control" clean="false"  id="inputPhoneSeller" reguired name="phone" placeholder="Например, +79090000000" >
+                                            </div>
+                                            <p id="phoneStatus" class="help-block"></p>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="inputPasswordCustumer">Пароль:</label>
+                                        
+                                            <div class="input-group">
+                                                    <div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
+                                                    <input type="password" class="form-control" id="inputPasswordCustumer" reguired name="password" placeholder="Минимум 6 символов">
+                                                    <label>
+                                                </div>
+                                                <p id="passwordStatus" class="help-block"></p>
+                                                <label for="inputPasswordCustumer">Пароль повторно:</label>
+                                                <div class="input-group">
+                                                        <div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
+                                                        <input type="password"  class="form-control" id="inputPasswordCustumerRepeat" reguired name="passwordRepeat" placeholder="Минимум 6 символов">
+                                                </div>
+                                                <p id="passwordStatusRepeat" class="help-block"></p>
+                                                <label>
+                                                    <input type="checkbox" value="true"  id="showPasswordCheckbox" name="showPasswordCheckbox">
+                                                    Пароль показать
+                                                </label>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                                <label>
+                                                        <input type="checkbox" value="" required id="termsAccepted" name="termsAccepted">
+                                                        я принимаю<a href="#page/userAgreement" target="_blank" class=""> пользовательское соглашение</a>
+                                                </label>
+                                  
+                                        <div class="form-group alert alert-danger" id="registration-form-status">
+                                                <p>Продавец с таким email/телефоном существует</p>
+                                        </div>
+                                        <div class="modal-footer step2">
+                                                <div class="before-arrow-left"><button type="button" id="registration-back" class="btn btn-link btn-back">Назад</button></div>
+                                                <button type="submit" class="btn btn-default btn-registration-submit GoodprofyRegistrationSubmit">Зарегистрироваться</button>
+                                        </div>
+                                </form>
+                        </div>
+                    </script>
+                    <script type="text/template" id="template-RegistrationLayoutViewStep3">
+                        <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Регистрация - шаг 3 из 3</h4>
+                        </div>
+                        <div class="modal-body" >
+                                <p><i class="glyphicon glyphicon-info-sign"> </i> Регистрация завершена. Спасибо!</p>
+                                <div class="modal-footer">
+                                        <button class="btn btn-link btn-back" id="registration-cabinet">Личный кабинет</button><br><br>
+                                        <div class="after-arrow-right"><button id="registration-catalog" class="btn btn-link btn-back">Перейти в каталог</button></div>
+                                </div>
+                        </div>
+                    </script>

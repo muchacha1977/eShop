@@ -1,0 +1,66 @@
+
+<h3>Отчёты по продажам</h3>
+<div style="padding: 10px 0">
+	Разрезы: 
+	<div class="btn-group" role="group" id="layer-selection">
+		<button type="button" class="btn btn-default active" data-option="category">Категория</button>
+		<button type="button" class="btn btn-default" data-option="product">Товар</button>
+		<button type="button" class="btn btn-default" data-option="buyer">Покупатель</button>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12 col-sm-3">
+		<label>Покупатель</label>
+		<input type="text" class="form-control" id="buyerName">
+	</div>
+	<div class="col-xs-12 col-sm-3">
+		<label>Категория</label>
+		<input type="text" class="form-control" id="categoryName">
+	</div>
+	<div class="col-xs-12 col-sm-3">
+		<label>Товар</label>
+		<input type="text" class="form-control" id="productName">
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12 col-sm-3">
+		<label>Период</label>
+		<div class="form-group">
+			<div class='input-group date' id='period_start'>
+				<span class="input-group-addon">с</span>
+				<input type='text' class="form-control" id="startDate" />
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-calendar"></span>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-3">
+		<label class="hidden-xs">&nbsp;</label>
+		<div class="form-group">
+			<div class='input-group date' id='period_end'>
+				<span class="input-group-addon">по</span>
+				<input type='text' class="form-control" id="endDate" />
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-calendar"></span>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-3">
+		<label>&nbsp;</label>
+		<button type="button" class="btn btn-primary btn-block" id="filterBtn">
+			Показать
+		</button>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-12 text-right">
+		<button type="button" id="downloadCSV" class="btn btn-default">Скачать (csv)</button>
+		<button type="button" id="downloadXLS" class="btn btn-default">Скачать (xls)</button>
+	</div>
+</div>
+<div id="trader-sale-list" class="table-responsive"></div>
+
+<div id="trader-sale-pagination"></div>

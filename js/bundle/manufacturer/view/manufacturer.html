@@ -1,0 +1,63 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-offset-3 col-sm-9">
+		<div class="page-header">
+			<% if(typeof gln != 'undefined') { %>
+			<div class='pull-right badge badge-border' ><span class="glyphicon glyphicon-star"></span>является членом <a href="https://en.wikipedia.org/wiki/Global_Location_Number" target="_blank" nofollow="nofollow">GLN</a></div>
+			<% } %>
+			<h1>
+				<%- name %>
+			</h1>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-12 col-sm-3">
+		<img src="rest/v0/manufacturer/logo/<%- id %>" class="img-responsive" >
+	</div>
+	<div class="col-xs-12 col-sm-9" id="producerInfoForm">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<% if(typeof site !== 'undefined') { %><div>
+					<a href="http://<%- site %>" target="_blank"><%- site %></a>
+				</div> 
+				<div>&nbsp;</div><% } %>
+				<% if(typeof description !== 'undefined') { %><p><%- description %></p><% } %>
+				
+				
+				<% if(typeof appeal !== 'undefined') { %><h3>Обращение к дилерам</h3>
+				<p><%- appeal %></p><% } %>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				
+				<% if(typeof address !== 'undefined') { %><div class="form-group">
+					<label for="address">Адрес</label>
+					<div><%- address %></div>
+				</div><% } %>
+				<% if(typeof phone !== 'undefined') { %><div class="form-group">
+					<label for="phone">Телефон</label>
+					<div><%- phone %></div>
+				</div><% } %>
+				<% if(typeof inn !== 'undefined') { %><div class="form-group">
+					<label for="inn">ИНН</label>
+					<div><%- inn %></div>
+				</div><% } %>
+				<% if(typeof kpp !== 'undefined') { %><div class="form-group">
+					<label for="kpp">КПП</label>
+					<div><%- kpp %></div>
+				</div><% } %>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="list-group">
+					<li class="list-group-item active">Документы</li>
+					<li class="list-group-item">
+						<div id="docs-list"></div>
+						<div id="docs-pagination"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

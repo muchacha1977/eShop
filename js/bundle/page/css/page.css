@@ -1,0 +1,14 @@
+#trader_lp_v1{
+
+}
+
+#trader_lp_v1 .section{
+    padding-bottom: 5em;
+}
+
+.vcenter{
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}

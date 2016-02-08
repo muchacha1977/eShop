@@ -1,0 +1,25 @@
+<h5 class="category-info">
+	Выбрана характеристика: <span class="category-name"><%- name %> (<%- totalCount %>)</span>
+</h5>
+<h4 class="chars-form-header">Заполните характеристики для нового товара</h4>
+<form role="form" class="form-gorizontal current-category-chars-form">
+	<% for (var i = 0; i < characteristics.length; i = i + 2) { %>
+	<div class="form-group clearfix">
+	    <div class="col-sm-6">
+			<label><%- characteristics[i].name %></label>
+			<input class="form-control js-char-item" data-id="<%- characteristics[i].id %>" value="<%- (typeof characteristics[i].value !== 'undefined' ? characteristics[i].value : '') %>">
+	    </div>
+	    <% if (typeof characteristics[i + 1] !== 'undefined') { %>
+	    <div class="col-sm-6">
+			<label><%- characteristics[i + 1].name %></label>
+			<input class="form-control js-char-item" data-id="<%- characteristics[i + 1].id %>" value="<%- (typeof characteristics[i + 1].value !== 'undefined' ? characteristics[i + 1].value : '') %>">
+	    </div>
+	    <% } %>
+	</div>	
+	<% } %>
+	<div class="form-group clearfix add-chars-block">
+		<div class="col-sm-6">
+			<button class="btn btn-primary js-add-chars">Добавить характеристики</button>
+	    </div>
+	</div>
+</form>

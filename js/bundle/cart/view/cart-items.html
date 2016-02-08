@@ -1,0 +1,16 @@
+<p class="text-muted"><%- shop.name %>  товаров: <%- shop.total %>  на сумму <%- App.currency(shop.sum) %> </p>
+<ul class="cart-button-items-wapper">
+    <% _.each(offers, function(value, key, list) { %>
+    <li class="cart-button-items-wapper-item">
+        <div class="cart-button-items-wapper-item-img">
+            <img src="rest/v0/product/pimg/<%- value.productId %>" alt='<%- value.productName %>'>
+        </div>
+        <div class="cart-button-items-wapper-item-info">
+            <a href="#product/<%- value.productId %>" title='<%- value.productName %>'><%- value.productName %></a>
+            <div>
+                <%= App.decimal(value.offerPrice) %> x <%- value.amount %> =  <%- App.decimal(value.offerPrice*value.amount) %> <i class="fa fa-rub"></i>
+            </div>
+        </div>
+    </li>
+    <% }); %>
+</ul>

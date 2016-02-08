@@ -1,0 +1,52 @@
+<div class="product">
+    <div class="product__section col-xs-12 col-sm-12 col-md-12 col-lg-12" id="prod-panel"></div>
+    <br/>
+    <div class="product__section product__section--offers offers  ">
+        <div class="row">
+            <!-- Add the extra clearfix for only the required viewport -->
+            <div class="clearfix visible-xs">
+                <div class="col-xs-6 col-sm-3">
+                    <div class="clearfix"><br></div> <div class="clearfix"><br></div> <div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div>
+                    <div class="clearfix"><br></div> <div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div> <div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div> <div class="clearfix"><br></div> <div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div><div class="clearfix"><br></div>
+                    <div class="clearfix"><br></div> <div class="clearfix"><br></div> <div class="clearfix"><br></div>
+                </div>
+            </div>
+            <div role="tabpanel" id="offers-section" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#prod-offers" aria-controls="prod-offers" role="tab" data-toggle="tab">Цены</a></li>
+                    <li role="presentation"><a href="#prod-description" aria-controls="prod-description" role="tab" data-toggle="tab">Описание</a></li>
+                    <% if (details.length>0) { %><li role="presentation"><a href="#prod-details" aria-controls="prod-details" role="tab" data-toggle="tab" id="detailsBtn">Характеристики</a></li> <% } %>
+                    <li role="presentation"><a href="#prod-comments" aria-controls="prod-comments" role="tab" data-toggle="tab">Отзывы</a></li>
+                    <% if (typeof traderViewing !== 'undefined' && traderViewing === true) { %>
+                    <li role="presentation"><a href="#prod-bird" aria-controls="prod-bird" role="tab" data-toggle="tab">Заявки</a>
+                    </li>
+                    <% }%>
+
+                </ul>
+                <div class="tab-content col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                    <div role="tabpanel" class="tab-pane fade in active" id="prod-offers">
+                        <br/>
+                        <section id="prod-offers-grid">
+                        <table class="table table-hover borderless"></table>
+                    </section>
+                    <section class="clearfix grid-options">
+                        <div id="prod-offers-pager"></div>
+                    </section>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="prod-description">Описание</div>
+               <div role="tabpanel" class="tab-pane fade" id="prod-details">Характеристики</div>
+                <div role="tabpanel" class="tab-pane fade" id="prod-comments">Отзывы</div>
+                <div role="tabpanel" class="tab-pane fade" id="prod-bird">Заявки
+                    <br/>
+                    <section id="prod-bird-grid">
+                    <table class="table table-hover borderless"></table>
+                </section>
+                <section class="clearfix grid-options">
+                    <div id="prod-bird-pager"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>

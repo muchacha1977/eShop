@@ -1,0 +1,31 @@
+.all-catalog-wrapper {
+  padding: 20px;
+  text-align: justify;
+}
+.all-catalog-wrapper h4 {
+  text-align: left;
+  font-size: 20px;
+}
+.all-catalog-wrapper h4 a {
+	color: #000;
+	text-decoration: underline;
+}
+.all-catalog-wrapper .catalog-collection-item {
+  display: inline-block;
+  width: 282px;
+  padding-bottom: 30px;
+  vertical-align: top;
+}
+.all-catalog-wrapper .catalog-collection-item ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+}
+.all-catalog-wrapper .catalog-collection-item ul li {
+  display: inline-block;
+  margin-right: 3px;
+}
+.all-catalog-wrapper .catalog-collection-item ul li a {
+  text-decoration: underline;
+  cursor: pointer;
+}

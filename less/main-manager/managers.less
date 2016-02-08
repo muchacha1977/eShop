@@ -1,0 +1,46 @@
+@import "../variables.less";
+
+.managers-page{
+  .managers-header{
+    margin-top: 20px;
+  }
+
+  .manager-item{
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #c4c4c4;
+    &.switched-off{
+      *{
+        opacity: 0.4;
+      }
+      &:hover{
+        *{
+          opacity: 1;
+        }
+      }
+    }
+    .action-btn{
+      cursor: pointer;
+      margin-right: 7px;
+      &:hover{
+        color: @brand-primary;
+      }
+    }
+    &.on-repair{
+      opacity: 0.6;
+      .on-repair-block{
+        color: red;
+      }
+    }
+  }
+
+}
+
+.shop-profile{
+  .row{
+    margin: 5px 0;
+  }
+  .to-close{
+    margin-top: 20px;
+  }
+}

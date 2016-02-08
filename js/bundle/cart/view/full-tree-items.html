@@ -1,0 +1,42 @@
+
+<tbody class="tablesorter-no-sort">
+<tr>
+    <td colspan="2" style="  text-align: left;"><a href="#collapse-<%- shop.id %>" data-toggle="collapse" aria-expanded="true" aria-controls="collapse-<%- shop.id %>" class=""><%- shop.name %></a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+</tbody>
+<tbody class="collapse in" id="collapse-<%- shop.id %>">
+
+<% _.each(shop.offers, function(v, k, l) { %>
+
+<tr class="">
+    <td></td>
+    <td class="img"><img src="rest/v0/product/pimg/<%- v.productId %>" alt='<%- v.productName %>'/></td>
+    <td class="name text-left"><%- v.productName %></td>
+    <td class="ean"><%- App.barCode(v.productEan) %></td>
+    <td class="price text-right"><%- App.decimal(v.offerPrice) %></td>
+    <td class="total text-right"><%- App.decimal(v.offerPrice*v.amount) %></td>
+    <td class="amount text-center"><span class="hidden"><%- v.amount %></span><input min="1"  class="amount small form-control" name="amount" type="number" value="<%- v.amount %>"></td>
+    <td class="action text-center"> <button type="button" class="cart-item-remove btn btn-link" offer-id="<%- v.offerId %>"><i class="glyphicon glyphicon-trash"> </i></button>  </td>
+</tr>
+<% }); %>
+</tbody>
+
+<tbody class="tablesorter-no-sort collapse in" id="collapse-<%- shop.id %>">
+<tr class="breadcrumb">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td colspan="2" class="text-right"><strong>Итого <%- App.decimal(shop.sum) %></strong> <i class="fa fa-rub"></i></td>
+    <td class="text-center"><strong><%- shop.total %></strong></td>
+    <td> </td>
+</tr>
+
+</tbody>

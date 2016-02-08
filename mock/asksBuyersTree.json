@@ -1,0 +1,46 @@
+{"type":"listAskResult","offset":0,"limit":10,"total":2,"data":[{
+  "id": "10",
+  "num":"10",
+  "creationTime": "2015-03-10T14:41:59.464+03:00",
+  "endTime": "2015-04-10T14:41:59.464+03:00",
+  "product":{
+    "id":"064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+    "name":"Купальник \"Marie\""
+  },
+  "amount": "1",
+  "price": "1264.45",
+  "cost": "1264.45",
+  "region": "Москва",
+  "state": "CREATED"
+},
+
+{
+"id": "10",
+"num":"10",
+"creationTime": "2015-03-10T14:41:59.464+03:00",
+"endTime": "2015-04-10T14:41:59.464+03:00",
+"product":[
+{"id":"064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+"name":"Купальник \"Marie\""}],
+"amount": "1",
+"price": "1264.45",
+"cost": "1264.45",
+"region": "Москва",
+"state": "CREATED"
+},
+  {
+    "id": "10",
+    "num":"10",
+    "creationTime": "2015-03-10T14:41:59.464+03:00",
+    "endTime": "2015-04-10T14:41:59.464+03:00",
+    "product":[
+      {"id":"064A2ADE-C6AD-46D5-AD40-D52DE9846411",
+        "name":"Купальник \"Marie\""}],
+    "amount": "1",
+    "price": "1264.45",
+    "cost": "1264.45",
+    "region": "Москва",
+    "state": "CREATED"
+  }
+]}
+

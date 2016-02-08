@@ -1,0 +1,15 @@
+<div class="product-filter-head clearfix">
+    <div class="pull-right show-all js-show-all">Показать все</div>
+    <div>
+        <b><%= name %></b>
+    </div>
+</div>
+<div class="product-filter-body">
+    <% for(var i = 0; i < options.length; ++i) { %>
+    <label class="product-filter-item">
+        <input name="<%= options[i].value %>" <%= (options[i].checked == 0 ? '' : 'checked') %> type="checkbox" >
+        <span class="filter-option-name"><%= options[i].name %></span>
+        <span class="filter-products-count">(<%= options[i].products %>)</span>
+    </label>
+    <% } %>
+</div>

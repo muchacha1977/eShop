@@ -1,0 +1,54 @@
+{
+  "type": "reportsResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 26,
+
+  "data": [
+    {
+      "id": 342,
+      "name": "Мужские костюмы",
+	  "itemQuantity"	: 157,
+	  "dealQuantity"	: 3140,
+	  "turnoverSum"		: 250000,
+	  "commissionSum"	: 15000,
+	  "totalSum"		: 265000
+    },
+    {
+      "id": 3421,
+      "name": "Аксессуары",
+	  "itemQuantity"	: 157,
+	  "dealQuantity"	: 3140,
+	  "turnoverSum"		: 250000,
+	  "commissionSum"	: 15000,
+	  "totalSum"		: 265000
+    },
+    {
+      "id": 3422,
+      "name": "Комбинезоны",
+	  "itemQuantity"	: 157,
+	  "dealQuantity"	: 3140,
+	  "turnoverSum"		: 250000,
+	  "commissionSum"	: 15000,
+	  "totalSum"		: 265000
+    },
+    {
+      "id": 3423,
+      "name": "Комплекты",
+	  "itemQuantity"	: 157,
+	  "dealQuantity"	: 3140,
+	  "turnoverSum"		: 250000,
+	  "commissionSum"	: 15000,
+	  "totalSum"		: 265000
+    },
+    {
+      "id": 3424,
+      "name": "Кофточки",
+	  "itemQuantity"	: 157,
+	  "dealQuantity"	: 3140,
+	  "turnoverSum"		: 250000,
+	  "commissionSum"	: 15000,
+	  "totalSum"		: 265000
+    }
+  ]
+}

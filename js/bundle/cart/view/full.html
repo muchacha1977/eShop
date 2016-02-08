@@ -1,0 +1,62 @@
+<div id="cart-full" class="cart-full">
+    <ol class="breadcrumb">
+        <li><a href="#home" class="breadcrumb__uri breadcrumb__uri--home"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="#catalog" class="breadcrumb__uri">Каталог</a></li>
+        <li class="active">Корзина</li>
+    </ol>
+
+    <div id="cart-full-before" class="cart-full-before row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>Корзина
+                <div class="pull-right">
+                    <a href="#cart" class="btn btn-default active" id="cart-full-list"><i class="fa fa-list"> </i> </a>
+                    <a href="#cart/tree" class="btn btn-default" id="cart-full-tree"> <i class="fa fa-indent"> </i></a>
+                </div>
+            </h2>
+            <br>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table id="cart-full-items">
+            <thead>
+                <tr>
+                    <th class="group-false"></th>
+                    <th class="sortable group-false">Наименование</th>
+                    <th class="group-false">Штрихкод</th>
+                    <th class="sortable group-word">Магазин</th>
+                    <th class="sortable text-right group-false">Цена <i class="fa fa-rub"></i></th>
+                    <th class="sortable text-right group-false">Стоимость <i class="fa fa-rub"></i></th>
+                    <th class="sortable group-false">Кол-во</th>
+                    <th style="width: 56px;" class="group-false"></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+            <tr class="breadcrumb">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="text-right"><strong>Итого</strong></td>
+                <td class="text-right"><strong><%- totalPrice() %></strong> <i class="fa fa-rub"></i></td>
+                <td><strong><%- total() %></strong></td>
+                <td> </td>
+            </tr>
+            </tfoot>
+        </table>
+
+
+    </div>
+
+    <div id="cart-full-after" class="cart-full-after row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        	<div class="pull-right">
+                <a href="#cart/order" class="btn btn-primary btn-lg">Перейти к оформлению заказа</a>
+            </div>
+        </div>
+    </div>
+
+</div>

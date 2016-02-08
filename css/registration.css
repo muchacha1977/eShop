@@ -1,0 +1,122 @@
+#GoodprofyRegistration .modal-content {
+  border-radius: 3px;
+}
+#GoodprofyRegistration .modal-content .modal-header {
+  padding: 25px 27px 17px 27px;
+}
+#GoodprofyRegistration .modal-content .modal-header h4 {
+  font-size: 19px;
+  font-weight: 100;
+}
+#GoodprofyRegistration .modal-content .modal-header .close {
+  font-size: 42px;
+  color: #C53546;
+  margin-top: -6px;
+  opacity: 1;
+}
+#GoodprofyRegistration .modal-content .modal-header .close:hover {
+  opacity: .7;
+}
+#GoodprofyRegistration .modal-content .modal-body {
+  padding: 15px 15px 0 30px;
+}
+#GoodprofyRegistration .modal-content .modal-body .arrow {
+  color: #C53546;
+}
+#GoodprofyRegistration .modal-content .modal-body form {
+  margin: 0;
+}
+#GoodprofyRegistration .modal-content .modal-body form label {
+  font-weight: 100;
+}
+#GoodprofyRegistration .modal-content .modal-body form .form-control {
+  height: 30px;
+  width: 200px;
+  border-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#GoodprofyRegistration .modal-content .modal-body form .form-control.error {
+  background-color: #FFA5A5;
+}
+#GoodprofyRegistration .modal-content .modal-body form .form-group {
+  margin-bottom: 0;
+}
+#GoodprofyRegistration .modal-content .modal-body form .input-group {
+  /*margin: 11px 0 0 0;*/
+}
+#GoodprofyRegistration .modal-content .modal-body form .input-group-addon {
+  padding: 6px 7px;
+}
+#GoodprofyRegistration .modal-content .modal-footer {
+  border-top: 0;
+  padding: 15px 15px 39px 30px;
+  text-align: left;
+}
+#GoodprofyRegistration .modal-content .modal-footer.step2 {
+  padding: 15px 15px 59px 30px;
+}
+#GoodprofyRegistration .modal-content .modal-footer .after-arrow-right::after {
+  clear: both;
+  content: "→";
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  left: -31px;
+  color: #C53546;
+}
+#GoodprofyRegistration .modal-content .modal-footer .before-arrow-left {
+  display: inline-block;
+  position: absolute;
+}
+#GoodprofyRegistration .modal-content .modal-footer .before-arrow-left::before {
+  clear: both;
+  content: "←";
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  left: -31px;
+  color: #C53546;
+}
+#GoodprofyRegistration .modal-content .modal-footer .btn {
+  padding: 5px 17px;
+  border-radius: 3px;
+}
+#GoodprofyRegistration .modal-content .modal-footer .btn-registration-seller {
+  padding: 5px 21px;
+}
+#GoodprofyRegistration .modal-content .modal-footer .btn-registration-submit {
+  background-color: #C53546;
+  color: #fff;
+  position: absolute;
+  right: 28px;
+  padding: 5px 38px;
+}
+#GoodprofyRegistration .modal-content .modal-footer .btn-registration-submit:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+#GoodprofyRegistration .modal-content .modal-footer .btn-default:hover {
+  color: #FFFFFF;
+  background-color: #C53546;
+  border-color: #FFFFFF;
+}
+#GoodprofyRegistration .modal-content .modal-footer .btn-link {
+  color: #C53546;
+  text-decoration: underline;
+}
+#GoodprofyRegistration .modal-content .modal-footer .btn-link:hover {
+  text-decoration: none;
+}
+#GoodprofyRegistration .modal-content .modal-footer .btn-back {
+  padding: 0;
+  position: relative;
+  top: 6px;
+  left: -31px;
+}
+@media (min-width: 768px) {
+  #GoodprofyRegistration .modal-dialog {
+    width: 401px;
+  }
+}

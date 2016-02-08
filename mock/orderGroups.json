@@ -1,0 +1,110 @@
+{
+  "type": "listAskResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 6,
+  "data": [
+    {
+      "id": 342,
+      "name": "1",
+      "date": "2015-03-10T14:41:59.464+03:00",
+      "sumOrders": 100,
+      "sumShippment": 10,
+      "bonus": 20,
+      "sumToPay": 90,
+      "amountOrders": 2,
+      "shippmentType": 3,
+      "shop": {
+        "id": 1,
+        "name": "ООО Гусь"
+      },
+      "comment": " до 18.00",
+      "state": "ACKNOWLEDGED"
+    },
+    {
+      "id": 343,
+      "name": "1",
+      "date": "2015-03-10T14:41:59.464+03:00",
+      "sumOrders": 130,
+      "sumShippment": 10,
+      "bonus": 20,
+      "sumToPay": 100,
+      "amountOrders": 2,
+      "shippmentType": 3,
+      "shop": {
+        "id": 1,
+        "name": "ООО Гусь"
+      },
+      "comment": " до 18.00",
+      "state": "ACKNOWLEDGED"
+    },
+    {
+      "id": 345,
+      "name": "1",
+      "date": "2015-04-10T14:41:59.464+03:00",
+      "sumOrders": 1000,
+      "sumShippment": 100,
+      "bonus": 200,
+      "sumToPay": 900,
+      "amountOrders": 2,
+      "shippmentType": 3,
+      "shop": {
+        "id": 2,
+        "name": "ООО Guru"
+      },
+      "comment": " до 18.00",
+      "state": "ACKNOWLEDGED"
+    },
+    {
+      "id": 142,
+      "name": "1",
+      "date": "2015-09-10T14:41:59.464+03:00",
+      "sumOrders": 10120,
+      "sumShippment": 120,
+      "bonus": 120,
+      "sumToPay": 920,
+      "amountOrders": 2,
+      "shippmentType": 3,
+      "shop": {
+        "id": 1,
+        "name": "ООО Гусь"
+      },
+      "comment": " до 18.00",
+      "state": "ACKNOWLEDGED"
+    },
+    {
+      "id": 3425,
+      "name": "1",
+      "date": "2015-03-10T14:41:59.464+03:00",
+      "sumOrders": 12200,
+      "sumShippment": 102,
+      "bonus": 220,
+      "sumToPay": 90,
+      "amountOrders": 2,
+      "shippmentType": 3,
+      "shop": {
+        "id": 1,
+        "name": "ООО Гусь"
+      },
+      "comment": " до 18.00",
+      "state": "ACKNOWLEDGED"
+    },
+    {
+      "id": 34112,
+      "name": "1",
+      "date": "2015-03-10T14:41:59.464+03:00",
+      "sumOrders": 10011,
+      "sumShippment": 10,
+      "bonus": 20,
+      "sumToPay": 90,
+      "amountOrders": 2,
+      "shippmentType": 3,
+      "shop": {
+        "id": 1,
+        "name": "ООО Гусь"
+      },
+      "comment": " до 18.00",
+      "state": "ACKNOWLEDGED"
+    }
+  ]
+}

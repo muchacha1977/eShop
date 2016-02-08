@@ -1,0 +1,150 @@
+<div id="ordergroup-detail" class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">Заказ <%- name %> от покупателя <%- buyer.name %>. Создан <%- creationTime %></h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="row">
+                <div class="col-sm-8">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+
+                            <div class="dropdown">
+                                <% _.each(shipments, function(e,i,args){
+                                if ( e.type == shipmentType ) {
+                                %>
+                                <button data-shipment="<%- e.type %>" id="shipmentType" class="btn btn-primary"
+                                        type="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                    Способ доставки: <%- e.description %>
+                                    <span class="caret"></span>
+                                </button>
+                                <% }}); %>
+
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="shipmentType">
+                                    <% _.each(shipments, function(e,i,args){ %>
+                                    <% if ( e.type != shipmentType ) { %>
+                                    <li role="presentation"><a class="ordergroup-shipmentType-menuitem" role="menuitem"
+                                                               tabindex="-1" data-shipments-type="<%- e.type %>"
+                                                               data-shipments-days="<%- e.days %>"
+                                                               data-shipments-price="<%- e.price %>" href="#"><%-
+                                        e.description %></a></li>
+                                    <% } %>
+                                    <% }); %>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+                                    <h5>Дата доставки:</h5>
+
+                                    <div class="form-group">
+                                        <div class="input-group date" id="shipmentDate">
+                                            <input id="shipmentDateInp" type='text' class="form-control"/>
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar text-primary"> </span>
+                                        Изменить
+                                    </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <h5>Стоимость доставки:</h5>
+
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input id="shipmentPrice" type='text' class="form-control"
+                                                   value="<%- shipmentPrice %>"/>
+                                            <span class="input-group-addon">
+                                                <span class="fa fa-rub text-primary"> </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Адрес доставки:</h5>
+                            <textarea class="form-control" id="shipmentAddress"><%- shipmentAddress %></textarea>
+                        </li>
+                        <li class="list-group-item <% if (_.isEmpty(comment)) print('hidden') %>">
+                            <h5>Комментарий:</h5>
+                            <p><% if (!_.isEmpty(comment)) print(comment) %></p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="list-group">
+                        <li class="list-group-item" id="region-state" >
+
+                        </li>
+                    </ul>
+                    <ul class="list-group <% if(state == 'CREATED' || state == 'CANCELLED') print('hidden') %>">
+
+                        <li class="list-group-item">
+                            <strong>Покупатель:</strong>
+                        </li>
+                        <li class="list-group-item <% if (!buyer.phone) {%>hidden<% } %> ">Телефон: <a
+                                href="call:+<%- buyer.phone %>">+<%- buyer.phone %></a></li>
+                        <li class="list-group-item <% if (!buyer.email) {%>hidden<% } %> ">Email: <a
+                                href="mailto:<%- buyer.email %>"><%- buyer.email %></a></li>
+
+
+
+                    </ul>
+                    <div class="list-group">
+                        <button type="button" id="vent-save" class="btn no btn-primary">Сохранить</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4>
+                        Состав заказа <%- name %>
+                    </h4>
+
+                    <div id="list" class="table-responsive"></div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div id="region-bulk-actions"></div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="text-right breadcrumb">
+                        <b>Итого товаров: <%- itemCount %> на сумму: </b>
+                        <b><%- App.decimal(totalPrice) %> <i class="fa fa-rub"></i></b>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal-footer hidden">
+
+
+            <button type="button" id="ACCEPTED_ALL" class="btn yes" data-dismiss="modal" aria-label="Close">Подтвердить заказ</button>
+            <button type="button" id="REJECTED_BY_TRADER_ALL" class="btn yes" data-dismiss="modal" aria-label="Close">Отклонить заказ</button>
+            <button type="button" id="SHIPPED_ALL" class="btn yes" data-dismiss="modal" aria-label="Close">Заказ доставлен</button>
+
+            <button type="button" id="modal-btn-no" class="btn yes" data-dismiss="modal" aria-label="Close">Закрыть
+            </button>
+
+
+        </div>
+    </div>
+</div>

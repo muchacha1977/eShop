@@ -1,0 +1,30 @@
+<div id="trader-orders-current">
+
+    <div class="btn-group pull-right" role="group" aria-label="">
+        <div id="vent-orders-fetch" class="btn btn-primary btn-xs">Обновить</div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div id="list" class="table-responsive"></div>
+
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div id="actions-bulk" class="dropdown pull-left">
+                <button id="bulk-action" class="btn btn-primary" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Групповые действия
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="bulk-action">
+                    <li role="presentation"><a class="danger" id="REJECTED_BY_BUYER" role="menuitem"
+                                               tabindex="-1" href="#"><span class="fa fa-frown-o"></span> Отменить отмеченные заказы</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div id="pagination"></div>
+        </div>
+
+    </div>
+
+</div>

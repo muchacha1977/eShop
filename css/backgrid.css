@@ -1,0 +1,25 @@
+table th.sortable a {
+  cursor: pointer;
+}
+table th.sortable a::after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  content: "\f0dc";
+  left: 2px;
+  position: relative;
+  top: 1px;
+}
+table th.ascending a::after {
+  content: "\f0de";
+}
+table th.descending a::after {
+  content: "\f0dd";
+}
+table tr td.number-cell {
+  text-align: right;
+}

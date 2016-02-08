@@ -1,0 +1,142 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">
+                <div class="barcode">
+                    <%- product.barCode %>
+                </div>
+                <%- product.name %>
+            </h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="row">
+                <div class="col-xs-3">
+                    <a class="hidden" href="#product/<%- product.id %>" target="_blank" title='<%- product.name %>'><%- product.name %></a>
+
+                    <ul class="list-group">
+                        <li class="list-group-item active">
+
+                            Откликов <span class="badge"><%- asks %></span>
+                        </li>
+                    </ul>
+
+
+                    <a href="#product/<%- product.id %>" target="_blank" class="thumbnail">
+                        <img src="rest/v0/product/pimg/<%- product.id %>" alt='<%- product.name %>'>
+                    </a>
+
+                </div>
+                <div class="col-xs-5">
+                    <ul class="list-group">
+
+                        <li class="list-group-item">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="unitPriceLabel">Цена </span>
+                                <input type="number" disabled class="form-control" id="unitPrice" value="<%- unitPrice %>" aria-describedby="unitPriceLabel">
+                                <span class="input-group-addon" id="unitPriceLabel"><span class="fa fa-rub"></span></span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="quantityLabel">Кол-во</span>
+                                <input type="number" disabled class="form-control" id="quantity" value="<%- quantity %>" aria-describedby="quantityLabel">
+                                <span class="input-group-addon" id="quantityLabel">Шт</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="totalPriceLabel">Сумма</span>
+                                <input disabled type="text" class="form-control" id="totalPrice" value="<%- totalPrice %>" aria-describedby="totalPriceLabel">
+                                <span class="input-group-addon" id="totalPriceLabel"><span class="fa fa-rub"></span></span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <fieldset>
+                                <label>Желаемые типы доставки</label>
+                                <div class="clearfix"></div>
+                                <% _.each(shipmentsData, function(value, key){ %>
+                                <div class="checkbox">
+                                    <label>
+                                        <input disabled id="shipmentsData" <%= shipmentTypes[value.id]? 'checked': '' %> name="shipmentsData" type="checkbox" value="<%- value.id %>"> <span class="<%- value.shipmentTypeImg %>"></span> <%- value.shipmentpop %>
+                                    </label>
+                                </div>
+                                <% }) %>
+                            </fieldset>
+
+
+                        </li>
+                        <li class="list-group-item">
+
+                            <div class="input-group">
+                                <span class="input-group-addon" id="regionDataLabel">Куда</span>
+                                <select disabled name="region" type="text" class="form-control" id="regionData" aria-describedby="regionDataLabel">
+                                    <% _.each(regionData, function(value){
+                                    %>
+                                    <option <%= (value.id==region)? 'selected': '' %> value="<%- value.id %>"><%- value.name %></option>
+                                    <%
+                                    }) %>
+                                </select>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-xs-4">
+                    <ul class="list-group">
+                        <li class="list-group-item active">
+                            Цены в системе
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge"><%- App.decimal(product.stat.minPrice) %> <span class="fa fa-rub"></span> за шт</span>
+                            Минимум
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge"><%- App.decimal(product.stat.maxPrice) %> <span class="fa fa-rub"></span> за шт</span>
+                            Максимум
+                        </li>
+
+                    </ul>
+                    <ul class="list-group">
+                        <li class="list-group-item active">
+
+                            Длительность заявки
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="badge"> <%- _creationTime %></span>
+                            Время создания
+                        </li>
+
+                        <li class="list-group-item">
+                            <label for="validUntil">Окончание</label>
+                            <input type="datetime" disabled class="form-control" id="validUntil" value="<%- _validUntil %>">
+                        </li>
+
+                        <li class="list-group-item">
+                            <label for="deliveryDate">Примерная дата доставки</label>
+                            <input type="datetime" disabled class="form-control" id="deliveryDate" value="<%- _deliveryDate %>">
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="table-responsive" id="buyer-asks-list">
+
+            </div>
+
+        </div>
+
+        <div class="modal-footer">
+
+            <button type="button" id="modal-btn-closed" data-dismiss="modal" class="btn btn-link closed">Закрыть окно</button>
+            <button type="button" id="modal-btn-asks" class="btn btn-primary">Показать отклики <span class="badge"><%- asks %></span></button>
+            <button type="button" id="modal-btn-new" class="btn btn-primary">Создать новую заявку</button>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,86 @@
+{
+  "type": "listAskResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 16,
+
+  "data": [
+    {
+      "id": 342,
+      "name": "1",
+      "date": "31.12.15",
+      "incoming": 100,  
+      "costs": 10, 
+      "transactionType": "Денежный перевод", 
+      "reason": "Зачисление на счет по договору 456321 в счет уплаты оказания услуг", 
+      "comment": "",
+      "incomingTotal": 76542,
+    "costsTotal": 4540,
+    "balance":80000
+ 
+    },
+    {
+      "id": 343,  
+      "date": "31.12.15",
+      "incoming": 130,
+      "costs": 10,
+      "transactionType": "Обеспечительный взнос по сделке",
+      "reason": "",
+      "comment": "",
+      "incomingTotal": 76542,
+    "costsTotal": 4540,
+    "balance":80000
+    },
+    {
+      "id": 345,
+      "date": "31.12.15",
+      "incoming": 1000,
+      "costs": 100,
+      "transactionType": "Денежный перевод", 
+      "reason": "Зачисление на счет по договору 456321 в счет уплаты оказания услуг",
+      "comment": "",
+      "incomingTotal": 76542,
+    "costsTotal": 4540,
+    "balance":80000
+    },
+    {
+      "id": 142,
+      "date": "31.12.15",
+      "incoming": 10120,
+      "costs": 120,
+      "transactionType": "Обеспечительный взнос по сделке",
+      "reason": "",
+      "comment": "",
+      "incomingTotal": 76542,
+     "costsTotal": 4540,
+     "balance":80000
+
+    },
+    {
+      "id": 3425,
+      "date": "31.12.15",
+      "incoming": 12200,
+      "costs": 102,
+      "transactionType": "Обеспечительный взнос по сделке",
+      "reason": "",
+      "comment": "",
+      "incomingTotal": 76542,
+     "costsTotal": 4540,
+     "balance":80000
+
+    },
+    {
+      "id": 34112,
+      "date": "31.12.15",
+      "incoming": 10011,
+      "costs": 10,
+      "transactionType": "Возврат зачета бонуса покупателя",
+      "reason": "",
+      "comment": "",
+      "incomingTotal": 76542,
+     "costsTotal": 4540,
+     "balance":80000
+    }
+
+  ]
+}

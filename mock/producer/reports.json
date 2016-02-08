@@ -1,0 +1,36 @@
+{
+  "type": "reportssResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 26,
+
+  "data": [
+    {
+      "id": 342,
+      "productName": "Кексики",
+	  "sellerName": "Пирожница",
+	  "unitPrice"	: 20,
+	  "quantity"	: 157,
+	  "sumPrice"	: 3140,
+	  "percent"		: 0.03
+    },
+    {
+      "id": 343,
+      "productName": "Кексики",
+	  "sellerName": "Пирожница",
+	  "unitPrice"	: 20,
+	  "quantity"	: 157,
+	  "sumPrice"	: 3140,
+	  "percent"		: 0.02
+    },
+    {
+      "id": 344,
+      "productName": "Кексики",
+	  "sellerName": "Пирожница",
+	  "unitPrice"	: 20,
+	  "quantity"	: 157,
+	  "sumPrice"	: 3140,
+	  "percent"		: 0.015
+    }
+  ]
+}

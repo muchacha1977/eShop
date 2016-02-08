@@ -1,0 +1,68 @@
+ <a data-toggle="collapse" href="#collapseBuyerProfileDataRow" aria-expanded="false"
+   aria-controls="collapseBuyerProfileDataRow">
+	<h4>
+		<span id="collapseBuyerProfileDataRowHandle" class="fa fa-chevron-circle-right"> </span>
+		Фильтровать
+	</h4>
+</a>
+<div class="collapse" id="collapseBuyerProfileDataRow">
+	<div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<label>Период</label>
+				<div class="form-group">
+					<div class='input-group date' id='period_start'>
+						<span class="input-group-addon">с</span>
+						<input type='text' class="form-control" id="startDate" />
+						<span class="input-group-addon">
+							<span class="glyphicon glyphicon-calendar"></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<label class="hidden-xs">&nbsp;</label>
+				<div class="form-group">
+					<div class='input-group date' id='period_end'>
+						<span class="input-group-addon">по</span>
+						<input type='text' class="form-control" id="endDate" />
+						<span class="input-group-addon">
+							<span class="glyphicon glyphicon-calendar"></span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<label>Товар</label>
+				<span id="product-select"></span>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<label>Продавец</label>
+				<span id="seller-select"></span>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<label class="hidden-xs">&nbsp;</label>
+				<div>
+					<button type="button" class="btn btn-primary" id="vent-period">Показать</button>
+					<button type="button" class="btn btn-default" id="download" data-placement="top" title="Выгрузка данных за выбранный период" data-toggle="tooltip">
+						<span class="fa fa-download"> </span>
+						Выгрузить
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+</div>
+
+
+
+
+
+
+<div id="producer-reports-list" class="table-responsive"></div>
+
+<div id="producer-reports-pagination"></div>

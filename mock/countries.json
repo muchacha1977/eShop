@@ -1,0 +1,2010 @@
+[
+  {
+    "name":" Австралия",
+    "alpha2":"AU",
+    "alpha3":"AUS",
+    "isoNum":36,
+    "iso":"ISO 3166-2:AU",
+    "filepath":"22px-Flag_of_Australia.svg.png"
+  },
+  {
+    "name":" Австрия",
+    "alpha2":"AT",
+    "alpha3":"AUT",
+    "isoNum":40,
+    "iso":"ISO 3166-2:AT",
+    "filepath":"22px-Flag_of_Austria.svg.png"
+  },
+  {
+    "name":" Азербайджан",
+    "alpha2":"AZ",
+    "alpha3":"AZE",
+    "isoNum":31,
+    "iso":"ISO 3166-2:AZ",
+    "filepath":"22px-Flag_of_Azerbaijan.svg.png"
+  },
+  {
+    "name":" Аландские острова",
+    "alpha2":"AX",
+    "alpha3":"ALA",
+    "isoNum":248,
+    "iso":"ISO 3166-2:AX",
+    "filepath":"22px-Flag_of_?land.svg.png"
+  },
+  {
+    "name":" Албания",
+    "alpha2":"AL",
+    "alpha3":"ALB",
+    "isoNum":8,
+    "iso":"ISO 3166-2:AL",
+    "filepath":"22px-Flag_of_Albania.svg.png"
+  },
+  {
+    "name":" Алжир",
+    "alpha2":"DZ",
+    "alpha3":"DZA",
+    "isoNum":12,
+    "iso":"ISO 3166-2:DZ",
+    "filepath":"22px-Flag_of_Algeria.svg.png"
+  },
+  {
+    "name":" Американское Самоа",
+    "alpha2":"AS",
+    "alpha3":"ASM",
+    "isoNum":16,
+    "iso":"ISO 3166-2:AS",
+    "filepath":"22px-Flag_of_American_Samoa.svg.png"
+  },
+  {
+    "name":" Ангилья",
+    "alpha2":"AI",
+    "alpha3":"AIA",
+    "isoNum":660,
+    "iso":"ISO 3166-2:AI",
+    "filepath":"22px-Flag_of_Anguilla.svg.png"
+  },
+  {
+    "name":" Ангола",
+    "alpha2":"AO",
+    "alpha3":"AGO",
+    "isoNum":24,
+    "iso":"ISO 3166-2:AO",
+    "filepath":"22px-Flag_of_Angola.svg.png"
+  },
+  {
+    "name":" Андорра",
+    "alpha2":"AD",
+    "alpha3":"AND",
+    "isoNum":20,
+    "iso":"ISO 3166-2:AD",
+    "filepath":"22px-Flag_of_Andorra.svg.png"
+  },
+  {
+    "name":" Антарктида",
+    "alpha2":"AQ",
+    "alpha3":"ATA",
+    "isoNum":10,
+    "iso":"ISO 3166-2:AQ",
+    "filepath":"22px-Flag_of_Antarctica.svg.png"
+  },
+  {
+    "name":" Антигуа и Барбуда",
+    "alpha2":"AG",
+    "alpha3":"ATG",
+    "isoNum":28,
+    "iso":"ISO 3166-2:AG",
+    "filepath":"22px-Flag_of_Antigua_and_Barbuda.svg.png"
+  },
+  {
+    "name":" Аргентина",
+    "alpha2":"AR",
+    "alpha3":"ARG",
+    "isoNum":32,
+    "iso":"ISO 3166-2:AR",
+    "filepath":"22px-Flag_of_Argentina.svg.png"
+  },
+  {
+    "name":" Армения",
+    "alpha2":"AM",
+    "alpha3":"ARM",
+    "isoNum":51,
+    "iso":"ISO 3166-2:AM",
+    "filepath":"22px-Flag_of_Armenia.svg.png"
+  },
+  {
+    "name":" Аруба",
+    "alpha2":"AW",
+    "alpha3":"ABW",
+    "isoNum":533,
+    "iso":"ISO 3166-2:AW",
+    "filepath":"22px-Flag_of_Aruba.svg.png"
+  },
+  {
+    "name":" Афганистан",
+    "alpha2":"AF",
+    "alpha3":"AFG",
+    "isoNum":4,
+    "iso":"ISO 3166-2:AF",
+    "filepath":"22px-Flag_of_Afghanistan.svg.png"
+  },
+  {
+    "name":" Багамы",
+    "alpha2":"BS",
+    "alpha3":"BHS",
+    "isoNum":44,
+    "iso":"ISO 3166-2:BS",
+    "filepath":"22px-Flag_of_the_Bahamas.svg.png"
+  },
+  {
+    "name":" Бангладеш",
+    "alpha2":"BD",
+    "alpha3":"BGD",
+    "isoNum":50,
+    "iso":"ISO 3166-2:BD",
+    "filepath":"22px-Flag_of_Bangladesh.svg.png"
+  },
+  {
+    "name":" Барбадос",
+    "alpha2":"BB",
+    "alpha3":"BRB",
+    "isoNum":52,
+    "iso":"ISO 3166-2:BB",
+    "filepath":"22px-Flag_of_Barbados.svg.png"
+  },
+  {
+    "name":" Бахрейн",
+    "alpha2":"BH",
+    "alpha3":"BHR",
+    "isoNum":48,
+    "iso":"ISO 3166-2:BH",
+    "filepath":"22px-Flag_of_Bahrain.svg.png"
+  },
+  {
+    "name":" Белиз",
+    "alpha2":"BZ",
+    "alpha3":"BLZ",
+    "isoNum":84,
+    "iso":"ISO 3166-2:BZ",
+    "filepath":"22px-Flag_of_Belize.svg.png"
+  },
+  {
+    "name":" Белоруссия",
+    "alpha2":"BY",
+    "alpha3":"BLR",
+    "isoNum":112,
+    "iso":"ISO 3166-2:BY",
+    "filepath":"22px-Flag_of_Belarus.svg.png"
+  },
+  {
+    "name":" Бельгия",
+    "alpha2":"BE",
+    "alpha3":"BEL",
+    "isoNum":56,
+    "iso":"ISO 3166-2:BE",
+    "filepath":"22px-Flag_of_Belgium_(civil).svg.png"
+  },
+  {
+    "name":" Бенин",
+    "alpha2":"BJ",
+    "alpha3":"BEN",
+    "isoNum":204,
+    "iso":"ISO 3166-2:BJ",
+    "filepath":"22px-Flag_of_Benin.svg.png"
+  },
+  {
+    "name":" Бермуды",
+    "alpha2":"BM",
+    "alpha3":"BMU",
+    "isoNum":60,
+    "iso":"ISO 3166-2:BM",
+    "filepath":"22px-Flag_of_Bermuda.svg.png"
+  },
+  {
+    "name":" Болгария",
+    "alpha2":"BG",
+    "alpha3":"BGR",
+    "isoNum":100,
+    "iso":"ISO 3166-2:BG",
+    "filepath":"22px-Flag_of_Bulgaria.svg.png"
+  },
+  {
+    "name":" Боливия",
+    "alpha2":"BO",
+    "alpha3":"BOL",
+    "isoNum":68,
+    "iso":"ISO 3166-2:BO",
+    "filepath":"22px-Flag_of_Bolivia_(state).svg.png"
+  },
+  {
+    "name":" Бонэйр, Синт-Эстатиус и Саба",
+    "alpha2":"BQ",
+    "alpha3":"BES",
+    "isoNum":535,
+    "iso":"ISO 3166-2:BQ",
+    "filepath":"22px-Flag_of_the_Netherlands.svg.png"
+  },
+  {
+    "name":" Босния и Герцеговина",
+    "alpha2":"BA",
+    "alpha3":"BIH",
+    "isoNum":70,
+    "iso":"ISO 3166-2:BA",
+    "filepath":"22px-Flag_of_Bosnia_and_Herzegovina.svg.png"
+  },
+  {
+    "name":" Ботсвана",
+    "alpha2":"BW",
+    "alpha3":"BWA",
+    "isoNum":72,
+    "iso":"ISO 3166-2:BW",
+    "filepath":"22px-Flag_of_Botswana.svg.png"
+  },
+  {
+    "name":" Бразилия",
+    "alpha2":"BR",
+    "alpha3":"BRA",
+    "isoNum":76,
+    "iso":"ISO 3166-2:BR",
+    "filepath":"22px-Flag_of_Brazil.svg.png"
+  },
+  {
+    "name":" Британская территория в Индийском океане",
+    "alpha2":"IO",
+    "alpha3":"IOT",
+    "isoNum":86,
+    "iso":"ISO 3166-2:IO",
+    "filepath":"22px-Flag_of_the_British_Indian_Ocean_Territory.svg.png"
+  },
+  {
+    "name":" Британские Виргинские острова",
+    "alpha2":"VG",
+    "alpha3":"VGB",
+    "isoNum":92,
+    "iso":"ISO 3166-2:VG",
+    "filepath":"22px-Flag_of_the_British_Virgin_Islands.svg.png"
+  },
+  {
+    "name":" Бруней",
+    "alpha2":"BN",
+    "alpha3":"BRN",
+    "isoNum":96,
+    "iso":"ISO 3166-2:BN",
+    "filepath":"22px-Flag_of_Brunei.svg.png"
+  },
+  {
+    "name":" Буркина-Фасо",
+    "alpha2":"BF",
+    "alpha3":"BFA",
+    "isoNum":854,
+    "iso":"ISO 3166-2:BF",
+    "filepath":"22px-Flag_of_Burkina_Faso.svg.png"
+  },
+  {
+    "name":" Бурунди",
+    "alpha2":"BI",
+    "alpha3":"BDI",
+    "isoNum":108,
+    "iso":"ISO 3166-2:BI",
+    "filepath":"22px-Flag_of_Burundi.svg.png"
+  },
+  {
+    "name":" Бутан",
+    "alpha2":"BT",
+    "alpha3":"BTN",
+    "isoNum":64,
+    "iso":"ISO 3166-2:BT",
+    "filepath":"22px-Flag_of_Bhutan.svg.png"
+  },
+  {
+    "name":" Вануату",
+    "alpha2":"VU",
+    "alpha3":"VUT",
+    "isoNum":548,
+    "iso":"ISO 3166-2:VU",
+    "filepath":"22px-Flag_of_Vanuatu.svg.png"
+  },
+  {
+    "name":" Ватикан",
+    "alpha2":"VA",
+    "alpha3":"VAT",
+    "isoNum":336,
+    "iso":"ISO 3166-2:VA",
+    "filepath":"22px-Flag_of_the_Vatican_City.svg.png"
+  },
+  {
+    "name":" Великобритания",
+    "alpha2":"GB",
+    "alpha3":"GBR",
+    "isoNum":826,
+    "iso":"ISO 3166-2:GB",
+    "filepath":"22px-Flag_of_the_United_Kingdom.svg.png"
+  },
+  {
+    "name":" Венгрия",
+    "alpha2":"HU",
+    "alpha3":"HUN",
+    "isoNum":348,
+    "iso":"ISO 3166-2:HU",
+    "filepath":"22px-Flag_of_Hungary.svg.png"
+  },
+  {
+    "name":" Венесуэла",
+    "alpha2":"VE",
+    "alpha3":"VEN",
+    "isoNum":862,
+    "iso":"ISO 3166-2:VE",
+    "filepath":"22px-Flag_of_Venezuela_(state).svg.png"
+  },
+  {
+    "name":" Виргинские Острова (США)",
+    "alpha2":"VI",
+    "alpha3":"VIR",
+    "isoNum":850,
+    "iso":"ISO 3166-2:VI",
+    "filepath":"22px-Flag_of_the_United_States_Virgin_Islands.svg.png"
+  },
+  {
+    "name":" Внешние малые острова (США)",
+    "alpha2":"UM",
+    "alpha3":"UMI",
+    "isoNum":581,
+    "iso":"ISO 3166-2:UM",
+    "filepath":"22px-Flag_of_the_United_States.svg.png"
+  },
+  {
+    "name":" Восточный Тимор",
+    "alpha2":"TL",
+    "alpha3":"TLS",
+    "isoNum":626,
+    "iso":"ISO 3166-2:TL",
+    "filepath":"22px-Flag_of_East_Timor.svg.png"
+  },
+  {
+    "name":" Вьетнам",
+    "alpha2":"VN",
+    "alpha3":"VNM",
+    "isoNum":704,
+    "iso":"ISO 3166-2:VN",
+    "filepath":"22px-Flag_of_Vietnam.svg.png"
+  },
+  {
+    "name":" Габон",
+    "alpha2":"GA",
+    "alpha3":"GAB",
+    "isoNum":266,
+    "iso":"ISO 3166-2:GA",
+    "filepath":"22px-Flag_of_Gabon.svg.png"
+  },
+  {
+    "name":" Гаити",
+    "alpha2":"HT",
+    "alpha3":"HTI",
+    "isoNum":332,
+    "iso":"ISO 3166-2:HT",
+    "filepath":"22px-Flag_of_Haiti.svg.png"
+  },
+  {
+    "name":" Гайана",
+    "alpha2":"GY",
+    "alpha3":"GUY",
+    "isoNum":328,
+    "iso":"ISO 3166-2:GY",
+    "filepath":"22px-Flag_of_Guyana.svg.png"
+  },
+  {
+    "name":" Гамбия",
+    "alpha2":"GM",
+    "alpha3":"GMB",
+    "isoNum":270,
+    "iso":"ISO 3166-2:GM",
+    "filepath":"22px-Flag_of_The_Gambia.svg.png"
+  },
+  {
+    "name":" Гана",
+    "alpha2":"GH",
+    "alpha3":"GHA",
+    "isoNum":288,
+    "iso":"ISO 3166-2:GH",
+    "filepath":"22px-Flag_of_Ghana.svg.png"
+  },
+  {
+    "name":" Гваделупа",
+    "alpha2":"GP",
+    "alpha3":"GLP",
+    "isoNum":312,
+    "iso":"ISO 3166-2:GP",
+    "filepath":"22px-Flag_of_Guadeloupe_(local).svg.png"
+  },
+  {
+    "name":" Гватемала",
+    "alpha2":"GT",
+    "alpha3":"GTM",
+    "isoNum":320,
+    "iso":"ISO 3166-2:GT",
+    "filepath":"22px-Flag_of_Guatemala.svg.png"
+  },
+  {
+    "name":" Гвиана",
+    "alpha2":"GF",
+    "alpha3":"GUF",
+    "isoNum":254,
+    "iso":"ISO 3166-2:GF",
+    "filepath":"22px-Flag_of_French_Guiana.svg.png"
+  },
+  {
+    "name":" Гвинея-Бисау",
+    "alpha2":"GW",
+    "alpha3":"GNB",
+    "isoNum":624,
+    "iso":"ISO 3166-2:GW",
+    "filepath":"22px-Flag_of_Guinea-Bissau.svg.png"
+  },
+  {
+    "name":" Гвинея",
+    "alpha2":"GN",
+    "alpha3":"GIN",
+    "isoNum":324,
+    "iso":"ISO 3166-2:GN",
+    "filepath":"22px-Flag_of_Guinea.svg.png"
+  },
+  {
+    "name":" Германия",
+    "alpha2":"DE",
+    "alpha3":"DEU",
+    "isoNum":276,
+    "iso":"ISO 3166-2:DE",
+    "filepath":"22px-Flag_of_Germany.svg.png"
+  },
+  {
+    "name":" Гернси",
+    "alpha2":"GG",
+    "alpha3":"GGY",
+    "isoNum":831,
+    "iso":"ISO 3166-2:GG",
+    "filepath":"22px-Flag_of_Guernsey.svg.png"
+  },
+  {
+    "name":" Гибралтар",
+    "alpha2":"GI",
+    "alpha3":"GIB",
+    "isoNum":292,
+    "iso":"ISO 3166-2:GI",
+    "filepath":"22px-Flag_of_Gibraltar.svg.png"
+  },
+  {
+    "name":" Гондурас",
+    "alpha2":"HN",
+    "alpha3":"HND",
+    "isoNum":340,
+    "iso":"ISO 3166-2:HN",
+    "filepath":"22px-Flag_of_Honduras.svg.png"
+  },
+  {
+    "name":" Гонконг",
+    "alpha2":"HK",
+    "alpha3":"HKG",
+    "isoNum":344,
+    "iso":"ISO 3166-2:HK",
+    "filepath":"22px-Flag_of_Hong_Kong.svg.png"
+  },
+  {
+    "name":" Государство Палестина",
+    "alpha2":"PS",
+    "alpha3":"PSE",
+    "isoNum":275,
+    "iso":"ISO 3166-2:PS",
+    "filepath":"22px-Flag_of_Palestine.svg.png"
+  },
+  {
+    "name":" Гренада",
+    "alpha2":"GD",
+    "alpha3":"GRD",
+    "isoNum":308,
+    "iso":"ISO 3166-2:GD",
+    "filepath":"22px-Flag_of_Grenada.svg.png"
+  },
+  {
+    "name":" Гренландия",
+    "alpha2":"GL",
+    "alpha3":"GRL",
+    "isoNum":304,
+    "iso":"ISO 3166-2:GL",
+    "filepath":"22px-Flag_of_Greenland.svg.png"
+  },
+  {
+    "name":" Греция",
+    "alpha2":"GR",
+    "alpha3":"GRC",
+    "isoNum":300,
+    "iso":"ISO 3166-2:GR",
+    "filepath":"22px-Flag_of_Greece.svg.png"
+  },
+  {
+    "name":" Грузия",
+    "alpha2":"GE",
+    "alpha3":"GEO",
+    "isoNum":268,
+    "iso":"ISO 3166-2:GE",
+    "filepath":"22px-Flag_of_Georgia.svg.png"
+  },
+  {
+    "name":" Гуам",
+    "alpha2":"GU",
+    "alpha3":"GUM",
+    "isoNum":316,
+    "iso":"ISO 3166-2:GU",
+    "filepath":"22px-Flag_of_Guam.svg.png"
+  },
+  {
+    "name":" Дания",
+    "alpha2":"DK",
+    "alpha3":"DNK",
+    "isoNum":208,
+    "iso":"ISO 3166-2:DK",
+    "filepath":"22px-Flag_of_Denmark.svg.png"
+  },
+  {
+    "name":" Демократическая Республика Конго",
+    "alpha2":"CD",
+    "alpha3":"COD",
+    "isoNum":180,
+    "iso":"ISO 3166-2:CD",
+    "filepath":"22px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
+  },
+  {
+    "name":" Джерси",
+    "alpha2":"JE",
+    "alpha3":"JEY",
+    "isoNum":832,
+    "iso":"ISO 3166-2:JE",
+    "filepath":"22px-Flag_of_Jersey.svg.png"
+  },
+  {
+    "name":" Джибути",
+    "alpha2":"DJ",
+    "alpha3":"DJI",
+    "isoNum":262,
+    "iso":"ISO 3166-2:DJ",
+    "filepath":"22px-Flag_of_Djibouti.svg.png"
+  },
+  {
+    "name":" Доминика",
+    "alpha2":"DM",
+    "alpha3":"DMA",
+    "isoNum":212,
+    "iso":"ISO 3166-2:DM",
+    "filepath":"22px-Flag_of_Dominica.svg.png"
+  },
+  {
+    "name":" Доминиканская Республика",
+    "alpha2":"DO",
+    "alpha3":"DOM",
+    "isoNum":214,
+    "iso":"ISO 3166-2:DO",
+    "filepath":"22px-Flag_of_the_Dominican_Republic.svg.png"
+  },
+  {
+    "name":" Египет",
+    "alpha2":"EG",
+    "alpha3":"EGY",
+    "isoNum":818,
+    "iso":"ISO 3166-2:EG",
+    "filepath":"22px-Flag_of_Egypt.svg.png"
+  },
+  {
+    "name":" Замбия",
+    "alpha2":"ZM",
+    "alpha3":"ZMB",
+    "isoNum":894,
+    "iso":"ISO 3166-2:ZM",
+    "filepath":"22px-Flag_of_Zambia.svg.png"
+  },
+  {
+    "name":" Зимбабве",
+    "alpha2":"ZW",
+    "alpha3":"ZWE",
+    "isoNum":716,
+    "iso":"ISO 3166-2:ZW",
+    "filepath":"22px-Flag_of_Zimbabwe.svg.png"
+  },
+  {
+    "name":" Израиль",
+    "alpha2":"IL",
+    "alpha3":"ISR",
+    "isoNum":376,
+    "iso":"ISO 3166-2:IL",
+    "filepath":"22px-Flag_of_Israel.svg.png"
+  },
+  {
+    "name":" Индия",
+    "alpha2":"IN",
+    "alpha3":"IND",
+    "isoNum":356,
+    "iso":"ISO 3166-2:IN",
+    "filepath":"22px-Flag_of_India.svg.png"
+  },
+  {
+    "name":" Индонезия",
+    "alpha2":"ID",
+    "alpha3":"IDN",
+    "isoNum":360,
+    "iso":"ISO 3166-2:ID",
+    "filepath":"22px-Flag_of_Indonesia.svg.png"
+  },
+  {
+    "name":" Иордания",
+    "alpha2":"JO",
+    "alpha3":"JOR",
+    "isoNum":400,
+    "iso":"ISO 3166-2:JO",
+    "filepath":"22px-Flag_of_Jordan.svg.png"
+  },
+  {
+    "name":" Ирак",
+    "alpha2":"IQ",
+    "alpha3":"IRQ",
+    "isoNum":368,
+    "iso":"ISO 3166-2:IQ",
+    "filepath":"22px-Flag_of_Iraq.svg.png"
+  },
+  {
+    "name":" Иран",
+    "alpha2":"IR",
+    "alpha3":"IRN",
+    "isoNum":364,
+    "iso":"ISO 3166-2:IR",
+    "filepath":"22px-Flag_of_Iran.svg.png"
+  },
+  {
+    "name":" Исландия",
+    "alpha2":"IS",
+    "alpha3":"ISL",
+    "isoNum":352,
+    "iso":"ISO 3166-2:IS",
+    "filepath":"22px-Flag_of_Iceland.svg.png"
+  },
+  {
+    "name":" Испания",
+    "alpha2":"ES",
+    "alpha3":"ESP",
+    "isoNum":724,
+    "iso":"ISO 3166-2:ES",
+    "filepath":"22px-Flag_of_Spain.svg.png"
+  },
+  {
+    "name":" Италия",
+    "alpha2":"IT",
+    "alpha3":"ITA",
+    "isoNum":380,
+    "iso":"ISO 3166-2:IT",
+    "filepath":"22px-Flag_of_Italy.svg.png"
+  },
+  {
+    "name":" Йемен",
+    "alpha2":"YE",
+    "alpha3":"YEM",
+    "isoNum":887,
+    "iso":"ISO 3166-2:YE",
+    "filepath":"22px-Flag_of_Yemen.svg.png"
+  },
+  {
+    "name":" Кабо-Верде",
+    "alpha2":"CV",
+    "alpha3":"CPV",
+    "isoNum":132,
+    "iso":"ISO 3166-2:CV",
+    "filepath":"22px-Flag_of_Cape_Verde.svg.png"
+  },
+  {
+    "name":" Казахстан",
+    "alpha2":"KZ",
+    "alpha3":"KAZ",
+    "isoNum":398,
+    "iso":"ISO 3166-2:KZ",
+    "filepath":"22px-Flag_of_Kazakhstan.svg.png"
+  },
+  {
+    "name":" Камбоджа",
+    "alpha2":"KH",
+    "alpha3":"KHM",
+    "isoNum":116,
+    "iso":"ISO 3166-2:KH",
+    "filepath":"22px-Flag_of_Cambodia.svg.png"
+  },
+  {
+    "name":" Камерун",
+    "alpha2":"CM",
+    "alpha3":"CMR",
+    "isoNum":120,
+    "iso":"ISO 3166-2:CM",
+    "filepath":"22px-Flag_of_Cameroon.svg.png"
+  },
+  {
+    "name":" Канада",
+    "alpha2":"CA",
+    "alpha3":"CAN",
+    "isoNum":124,
+    "iso":"ISO 3166-2:CA",
+    "filepath":"22px-Flag_of_Canada.svg.png"
+  },
+  {
+    "name":" Катар",
+    "alpha2":"QA",
+    "alpha3":"QAT",
+    "isoNum":634,
+    "iso":"ISO 3166-2:QA",
+    "filepath":"22px-Flag_of_Qatar.svg.png"
+  },
+  {
+    "name":" Кения",
+    "alpha2":"KE",
+    "alpha3":"KEN",
+    "isoNum":404,
+    "iso":"ISO 3166-2:KE",
+    "filepath":"22px-Flag_of_Kenya.svg.png"
+  },
+  {
+    "name":" Кипр",
+    "alpha2":"CY",
+    "alpha3":"CYP",
+    "isoNum":196,
+    "iso":"ISO 3166-2:CY",
+    "filepath":"22px-Flag_of_Cyprus.svg.png"
+  },
+  {
+    "name":" Киргизия",
+    "alpha2":"KG",
+    "alpha3":"KGZ",
+    "isoNum":417,
+    "iso":"ISO 3166-2:KG",
+    "filepath":"22px-Flag_of_Kyrgyzstan.svg.png"
+  },
+  {
+    "name":" Кирибати",
+    "alpha2":"KI",
+    "alpha3":"KIR",
+    "isoNum":296,
+    "iso":"ISO 3166-2:KI",
+    "filepath":"22px-Flag_of_Kiribati.svg.png"
+  },
+  {
+    "name":" Китайская Республика",
+    "alpha2":"TW",
+    "alpha3":"TWN",
+    "isoNum":158,
+    "iso":"ISO 3166-2:TW",
+    "filepath":"22px-Flag_of_the_Republic_of_China.svg.png"
+  },
+  {
+    "name":" КНДР (Корейская Народно-Демократическая Республика)",
+    "alpha2":"KP",
+    "alpha3":"PRK",
+    "isoNum":408,
+    "iso":"ISO 3166-2:KP",
+    "filepath":"22px-Flag_of_North_Korea.svg.png"
+  },
+  {
+    "name":" КНР (Китайская Народная Республика)",
+    "alpha2":"CN",
+    "alpha3":"CHN",
+    "isoNum":156,
+    "iso":"ISO 3166-2:CN",
+    "filepath":"22px-Flag_of_the_People's_Republic_of_China.svg.png"
+  },
+  {
+    "name":" Кокосовые острова",
+    "alpha2":"CC",
+    "alpha3":"CCK",
+    "isoNum":166,
+    "iso":"ISO 3166-2:CC",
+    "filepath":"22px-Flag_of_the_Cocos_(Keeling)_Islands.svg.png"
+  },
+  {
+    "name":" Колумбия",
+    "alpha2":"CO",
+    "alpha3":"COL",
+    "isoNum":170,
+    "iso":"ISO 3166-2:CO",
+    "filepath":"22px-Flag_of_Colombia.svg.png"
+  },
+  {
+    "name":" Коморы",
+    "alpha2":"KM",
+    "alpha3":"COM",
+    "isoNum":174,
+    "iso":"ISO 3166-2:KM",
+    "filepath":"22px-Flag_of_the_Comoros.svg.png"
+  },
+  {
+    "name":" Коста-Рика",
+    "alpha2":"CR",
+    "alpha3":"CRI",
+    "isoNum":188,
+    "iso":"ISO 3166-2:CR",
+    "filepath":"22px-Flag_of_Costa_Rica_(state).svg"
+  },
+  {
+    "name":" Кот-д’Ивуар",
+    "alpha2":"CI",
+    "alpha3":"CIV",
+    "isoNum":384,
+    "iso":"ISO 3166-2:CI",
+    "filepath":"22px-Flag_of_C?te_d'Ivoire.svg.png"
+  },
+  {
+    "name":" Куба",
+    "alpha2":"CU",
+    "alpha3":"CUB",
+    "isoNum":192,
+    "iso":"ISO 3166-2:CU",
+    "filepath":"22px-Flag_of_Cuba.svg.png"
+  },
+  {
+    "name":" Кувейт",
+    "alpha2":"KW",
+    "alpha3":"KWT",
+    "isoNum":414,
+    "iso":"ISO 3166-2:KW",
+    "filepath":"22px-Flag_of_Kuwait.svg.png"
+  },
+  {
+    "name":" Кюрасао",
+    "alpha2":"CW",
+    "alpha3":"CUW",
+    "isoNum":531,
+    "iso":"ISO 3166-2:CW",
+    "filepath":"22px-Flag_of_Cura?ao.svg.png"
+  },
+  {
+    "name":" Лаос",
+    "alpha2":"LA",
+    "alpha3":"LAO",
+    "isoNum":418,
+    "iso":"ISO 3166-2:LA",
+    "filepath":"22px-Flag_of_Laos.svg.png"
+  },
+  {
+    "name":" Латвия",
+    "alpha2":"LV",
+    "alpha3":"LVA",
+    "isoNum":428,
+    "iso":"ISO 3166-2:LV",
+    "filepath":"22px-Flag_of_Latvia.svg.png"
+  },
+  {
+    "name":" Лесото",
+    "alpha2":"LS",
+    "alpha3":"LSO",
+    "isoNum":426,
+    "iso":"ISO 3166-2:LS",
+    "filepath":"22px-Flag_of_Lesotho.svg.png"
+  },
+  {
+    "name":" Либерия",
+    "alpha2":"LR",
+    "alpha3":"LBR",
+    "isoNum":430,
+    "iso":"ISO 3166-2:LR",
+    "filepath":"22px-Flag_of_Liberia.svg.png"
+  },
+  {
+    "name":" Ливан",
+    "alpha2":"LB",
+    "alpha3":"LBN",
+    "isoNum":422,
+    "iso":"ISO 3166-2:LB",
+    "filepath":"22px-Flag_of_Lebanon.svg.png"
+  },
+  {
+    "name":" Ливия",
+    "alpha2":"LY",
+    "alpha3":"LBY",
+    "isoNum":434,
+    "iso":"ISO 3166-2:LY",
+    "filepath":"22px-Flag_of_Libya.svg.png"
+  },
+  {
+    "name":" Литва",
+    "alpha2":"LT",
+    "alpha3":"LTU",
+    "isoNum":440,
+    "iso":"ISO 3166-2:LT",
+    "filepath":"22px-Flag_of_Lithuania.svg.png"
+  },
+  {
+    "name":" Лихтенштейн",
+    "alpha2":"LI",
+    "alpha3":"LIE",
+    "isoNum":438,
+    "iso":"ISO 3166-2:LI",
+    "filepath":"22px-Flag_of_Liechtenstein.svg.png"
+  },
+  {
+    "name":" Люксембург",
+    "alpha2":"LU",
+    "alpha3":"LUX",
+    "isoNum":442,
+    "iso":"ISO 3166-2:LU",
+    "filepath":"22px-Flag_of_Luxembourg.svg.png"
+  },
+  {
+    "name":" Маврикий",
+    "alpha2":"MU",
+    "alpha3":"MUS",
+    "isoNum":480,
+    "iso":"ISO 3166-2:MU",
+    "filepath":"22px-Flag_of_Mauritius.svg.png"
+  },
+  {
+    "name":" Мавритания",
+    "alpha2":"MR",
+    "alpha3":"MRT",
+    "isoNum":478,
+    "iso":"ISO 3166-2:MR",
+    "filepath":"22px-Flag_of_Mauritania.svg.png"
+  },
+  {
+    "name":" Мадагаскар",
+    "alpha2":"MG",
+    "alpha3":"MDG",
+    "isoNum":450,
+    "iso":"ISO 3166-2:MG",
+    "filepath":"22px-Flag_of_Madagascar.svg.png"
+  },
+  {
+    "name":" Майотта",
+    "alpha2":"YT",
+    "alpha3":"MYT",
+    "isoNum":175,
+    "iso":"ISO 3166-2:YT",
+    "filepath":"22px-Flag_of_Mayotte_(local).svg.png"
+  },
+  {
+    "name":" Макао",
+    "alpha2":"MO",
+    "alpha3":"MAC",
+    "isoNum":446,
+    "iso":"ISO 3166-2:MO",
+    "filepath":"22px-Flag_of_Macau.svg.png"
+  },
+  {
+    "name":" Македония",
+    "alpha2":"MK",
+    "alpha3":"MKD",
+    "isoNum":807,
+    "iso":"ISO 3166-2:MK",
+    "filepath":"22px-Flag_of_Macedonia.svg.png"
+  },
+  {
+    "name":" Малави",
+    "alpha2":"MW",
+    "alpha3":"MWI",
+    "isoNum":454,
+    "iso":"ISO 3166-2:MW",
+    "filepath":"22px-Flag_of_Malawi.svg.png"
+  },
+  {
+    "name":" Малайзия",
+    "alpha2":"MY",
+    "alpha3":"MYS",
+    "isoNum":458,
+    "iso":"ISO 3166-2:MY",
+    "filepath":"22px-Flag_of_Malaysia.svg.png"
+  },
+  {
+    "name":" Мали",
+    "alpha2":"ML",
+    "alpha3":"MLI",
+    "isoNum":466,
+    "iso":"ISO 3166-2:ML",
+    "filepath":"22px-Flag_of_Mali.svg.png"
+  },
+  {
+    "name":" Мальдивы",
+    "alpha2":"MV",
+    "alpha3":"MDV",
+    "isoNum":462,
+    "iso":"ISO 3166-2:MV",
+    "filepath":"22px-Flag_of_Maldives.svg.png"
+  },
+  {
+    "name":" Мальта",
+    "alpha2":"MT",
+    "alpha3":"MLT",
+    "isoNum":470,
+    "iso":"ISO 3166-2:MT",
+    "filepath":"22px-Flag_of_Malta.svg.png"
+  },
+  {
+    "name":" Марокко",
+    "alpha2":"MA",
+    "alpha3":"MAR",
+    "isoNum":504,
+    "iso":"ISO 3166-2:MA",
+    "filepath":"22px-Flag_of_Morocco.svg.png"
+  },
+  {
+    "name":" Мартиника",
+    "alpha2":"MQ",
+    "alpha3":"MTQ",
+    "isoNum":474,
+    "iso":"ISO 3166-2:MQ",
+    "filepath":"22px-Flag_of_Martinique.svg.png"
+  },
+  {
+    "name":" Маршалловы Острова",
+    "alpha2":"MH",
+    "alpha3":"MHL",
+    "isoNum":584,
+    "iso":"ISO 3166-2:MH",
+    "filepath":"22px-Flag_of_the_Marshall_Islands.svg.png"
+  },
+  {
+    "name":" Мексика",
+    "alpha2":"MX",
+    "alpha3":"MEX",
+    "isoNum":484,
+    "iso":"ISO 3166-2:MX",
+    "filepath":"22px-Flag_of_Mexico.svg.png"
+  },
+  {
+    "name":" Микронезия",
+    "alpha2":"FM",
+    "alpha3":"FSM",
+    "isoNum":583,
+    "iso":"ISO 3166-2:FM",
+    "filepath":"22px-Flag_of_the_Federated_States_of_Micronesia.svg.png"
+  },
+  {
+    "name":" Мозамбик",
+    "alpha2":"MZ",
+    "alpha3":"MOZ",
+    "isoNum":508,
+    "iso":"ISO 3166-2:MZ",
+    "filepath":"22px-Flag_of_Mozambique.svg.png"
+  },
+  {
+    "name":" Молдавия",
+    "alpha2":"MD",
+    "alpha3":"MDA",
+    "isoNum":498,
+    "iso":"ISO 3166-2:MD",
+    "filepath":"22px-Flag_of_Moldova.svg.png"
+  },
+  {
+    "name":" Монако",
+    "alpha2":"MC",
+    "alpha3":"MCO",
+    "isoNum":492,
+    "iso":"ISO 3166-2:MC",
+    "filepath":"22px-Flag_of_Monaco.svg.png"
+  },
+  {
+    "name":" Монголия",
+    "alpha2":"MN",
+    "alpha3":"MNG",
+    "isoNum":496,
+    "iso":"ISO 3166-2:MN",
+    "filepath":"22px-Flag_of_Mongolia.svg.png"
+  },
+  {
+    "name":" Монтсеррат",
+    "alpha2":"MS",
+    "alpha3":"MSR",
+    "isoNum":500,
+    "iso":"ISO 3166-2:MS",
+    "filepath":"22px-Flag_of_Montserrat.svg.png"
+  },
+  {
+    "name":" Мьянма",
+    "alpha2":"MM",
+    "alpha3":"MMR",
+    "isoNum":104,
+    "iso":"ISO 3166-2:MM",
+    "filepath":"22px-Flag_of_Myanmar.svg.png"
+  },
+  {
+    "name":" Намибия",
+    "alpha2":"NA",
+    "alpha3":"NAM",
+    "isoNum":516,
+    "iso":"ISO 3166-2:NA",
+    "filepath":"22px-Flag_of_Namibia.svg.png"
+  },
+  {
+    "name":" Науру",
+    "alpha2":"NR",
+    "alpha3":"NRU",
+    "isoNum":520,
+    "iso":"ISO 3166-2:NR",
+    "filepath":"22px-Flag_of_Nauru.svg.png"
+  },
+  {
+    "name":" Непал",
+    "alpha2":"NP",
+    "alpha3":"NPL",
+    "isoNum":524,
+    "iso":"ISO 3166-2:NP",
+    "filepath":"16px-Flag_of_Nepal.svg.png"
+  },
+  {
+    "name":" Нигер",
+    "alpha2":"NE",
+    "alpha3":"NER",
+    "isoNum":562,
+    "iso":"ISO 3166-2:NE",
+    "filepath":"22px-Flag_of_Niger.svg.png"
+  },
+  {
+    "name":" Нигерия",
+    "alpha2":"NG",
+    "alpha3":"NGA",
+    "isoNum":566,
+    "iso":"ISO 3166-2:NG",
+    "filepath":"22px-Flag_of_Nigeria.svg.png"
+  },
+  {
+    "name":" Нидерланды",
+    "alpha2":"NL",
+    "alpha3":"NLD",
+    "isoNum":528,
+    "iso":"ISO 3166-2:NL",
+    "filepath":"22px-Flag_of_the_Netherlands.svg.png"
+  },
+  {
+    "name":" Никарагуа",
+    "alpha2":"NI",
+    "alpha3":"NIC",
+    "isoNum":558,
+    "iso":"ISO 3166-2:NI",
+    "filepath":"22px-Flag_of_Nicaragua.svg.png"
+  },
+  {
+    "name":" Ниуэ",
+    "alpha2":"NU",
+    "alpha3":"NIU",
+    "isoNum":570,
+    "iso":"ISO 3166-2:NU",
+    "filepath":"22px-Flag_of_Niue.svg.png"
+  },
+  {
+    "name":" Новая Зеландия",
+    "alpha2":"NZ",
+    "alpha3":"NZL",
+    "isoNum":554,
+    "iso":"ISO 3166-2:NZ",
+    "filepath":"22px-Flag_of_New_Zealand.svg.png"
+  },
+  {
+    "name":" Новая Каледония",
+    "alpha2":"NC",
+    "alpha3":"NCL",
+    "isoNum":540,
+    "iso":"ISO 3166-2:NC",
+    "filepath":"22px-Pro-Independence_Flag_of_New_Caledonia.svg.png"
+  },
+  {
+    "name":" Норвегия",
+    "alpha2":"NO",
+    "alpha3":"NOR",
+    "isoNum":578,
+    "iso":"ISO 3166-2:NO",
+    "filepath":"22px-Flag_of_Norway.svg.png"
+  },
+  {
+    "name":" ОАЭ",
+    "alpha2":"AE",
+    "alpha3":"ARE",
+    "isoNum":784,
+    "iso":"ISO 3166-2:AE",
+    "filepath":"22px-Flag_of_the_United_Arab_Emirates.svg.png"
+  },
+  {
+    "name":" Оман",
+    "alpha2":"OM",
+    "alpha3":"OMN",
+    "isoNum":512,
+    "iso":"ISO 3166-2:OM",
+    "filepath":"22px-Flag_of_Oman.svg.png"
+  },
+  {
+    "name":" Остров Буве",
+    "alpha2":"BV",
+    "alpha3":"BVT",
+    "isoNum":74,
+    "iso":"ISO 3166-2:BV",
+    "filepath":"22px-Flag_of_Norway.svg.png"
+  },
+  {
+    "name":" Остров Мэн",
+    "alpha2":"IM",
+    "alpha3":"IMN",
+    "isoNum":833,
+    "iso":"ISO 3166-2:IM",
+    "filepath":"22px-Flag_of_the_Isle_of_Mann.svg.png"
+  },
+  {
+    "name":" Остров Норфолк",
+    "alpha2":"NF",
+    "alpha3":"NFK",
+    "isoNum":574,
+    "iso":"ISO 3166-2:NF",
+    "filepath":"22px-Flag_of_Norfolk_Island.svg.png"
+  },
+  {
+    "name":" Остров Рождества",
+    "alpha2":"CX",
+    "alpha3":"CXR",
+    "isoNum":162,
+    "iso":"ISO 3166-2:CX",
+    "filepath":"22px-Flag_of_Christmas_Island.svg.png"
+  },
+  {
+    "name":" Острова Кайман",
+    "alpha2":"KY",
+    "alpha3":"CYM",
+    "isoNum":136,
+    "iso":"ISO 3166-2:KY",
+    "filepath":"22px-Flag_of_the_Cayman_Islands.svg.png"
+  },
+  {
+    "name":" Острова Кука",
+    "alpha2":"CK",
+    "alpha3":"COK",
+    "isoNum":184,
+    "iso":"ISO 3166-2:CK",
+    "filepath":"22px-Flag_of_the_Cook_Islands.svg.png"
+  },
+  {
+    "name":" Острова Питкэрн",
+    "alpha2":"PN",
+    "alpha3":"PCN",
+    "isoNum":612,
+    "iso":"ISO 3166-2:PN",
+    "filepath":"22px-Flag_of_the_Pitcairn_Islands.svg.png"
+  },
+  {
+    "name":" Острова Святой Елены, Вознесения и Тристан-да-Кунья",
+    "alpha2":"SH",
+    "alpha3":"SHN",
+    "isoNum":654,
+    "iso":"ISO 3166-2:SH",
+    "filepath":"22px-Flag_of_Saint_Helena.svg.png"
+  },
+  {
+    "name":" Пакистан",
+    "alpha2":"PK",
+    "alpha3":"PAK",
+    "isoNum":586,
+    "iso":"ISO 3166-2:PK",
+    "filepath":"22px-Flag_of_Pakistan.svg.png"
+  },
+  {
+    "name":" Палау",
+    "alpha2":"PW",
+    "alpha3":"PLW",
+    "isoNum":585,
+    "iso":"ISO 3166-2:PW",
+    "filepath":"22px-Flag_of_Palau.svg.png"
+  },
+  {
+    "name":" Панама",
+    "alpha2":"PA",
+    "alpha3":"PAN",
+    "isoNum":591,
+    "iso":"ISO 3166-2:PA",
+    "filepath":"22px-Flag_of_Panama.svg.png"
+  },
+  {
+    "name":" Папуа — Новая Гвинея",
+    "alpha2":"PG",
+    "alpha3":"PNG",
+    "isoNum":598,
+    "iso":"ISO 3166-2:PG",
+    "filepath":"22px-Flag_of_Papua_New_Guinea.svg.png"
+  },
+  {
+    "name":" Парагвай",
+    "alpha2":"PY",
+    "alpha3":"PRY",
+    "isoNum":600,
+    "iso":"ISO 3166-2:PY",
+    "filepath":"22px-Flag_of_Paraguay.svg.png"
+  },
+  {
+    "name":" Перу",
+    "alpha2":"PE",
+    "alpha3":"PER",
+    "isoNum":604,
+    "iso":"ISO 3166-2:PE",
+    "filepath":"22px-Flag_of_Peru_(state).svg.png"
+  },
+  {
+    "name":" Польша",
+    "alpha2":"PL",
+    "alpha3":"POL",
+    "isoNum":616,
+    "iso":"ISO 3166-2:PL",
+    "filepath":"22px-Flag_of_Poland.svg.png"
+  },
+  {
+    "name":" Португалия",
+    "alpha2":"PT",
+    "alpha3":"PRT",
+    "isoNum":620,
+    "iso":"ISO 3166-2:PT",
+    "filepath":"22px-Flag_of_Portugal.svg.png"
+  },
+  {
+    "name":" Пуэрто-Рико",
+    "alpha2":"PR",
+    "alpha3":"PRI",
+    "isoNum":630,
+    "iso":"ISO 3166-2:PR",
+    "filepath":"22px-Flag_of_Puerto_Rico.svg.png"
+  },
+  {
+    "name":" Республика Конго",
+    "alpha2":"CG",
+    "alpha3":"COG",
+    "isoNum":178,
+    "iso":"ISO 3166-2:CG",
+    "filepath":"22px-Flag_of_the_Republic_of_the_Congo.svg.png"
+  },
+  {
+    "name":" Республика Корея",
+    "alpha2":"KR",
+    "alpha3":"KOR",
+    "isoNum":410,
+    "iso":"ISO 3166-2:KR",
+    "filepath":"22px-Flag_of_South_Korea.svg.png"
+  },
+  {
+    "name":" Реюньон",
+    "alpha2":"RE",
+    "alpha3":"REU",
+    "isoNum":638,
+    "iso":"ISO 3166-2:RE",
+    "filepath":"22px-Regional_Flag_of_Reunion.gif"
+  },
+  {
+    "name":" Россия",
+    "alpha2":"RU",
+    "alpha3":"RUS",
+    "isoNum":643,
+    "iso":"ISO 3166-2:RU",
+    "filepath":"22px-Flag_of_Russia.svg.png"
+  },
+  {
+    "name":" Руанда",
+    "alpha2":"RW",
+    "alpha3":"RWA",
+    "isoNum":646,
+    "iso":"ISO 3166-2:RW",
+    "filepath":"22px-Flag_of_Rwanda.svg.png"
+  },
+  {
+    "name":" Румыния",
+    "alpha2":"RO",
+    "alpha3":"ROU",
+    "isoNum":642,
+    "iso":"ISO 3166-2:RO",
+    "filepath":"22px-Flag_of_Romania.svg.png"
+  },
+  {
+    "name":" САДР",
+    "alpha2":"EH",
+    "alpha3":"ESH",
+    "isoNum":732,
+    "iso":"ISO 3166-2:EH",
+    "filepath":"22px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png"
+  },
+  {
+    "name":" Сальвадор",
+    "alpha2":"SV",
+    "alpha3":"SLV",
+    "isoNum":222,
+    "iso":"ISO 3166-2:SV",
+    "filepath":"22px-Flag_of_El_Salvador.svg.png"
+  },
+  {
+    "name":" Самоа",
+    "alpha2":"WS",
+    "alpha3":"WSM",
+    "isoNum":882,
+    "iso":"ISO 3166-2:WS",
+    "filepath":"22px-Flag_of_Samoa.svg.png"
+  },
+  {
+    "name":" Сан-Марино",
+    "alpha2":"SM",
+    "alpha3":"SMR",
+    "isoNum":674,
+    "iso":"ISO 3166-2:SM",
+    "filepath":"22px-Flag_of_San_Marino.svg.png"
+  },
+  {
+    "name":" Сан-Томе и Принсипи",
+    "alpha2":"ST",
+    "alpha3":"STP",
+    "isoNum":678,
+    "iso":"ISO 3166-2:ST",
+    "filepath":"22px-Flag_of_Sao_Tome_and_Principe.svg.png"
+  },
+  {
+    "name":" Саудовская Аравия",
+    "alpha2":"SA",
+    "alpha3":"SAU",
+    "isoNum":682,
+    "iso":"ISO 3166-2:SA",
+    "filepath":"22px-Flag_of_Saudi_Arabia.svg.png"
+  },
+  {
+    "name":" Свазиленд",
+    "alpha2":"SZ",
+    "alpha3":"SWZ",
+    "isoNum":748,
+    "iso":"ISO 3166-2:SZ",
+    "filepath":"22px-Flag_of_Swaziland.svg.png"
+  },
+  {
+    "name":" Северные Марианские острова",
+    "alpha2":"MP",
+    "alpha3":"MNP",
+    "isoNum":580,
+    "iso":"ISO 3166-2:MP",
+    "filepath":"22px-Flag_of_the_Northern_Mariana_Islands.svg.png"
+  },
+  {
+    "name":" Сейшельские Острова",
+    "alpha2":"SC",
+    "alpha3":"SYC",
+    "isoNum":690,
+    "iso":"ISO 3166-2:SC",
+    "filepath":"22px-Flag_of_Seychelles.svg.png"
+  },
+  {
+    "name":" Сен-Бартелеми",
+    "alpha2":"BL",
+    "alpha3":"BLM",
+    "isoNum":652,
+    "iso":"ISO 3166-2:BL",
+    "filepath":"22px-Flag_of_Saint_Barthelemy_(local).svg.png"
+  },
+  {
+    "name":" Сен-Мартен",
+    "alpha2":"MF",
+    "alpha3":"MAF",
+    "isoNum":663,
+    "iso":"ISO 3166-2:MF",
+    "filepath":"22px-Flag_of_Saint-Martin_(fictional).svg.png"
+  },
+  {
+    "name":" Сен-Пьер и Микелон",
+    "alpha2":"PM",
+    "alpha3":"SPM",
+    "isoNum":666,
+    "iso":"ISO 3166-2:PM",
+    "filepath":"22px-Flag_of_Saint-Pierre_and_Miquelon.svg.png"
+  },
+  {
+    "name":" Сенегал",
+    "alpha2":"SN",
+    "alpha3":"SEN",
+    "isoNum":686,
+    "iso":"ISO 3166-2:SN",
+    "filepath":"22px-Flag_of_Senegal.svg.png"
+  },
+  {
+    "name":" Сент-Винсент и Гренадины",
+    "alpha2":"VC",
+    "alpha3":"VCT",
+    "isoNum":670,
+    "iso":"ISO 3166-2:VC",
+    "filepath":"22px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png"
+  },
+  {
+    "name":" Сент-Китс и Невис",
+    "alpha2":"KN",
+    "alpha3":"KNA",
+    "isoNum":659,
+    "iso":"ISO 3166-2:KN",
+    "filepath":"22px-Flag_of_Saint_Kitts_and_Nevis.svg.png"
+  },
+  {
+    "name":" Сент-Люсия",
+    "alpha2":"LC",
+    "alpha3":"LCA",
+    "isoNum":662,
+    "iso":"ISO 3166-2:LC",
+    "filepath":"22px-Flag_of_Saint_Lucia.svg.png"
+  },
+  {
+    "name":" Сербия",
+    "alpha2":"RS",
+    "alpha3":"SRB",
+    "isoNum":688,
+    "iso":"ISO 3166-2:RS",
+    "filepath":"22px-Flag_of_Serbia.svg.png"
+  },
+  {
+    "name":" Сингапур",
+    "alpha2":"SG",
+    "alpha3":"SGP",
+    "isoNum":702,
+    "iso":"ISO 3166-2:SG",
+    "filepath":"22px-Flag_of_Singapore.svg.png"
+  },
+  {
+    "name":" Синт-Мартен",
+    "alpha2":"SX",
+    "alpha3":"SXM",
+    "isoNum":534,
+    "iso":"ISO 3166-2:SX",
+    "filepath":"22px-Flag_of_Saint-Martin_(fictional).svg.png"
+  },
+  {
+    "name":" Сирия",
+    "alpha2":"SY",
+    "alpha3":"SYR",
+    "isoNum":760,
+    "iso":"ISO 3166-2:SY",
+    "filepath":"22px-Flag_of_Syria.svg.png"
+  },
+  {
+    "name":" Словакия",
+    "alpha2":"SK",
+    "alpha3":"SVK",
+    "isoNum":703,
+    "iso":"ISO 3166-2:SK",
+    "filepath":"22px-Flag_of_Slovakia.svg.png"
+  },
+  {
+    "name":" Словения",
+    "alpha2":"SI",
+    "alpha3":"SVN",
+    "isoNum":705,
+    "iso":"ISO 3166-2:SI",
+    "filepath":"22px-Flag_of_Slovenia.svg.png"
+  },
+  {
+    "name":" Соломоновы Острова",
+    "alpha2":"SB",
+    "alpha3":"SLB",
+    "isoNum":90,
+    "iso":"ISO 3166-2:SB",
+    "filepath":"22px-Flag_of_the_Solomon_Islands.svg.png"
+  },
+  {
+    "name":" Сомали",
+    "alpha2":"SO",
+    "alpha3":"SOM",
+    "isoNum":706,
+    "iso":"ISO 3166-2:SO",
+    "filepath":"22px-Flag_of_Somalia.svg.png"
+  },
+  {
+    "name":" СССР (до сентября 1992 года)",
+    "alpha2":"SU",
+    "alpha3":"SUN",
+    "isoNum":810,
+    "iso":"ISO 3166-2:SU",
+    "filepath":"22px-Flag_of_the_Soviet_Union.svg.png"
+  },
+  {
+    "name":" Судан",
+    "alpha2":"SD",
+    "alpha3":"SDN",
+    "isoNum":729,
+    "iso":"ISO 3166-2:SD",
+    "filepath":"22px-Flag_of_Sudan.svg.png"
+  },
+  {
+    "name":" Суринам",
+    "alpha2":"SR",
+    "alpha3":"SUR",
+    "isoNum":740,
+    "iso":"ISO 3166-2:SR",
+    "filepath":"22px-Flag_of_Suriname.svg.png"
+  },
+  {
+    "name":" США",
+    "alpha2":"US",
+    "alpha3":"USA",
+    "isoNum":840,
+    "iso":"ISO 3166-2:US",
+    "filepath":"22px-Flag_of_the_United_States.svg.png"
+  },
+  {
+    "name":" Сьерра-Леоне",
+    "alpha2":"SL",
+    "alpha3":"SLE",
+    "isoNum":694,
+    "iso":"ISO 3166-2:SL",
+    "filepath":"22px-Flag_of_Sierra_Leone.svg.png"
+  },
+  {
+    "name":" Таджикистан",
+    "alpha2":"TJ",
+    "alpha3":"TJK",
+    "isoNum":762,
+    "iso":"ISO 3166-2:TJ",
+    "filepath":"22px-Flag_of_Tajikistan.svg.png"
+  },
+  {
+    "name":" Таиланд",
+    "alpha2":"TH",
+    "alpha3":"THA",
+    "isoNum":764,
+    "iso":"ISO 3166-2:TH",
+    "filepath":"22px-Flag_of_Thailand.svg.png"
+  },
+  {
+    "name":" Танзания",
+    "alpha2":"TZ",
+    "alpha3":"TZA",
+    "isoNum":834,
+    "iso":"ISO 3166-2:TZ",
+    "filepath":"22px-Flag_of_Tanzania.svg.png"
+  },
+  {
+    "name":" Тёркс и Кайкос",
+    "alpha2":"TC",
+    "alpha3":"TCA",
+    "isoNum":796,
+    "iso":"ISO 3166-2:TC",
+    "filepath":"22px-Flag_of_the_Turks_and_Caicos_Islands.svg.png"
+  },
+  {
+    "name":" Того",
+    "alpha2":"TG",
+    "alpha3":"TGO",
+    "isoNum":768,
+    "iso":"ISO 3166-2:TG",
+    "filepath":"22px-Flag_of_Togo.svg.png"
+  },
+  {
+    "name":" Токелау",
+    "alpha2":"TK",
+    "alpha3":"TKL",
+    "isoNum":772,
+    "iso":"ISO 3166-2:TK",
+    "filepath":"22px-Flag_of_Tokelau.svg.png"
+  },
+  {
+    "name":" Тонга",
+    "alpha2":"TO",
+    "alpha3":"TON",
+    "isoNum":776,
+    "iso":"ISO 3166-2:TO",
+    "filepath":"22px-Flag_of_Tonga.svg.png"
+  },
+  {
+    "name":" Тринидад и Тобаго",
+    "alpha2":"TT",
+    "alpha3":"TTO",
+    "isoNum":780,
+    "iso":"ISO 3166-2:TT",
+    "filepath":"22px-Flag_of_Trinidad_and_Tobago.svg.png"
+  },
+  {
+    "name":" Тувалу",
+    "alpha2":"TV",
+    "alpha3":"TUV",
+    "isoNum":798,
+    "iso":"ISO 3166-2:TV",
+    "filepath":"22px-Flag_of_Tuvalu.svg.png"
+  },
+  {
+    "name":" Тунис",
+    "alpha2":"TN",
+    "alpha3":"TUN",
+    "isoNum":788,
+    "iso":"ISO 3166-2:TN",
+    "filepath":"22px-Flag_of_Tunisia.svg.png"
+  },
+  {
+    "name":" Туркмения",
+    "alpha2":"TM",
+    "alpha3":"TKM",
+    "isoNum":795,
+    "iso":"ISO 3166-2:TM",
+    "filepath":"22px-Flag_of_Turkmenistan.svg.png"
+  },
+  {
+    "name":" Турция",
+    "alpha2":"TR",
+    "alpha3":"TUR",
+    "isoNum":792,
+    "iso":"ISO 3166-2:TR",
+    "filepath":"22px-Flag_of_Turkey.svg.png"
+  },
+  {
+    "name":" Уганда",
+    "alpha2":"UG",
+    "alpha3":"UGA",
+    "isoNum":800,
+    "iso":"ISO 3166-2:UG",
+    "filepath":"22px-Flag_of_Uganda.svg.png"
+  },
+  {
+    "name":" Узбекистан",
+    "alpha2":"UZ",
+    "alpha3":"UZB",
+    "isoNum":860,
+    "iso":"ISO 3166-2:UZ",
+    "filepath":"22px-Flag_of_Uzbekistan.svg.png"
+  },
+  {
+    "name":" Украина",
+    "alpha2":"UA",
+    "alpha3":"UKR",
+    "isoNum":804,
+    "iso":"ISO 3166-2:UA",
+    "filepath":"22px-Flag_of_Ukraine.svg.png"
+  },
+  {
+    "name":" Уоллис и Футуна",
+    "alpha2":"WF",
+    "alpha3":"WLF",
+    "isoNum":876,
+    "iso":"ISO 3166-2:WF",
+    "filepath":"22px-Flag_of_France.svg.png"
+  },
+  {
+    "name":" Уругвай",
+    "alpha2":"UY",
+    "alpha3":"URY",
+    "isoNum":858,
+    "iso":"ISO 3166-2:UY",
+    "filepath":"22px-Flag_of_Uruguay.svg.png"
+  },
+  {
+    "name":" Фареры",
+    "alpha2":"FO",
+    "alpha3":"FRO",
+    "isoNum":234,
+    "iso":"ISO 3166-2:FO",
+    "filepath":"22px-Flag_of_the_Faroe_Islands.svg.png"
+  },
+  {
+    "name":" Фиджи",
+    "alpha2":"FJ",
+    "alpha3":"FJI",
+    "isoNum":242,
+    "iso":"ISO 3166-2:FJ",
+    "filepath":"22px-Flag_of_Fiji.svg.png"
+  },
+  {
+    "name":" Филиппины",
+    "alpha2":"PH",
+    "alpha3":"PHL",
+    "isoNum":608,
+    "iso":"ISO 3166-2:PH",
+    "filepath":"22px-Flag_of_the_Philippines.svg.png"
+  },
+  {
+    "name":" Финляндия",
+    "alpha2":"FI",
+    "alpha3":"FIN",
+    "isoNum":246,
+    "iso":"ISO 3166-2:FI",
+    "filepath":"22px-Flag_of_Finland.svg.png"
+  },
+  {
+    "name":" Европейский союз",
+    "alpha2":"EU",
+    "alpha3":"",
+    "isoNum":null,
+    "iso":"ISO 3166-2:EU",
+    "filepath":"22px-Flag_of_Europe.svg.png"
+  },
+  {
+    "name":" Ирландия",
+    "alpha2":"IE",
+    "alpha3":"IRL",
+    "isoNum":372,
+    "iso":"ISO 3166-2:IE",
+    "filepath":"22px-Flag_of_Ireland.svg.png"
+  },
+  {
+    "name":" Шпицберген и Ян-Майен",
+    "alpha2":"SJ",
+    "alpha3":"SJM",
+    "isoNum":744,
+    "iso":"ISO 3166-2:SJ",
+    "filepath":"22px-Flag_of_Norway.svg.png"
+  },
+  {
+    "name":" Фолклендские острова",
+    "alpha2":"FK",
+    "alpha3":"FLK",
+    "isoNum":238,
+    "iso":"ISO 3166-2:FK",
+    "filepath":"22px-Flag_of_the_Falkland_Islands.svg.png"
+  },
+  {
+    "name":" Франция",
+    "alpha2":"FR",
+    "alpha3":"FRA",
+    "isoNum":250,
+    "iso":"ISO 3166-2:FR",
+    "filepath":"22px-Flag_of_France.svg.png"
+  },
+  {
+    "name":" Французская Полинезия",
+    "alpha2":"PF",
+    "alpha3":"PYF",
+    "isoNum":258,
+    "iso":"ISO 3166-2:PF",
+    "filepath":"22px-Flag_of_French_Polynesia.svg.png"
+  },
+  {
+    "name":" Французские Южные и Антарктические Территории",
+    "alpha2":"TF",
+    "alpha3":"ATF",
+    "isoNum":260,
+    "iso":"ISO 3166-2:TF",
+    "filepath":"22px-Flag_of_the_French_Southern_and_Antarctic_Lands.svg.png"
+  },
+  {
+    "name":" Херд и Макдональд",
+    "alpha2":"HM",
+    "alpha3":"HMD",
+    "isoNum":334,
+    "iso":"ISO 3166-2:HM",
+    "filepath":"22px-Flag_of_Australia.svg.png"
+  },
+  {
+    "name":" Хорватия",
+    "alpha2":"HR",
+    "alpha3":"HRV",
+    "isoNum":191,
+    "iso":"ISO 3166-2:HR",
+    "filepath":"22px-Flag_of_Croatia.svg.png"
+  },
+  {
+    "name":" ЦАР",
+    "alpha2":"CF",
+    "alpha3":"CAF",
+    "isoNum":140,
+    "iso":"ISO 3166-2:CF",
+    "filepath":"22px-Flag_of_the_Central_African_Republic.svg.png"
+  },
+  {
+    "name":" Чад",
+    "alpha2":"TD",
+    "alpha3":"TCD",
+    "isoNum":148,
+    "iso":"ISO 3166-2:TD",
+    "filepath":"22px-Flag_of_Chad.svg.png"
+  },
+  {
+    "name":" Черногория",
+    "alpha2":"ME",
+    "alpha3":"MNE",
+    "isoNum":499,
+    "iso":"ISO 3166-2:ME",
+    "filepath":"22px-Flag_of_Montenegro.svg.png"
+  },
+  {
+    "name":" Чехия",
+    "alpha2":"CZ",
+    "alpha3":"CZE",
+    "isoNum":203,
+    "iso":"ISO 3166-2:CZ",
+    "filepath":"22px-Flag_of_the_Czech_Republic.svg.png"
+  },
+  {
+    "name":" Чили",
+    "alpha2":"CL",
+    "alpha3":"CHL",
+    "isoNum":152,
+    "iso":"ISO 3166-2:CL",
+    "filepath":"22px-Flag_of_Chile.svg.png"
+  },
+  {
+    "name":" Швейцария",
+    "alpha2":"CH",
+    "alpha3":"CHE",
+    "isoNum":756,
+    "iso":"ISO 3166-2:CH",
+    "filepath":"20px-Flag_of_Switzerland.svg.png"
+  },
+  {
+    "name":" Швеция",
+    "alpha2":"SE",
+    "alpha3":"SWE",
+    "isoNum":752,
+    "iso":"ISO 3166-2:SE",
+    "filepath":"22px-Flag_of_Sweden.svg.png"
+  },
+  {
+    "name":" Шри-Ланка",
+    "alpha2":"LK",
+    "alpha3":"LKA",
+    "isoNum":144,
+    "iso":"ISO 3166-2:LK",
+    "filepath":"22px-Flag_of_Sri_Lanka.svg.png"
+  },
+  {
+    "name":" Эквадор",
+    "alpha2":"EC",
+    "alpha3":"ECU",
+    "isoNum":218,
+    "iso":"ISO 3166-2:EC",
+    "filepath":"22px-Flag_of_Ecuador.svg.png"
+  },
+  {
+    "name":" Экваториальная Гвинея",
+    "alpha2":"GQ",
+    "alpha3":"GNQ",
+    "isoNum":226,
+    "iso":"ISO 3166-2:GQ",
+    "filepath":"22px-Flag_of_Equatorial_Guinea.svg.png"
+  },
+  {
+    "name":" Эритрея",
+    "alpha2":"ER",
+    "alpha3":"ERI",
+    "isoNum":232,
+    "iso":"ISO 3166-2:ER",
+    "filepath":"22px-Flag_of_Eritrea.svg.png"
+  },
+  {
+    "name":" Эстония",
+    "alpha2":"EE",
+    "alpha3":"EST",
+    "isoNum":233,
+    "iso":"ISO 3166-2:EE",
+    "filepath":"22px-Flag_of_Estonia.svg.png"
+  },
+  {
+    "name":" Эфиопия",
+    "alpha2":"ET",
+    "alpha3":"ETH",
+    "isoNum":231,
+    "iso":"ISO 3166-2:ET",
+    "filepath":"22px-Flag_of_Ethiopia.svg.png"
+  },
+  {
+    "name":" ЮАР",
+    "alpha2":"ZA",
+    "alpha3":"ZAF",
+    "isoNum":710,
+    "iso":"ISO 3166-2:ZA",
+    "filepath":"22px-Flag_of_South_Africa.svg.png"
+  },
+  {
+    "name":" Южная Георгия и Южные Сандвичевы острова",
+    "alpha2":"GS",
+    "alpha3":"SGS",
+    "isoNum":239,
+    "iso":"ISO 3166-2:GS",
+    "filepath":"22px-Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png"
+  },
+  {
+    "name":" Южный Судан",
+    "alpha2":"SS",
+    "alpha3":"SSD",
+    "isoNum":728,
+    "iso":"ISO 3166-2:SS",
+    "filepath":"22px-Flag_of_South_Sudan.svg.png"
+  },
+  {
+    "name":" Ямайка",
+    "alpha2":"JM",
+    "alpha3":"JAM",
+    "isoNum":388,
+    "iso":"ISO 3166-2:JM",
+    "filepath":"22px-Flag_of_Jamaica.svg.png"
+  },
+  {
+    "name":" Япония",
+    "alpha2":"JP",
+    "alpha3":"JPN",
+    "isoNum":392,
+    "iso":"ISO 3166-2:JP",
+    "filepath":"22px-Flag_of_Japan.svg.png"
+  }
+]

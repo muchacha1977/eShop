@@ -1,0 +1,109 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <div class="row info">
+            <div class="col-sm-12">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <h3 class="modal-title col-sm-8">
+              Доставка № <%= name %>  на <%= shipmentDate %>
+        </h3>
+            <i class="<%= stateImg %> fa-2x text-right col-sm-3"></i>
+        </div>
+        </div>
+    </div>
+    <div class="modal-body">
+
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                 <strong>Продавец: </strong><%= shop.name %> </b>
+                </div>
+                <div class="row">
+                    <strong>Адрес доставки: </strong><%= shop.name %> </b>
+                </div>
+            </div>
+           <div class="col-xs-6">
+            <div class="col-xs-2">
+                <i class="<%= shipmentTypeImg %> fa-2x"></i>
+            </div>
+            <div class="col-xs-10">
+                <strong>Особенности доставки: </strong> Доставка осуществляется с 10.00 до 18.00 по выходным</b>
+            </div>
+           </div>
+        </div>
+
+        <div class="btn-group pull-right" role="group" aria-label="...">
+            <div id="btn-order-ordergroup-cancel" class="btn btn-primary btn-xs">Отменить заказы</div>
+            <div id="btn-order-ordergroup-callback" class="btn btn-primary btn-xs">Обратный звонок</div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                <tr >
+                    <th></th>
+                    <th>№</th>
+                    <th>Создан</th>
+                    <th>Штрихкод</th>
+                    <th>Наименование</th>
+                    <th>Кол-во</th>
+                    <th>Цена</th>
+                    <th>Стоимость</th>
+                    <th>Скидка</th>
+                    <th class="text-center">
+                        <b>К</b>
+                        <b>оплате</b>
+                    </th>
+                    <th>Статус</th>
+                </tr>
+                </thead>
+                <tbody><!-- Здесь выводим Orders --></tbody>
+            </table>
+
+        </div>
+        <div class="row">
+        <div class="col-xs-6">
+                       <strong>Комментарий: </strong><%= comment %>
+        </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-4 text-left">
+                <strong>Сумма заказа: </strong>
+                    </div>
+                    <div class="col-xs-8 text-right">
+                        <%= itemPrice %>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 text-left">
+                        <strong>Сумма доставки: </strong>
+                    </div>
+                    <div class="col-xs-8 text-right">
+                        <%= shipmentPrice %>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 text-left">
+                        <strong>Скидка:</strong>
+                    </div>
+                    <div class="col-xs-8 text-right">
+                        <%= itemDiscount %>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 text-left">
+                        <strong>К оплате:</strong>
+                    </div>
+                    <div class="col-xs-8 text-right">
+                        <strong><%= totalPrice %></strong>
+                    </div>
+               </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<td><img style="  max-width: 50px;max-height: 50px;" src="rest/v0/product/pimg/<%- product.id %>" alt='<%- product.name %>'></td>
+<td><%- product.name %></td>
+<td>{{ order.productEan }}</td>
+<td class="text-right"><%- unitPrice %></td>
+<td class="text-right"><%- totalPrice %></td>
+<td class="text-center"><%- quantity %></td>
+<td class="text-center">
+    <div class="dropdown">
+        <button id="order-state" class="btn btn-primary" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            <%- state %>
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="state">
+            <li role="presentation"><a class="" id="action-remove" role="menuitem"
+                                       tabindex="-1" href="#">Удалить</a></li>
+        </ul>
+    </div>
+
+</td>

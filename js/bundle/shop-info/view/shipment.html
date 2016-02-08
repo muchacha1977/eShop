@@ -1,0 +1,29 @@
+<div class="col-sm-3 shop-logo">
+    <img src="rest/v0/shops/<%= shopId %>/logo" >
+</div>
+<div class="info-content col-sm-9">
+    <div class="clearfix">
+        <div class="back-to-shop pull-right">
+            <a href="#prodlist/-/<%= id %>">Назад в магазин &raquo;</a>
+        </div>
+        <h3>Доставка</h3>
+    </div>
+    <table class="shipment-table">
+        <tr>
+            <th class="text-center"></th>
+            <th class="text-left">Название</th>
+            <th class="text-left">Описание</th>
+            <th class="text-center">Цена</th>
+            <th class="text-center">Время</th>
+        </tr>
+        <% for(var i = 0; i < shipments.length && shipments[i].active; ++i) {  %>
+        <tr>
+            <td class="text-center"><span class="<%= shipments[i].classIcon %>"></span></td>
+            <td class="text-left"><%= shipments[i].name %></td>
+            <td class="text-left"><%= shipments[i].description %></td>
+            <td class="text-center"><%= shipments[i].price %></td>
+            <td class="text-center"><%= shipments[i].days %></td>
+        </tr>
+        <% } %>
+    </table>
+</div>

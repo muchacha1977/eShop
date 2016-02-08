@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Sans+Caption:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900);
+.home-page .shops-header {
+  margin-top: 20px;
+}
+.home-page .shop-item {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #c4c4c4;
+}
+.home-page .shop-item.switched-off * {
+  opacity: 0.4;
+}
+.home-page .shop-item.switched-off:hover * {
+  opacity: 1;
+}
+.home-page .shop-item .action-btn {
+  cursor: pointer;
+  margin-right: 7px;
+}
+.home-page .shop-item .action-btn:hover {
+  color: #c53546;
+}
+.home-page .shop-item.on-repair {
+  opacity: 0.6;
+}
+.home-page .shop-item.on-repair .on-repair-block {
+  color: red;
+}
+.shop-profile .row {
+  margin: 5px 0;
+}
+.shop-profile .to-close {
+  margin-top: 20px;
+}

@@ -1,0 +1,74 @@
+
+#carousel_inner {
+    float:left;
+    width:90%;
+    overflow: hidden;
+}
+
+#carousel_ul {
+    position:relative;
+    left:-130px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width:9999px;
+}
+
+#carousel_ul div{
+
+    float: left;
+    width: 100px;
+    padding:0px;
+    height:80px;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom:-16px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#carousel_ul div img {
+.margin-bottom:-4px;
+    cursor:pointer;
+    cursor: hand;
+    border:0px;
+}
+
+.sliderTop #carousel_ul a{ color:#000; text-decoration:none;}
+
+#buttons {
+    padding:0 0 5px 0;
+    float:right;
+}
+
+#buttons a {
+    display:inline;
+    width:41px;
+    height:32px;
+    text-indent:-999em;
+    float:left;
+    outline:0;
+    z-index: 999;
+    text-align: center;
+    margin-top:20px;
+}
+#carousel_ul div p {  line-height: 15px; }
+
+/* Styling for prev and next buttons */
+a#prev {
+    background:url(movingbox/arrow1.gif) 0 -32px no-repeat;
+}
+
+a#prev:hover {
+    background:url(movingbox/arrow1.gif) 0 0 no-repeat;
+}
+
+a#next {
+    background:url(movingbox/arrow1.gif) -41px -32px no-repeat;
+}
+
+a#next:hover {
+    background:url(movingbox/arrow1.gif) -41px 0 no-repeat;
+}
+
+

@@ -1,0 +1,55 @@
+<div id="trader-payment" class="col-xs-12">
+	
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="form-group">
+				<div class='input-group date' id='period_start'>
+					<span class="input-group-addon">с</span>
+					<input type='text' class="form-control" id="startDate"/>
+					<span class="input-group-addon">
+						<span class="glyphicon glyphicon-calendar"></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="form-group">
+				<div class='input-group date' id='period_end'>
+					<span class="input-group-addon">по</span>
+					<input type='text' class="form-control" id="endDate"/>
+					<span class="input-group-addon">
+						<span class="glyphicon glyphicon-calendar"></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<button type="button" class="btn btn-primary" id="vent-period">Показать</button>
+			<button type="button" class="btn btn-default" id="download" data-placement="top" title="Выгрузка данных за выбранный период" data-toggle="tooltip">
+				<span class="fa fa-download"> </span>
+                Выгрузить
+			</button>
+		</div>
+	</div>
+	
+    <div id="shop-payment-list">
+    </div>
+	
+	<table>
+        <tr class="breadcrumb">
+            <td class="text-right">Итого</td>
+            <td><%= incomingTotal()%></td>
+            <td><%= costsTotal()%></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+	</table>
+    <div id="shop-payments-pagination">
+    </div>
+    <div style="display:none" id="shop-payments-frame-div">
+    </div>
+    <div id="trader-payment-modal-view"></div>
+</div>

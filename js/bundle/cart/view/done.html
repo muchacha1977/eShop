@@ -1,0 +1,93 @@
+<div id="cart-full" class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Подтвердите заказ в магазине <%- name %></h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="list-group">
+                        <li class="list-group-item">Способ доставки: <%- defaultShipments.description %></li>
+                        <li class="list-group-item">Примерная дата доставки: <%- defaultShipments.days  %></li>
+                        <li class="list-group-item">Адрес доставки: <%- defaultAddress.data %></li>
+                        <li class="list-group-item">Телефон: <%- order.phone %></li>
+                        <% if(! _.isEmpty(order.comment) ) { %>
+                        <li class="list-group-item">
+                            <h5>Комментарий к заказу:</h5>
+                            <p><%- order.comment %></p>
+                        </li>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>
+                        Состав заказа
+                    </h4>
+                    <table class="table" id="cart-order-items">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th class="sortable">Наименование</th>
+                            <th>Штрихкод</th>
+                            <th class="text-right sortable">Цена <i class="fa fa-rub"></i></th>
+                            <th class="text-right sortable">Стоимость <i class="fa fa-rub"></i></th>
+                            <th class="text-center sortable">Кол-во</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <% _.each(offers, function(value, key, list) { %>
+                            <tr>
+
+                                <td><img style="  max-width: 50px;max-height: 50px;" src="rest/v0/product/pimg/<%- value.productId %>" alt='<%- value.productName %>'></td>
+                                <td><%- value.productName %></td>
+                                <td><%- App.barCode(value.productEan) %></td>
+                                <td class="text-right"><%- App.decimal(value.offerPrice) %></td>
+                                <td class="text-right"><%- App.decimal(value.offerPrice*value.amount) %></td>
+                                <td class="text-center"><%- value.amount %></td>
+
+                            </tr>
+                        <% }); %>
+
+                        <tr class="hidden">
+
+                            <td></td>
+                            <td></td>
+                            <td colspan="2" class="text-right">Спишется бонусов</td>
+                            <td colspan="2">2500 <i class="fa fa-rub"></i></td>
+
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="text-right">
+                        Стоимость доставки
+                        <%- App.decimal(defaultShipments.price) %> <i class="fa fa-rub"></i>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="text-right breadcrumb">
+                        <b>Итого товаров: <%- total %> на сумму: </b>
+                        <b><%- App.decimal(Number(sum)+Number(defaultShipments.price)) %></b> <i class="fa fa-rub"></i>
+                    </div>
+                </div>
+                <div class="col-xs-12 text-right">
+                    <button id="cart-done-back" type="button" class="btn btn-default">Отменить/Изменить</button>
+                    <button id="cart-done-submit" type="button" class="btn btn-primary">Подтвердить</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

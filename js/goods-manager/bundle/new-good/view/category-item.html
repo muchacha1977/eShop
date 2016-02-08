@@ -1,0 +1,8 @@
+<h4><a data-id="<%- id %>" class="js-category-name js-category-item"><%- name %></a> <%- (typeof nodes !== 'undefined' ? '(' + nodes.length + ')' : '') %></h4>
+<% if (typeof nodes !== 'undefined') { %>
+<ul>
+    <% for(var i = 0; i < nodes.length; ++i) { %>
+    <li><a class="js-category-item" data-id="<%- nodes[i].id %>"><%- nodes[i].name %><%- (i + 1 == nodes.length ? '' : ',') %></a></li>
+    <% } %>
+</ul>
+<% } %>

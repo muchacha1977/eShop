@@ -1,0 +1,138 @@
+@import "../variables.less";
+
+.edit-good{
+  .good-form{
+    margin: 30px 0 0;
+    .form-group{
+      h4{
+        margin-top: 0;
+      }
+    }
+
+    .add-img{
+      overflow: hidden;
+      position: relative;
+      width: 200px;
+      margin-bottom: 10px;
+      input{
+        opacity: 0;
+        position: absolute;
+          top: 0;
+          left: -200px;
+          cursor: pointer;
+          width: 1500px;
+      }
+    }
+    .img-container{
+      margin-bottom: 20px;
+      .img-wrapper{
+          display: inline-block;
+          height: 70px;
+          width: 120px;
+          cursor: pointer;
+          position: relative;
+          margin-right: 3px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          border: 1px solid #c4c4c4;
+          border-radius: 4px;
+          .delete-img{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 20px;
+            text-align: center;
+            border-radius: 0 0 0 4px;
+            background-color: @brand-primary;
+            color: #fff;            
+          }
+      }
+    }
+    .buttons-block{
+      margin-top: 20px;
+      button{
+        margin-right: 10px;
+      }
+    }
+  }  
+
+  .good-form-chars{
+    margin: 30px 0;  
+  }
+
+  .good-form-chars-second{
+    margin: 30px 0;
+    button{
+      margin-right: 20px;
+    }
+  }
+
+  .search-category-block{
+    margin-bottom: 10px;
+    h4{
+      display: inline-block;
+    }
+    input.form-control{
+      display: inline-block;
+        margin: 0 30px;
+        width: 400px;
+    }
+  }
+
+  .good-categories-list{
+    padding: 20px;
+    text-align: justify;
+    h4{
+      text-align: left;
+      font-size: 20px;
+      a{
+        color: inherit;
+      }    
+    }
+
+    li{
+      a{      
+        cursor: pointer;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+
+    .good-collection-item{
+      display: inline-block;
+    width: 376px;
+    padding-bottom: 30px;
+    vertical-align: top;
+    margin-right: 10px;
+      ul{
+        list-style-type: none;
+        padding-left: 0;
+        text-align: left;
+        li{
+          display: inline-block;
+          margin-right: 3px;
+          
+        }
+      }
+    }
+  }
+
+  .good-name-form{
+    margin: 30px 0;
+  }
+  .current-category{
+    .category-info{
+      padding-left: 15px;
+      margin-bottom: 20px;
+      .category-name{
+        color: @brand-primary;
+        margin-left: 10px;
+      }
+    }
+    .chars-form-header{
+      padding-left: 15px;
+    }
+  }
+}

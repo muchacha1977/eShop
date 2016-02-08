@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "level": 1,
+      "nick": "Федор Удалец!",
+      "orderCount": 105,
+      "bonus": 35000,
+      "delivered": 95,
+      "position": 3
+    },
+
+    {
+      "level": 2,
+      "nick": "Федор Молодец!",
+      "orderCount": 105,
+      "bonus": 35000,
+      "delivered": 15,
+      "position": -1
+    },
+
+    {
+      "level": 3,
+      "nick": "Василий Удалец!",
+      "orderCount": 105,
+      "bonus": 35000,
+      "delivered": 10,
+      "position": 3
+    },
+
+    {
+      "level": 4,
+      "nick": "Илья Удалец!",
+      "orderCount": 105,
+      "bonus": 35000,
+      "delivered": 3,
+      "position": 3
+    },
+
+    {
+      "level": 5,
+      "nick": "Афоня Удалец!",
+      "orderCount": 105,
+      "bonus": 35000,
+      "delivered": 50,
+      "position": 3
+    },
+
+    {
+      "level": 6,
+      "nick": "Владимир Удалец!",
+      "orderCount": 105,
+      "bonus": 35000,
+      "delivered": 85,
+      "position": 0
+    }
+  ]
+}

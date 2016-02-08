@@ -1,0 +1,9 @@
+<% if(position>0){ %>
+    +<%- position %> <span class="glyphicon glyphicon-arrow-up text-success"></span>
+<% } %>
+<% if(position<0){ %>
+    <%- position %> <span class="glyphicon glyphicon-arrow-down text-primary"></span>
+<% } %>
+<% if(position==0){ %>
+    <%- position %> <span class="glyphicon glyphicon-resize-vertical"></span>
+<% } %>

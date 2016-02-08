@@ -1,0 +1,25 @@
+.addtocompare {
+    display: inline-block;
+    vertical-align: middle;
+    /*border: 1px solid #c53546;*/
+    border-radius: 3px;
+    color: #c53546;
+    padding: 13px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.addtocompare:before {
+    content: "\e178";
+    position: relative;
+    top: 3px;
+    right:10px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.addtocompare--mini:before {
+    display: none;
+}

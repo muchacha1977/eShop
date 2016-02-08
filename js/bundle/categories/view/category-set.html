@@ -1,0 +1,6 @@
+<h4 data-id="<%- id %>"><a href="#prodlist/<%- id %>"><%- name %> (<%- nodes.length %>)</a></h4>
+<ul>
+    <% for(var i = 0; i < nodes.length; ++i) { %>
+    <li><a href="#prodlist/<%- nodes[i].id %>" class="js-node-item" data-id="<%- nodes[i].id %>"><%- nodes[i].name %></a><%- (i + 1 == nodes.length ? '' : ',') %></li>
+    <% } %>
+</ul>

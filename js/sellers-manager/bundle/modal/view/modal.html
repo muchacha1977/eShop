@@ -1,0 +1,20 @@
+<div class="modal-dialog modal-sm" id="modal-dialog">
+    <div class="modal-content" id="modal-content">
+
+        <div class="modal-body" >
+
+                <p>
+                    <%= text %>
+                </p>
+
+                <div class="form-group <%- (_centerBtn ? 'text-center' : '') %>">
+                    <% if ( yes != "" ){ %>
+                    <button type="button" id="modal-btn-yes" class="btn <%- classYes %> yes" <% if (_focus == 'yes'){ %>autofocus <% } %>><%- yes %></button>
+                    <% }; %>
+                    <% if ( no != "" ){ %>
+                    <button type="button" id="modal-btn-no" class="btn <%- classNo  %> no" <% if (_focus == 'no'){ %>autofocus <% } %>><%- no %></button>
+                    <% }; %>
+                </div>
+        </div>
+    </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->

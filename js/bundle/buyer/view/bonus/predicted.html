@@ -1,0 +1,150 @@
+<div class="clearfix">
+    <br>
+</div>
+<div id="noprogram" class="well-lg alert alert-danger text-center <%= (programCount>0)? 'hidden': '' %>">
+    <h3>Вы не участвуете в программах!</h3>
+</div>
+<div class="<%= (programCount==0)? 'hidden': '' %>">
+<div class="well-sm well">
+    <h3>Вы участвуете в <%- programCount %> <%= (programCount==1)? 'активной программе': 'активных программах' %> </h3>
+    <h4>Дневная по количеству 01.07.2015</h4>
+    <h4>Дневная по сумме 01.07.2015</h4>
+    <h4>Месячная по количеству 01.07.2015 - 31.07.2015</h4>
+    <h4>Месячная по сумме 01.07.2015 - 31.07.2015</h4>
+
+</div>
+
+<h3>Дневная 01.07.2015</h3>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+        87%
+    </div>
+</div>
+<div class="row">
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4>Бонусный фонд <%- App.decimal(700000)%> кверов</h4>
+	</div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4>Кол-во участников 2500</h4>
+    </div>
+</div>
+
+<h6>*Фонд изменяется в зависимости от кол-ва отмененных заказов</h6>
+
+<div class="row">
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4>По количеству</h4>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <tr>
+                    <td>143</td>
+                    <td>Я</td>
+                    <td>5</td>
+                    <td><%- App.decimal(1500)%></td>
+                    <td>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+                                87%
+                            </div>
+                        </div>
+                    </td>
+                    <td>+3 <span class="glyphicon glyphicon-arrow-up text-success"></span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-responsive" id="day-of-count"></div>
+        <div id="day-of-count-pagination"></div>
+	</div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4>По сумме</h4>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <tr>
+                    <td>143</td>
+                    <td>Я</td>
+                    <td><%- App.decimal(15500)%></td>
+                    <td><%- App.decimal(1500)%></td>
+                    <td>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+                                87%
+                            </div>
+                        </div>
+                    </td>
+                    <td>+3 <span class="glyphicon glyphicon-arrow-up text-success"></span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-responsive" id="day-of-sum"></div>
+        <div id="day-of-sum-pagination"></div>
+    </div>
+</div>
+
+<h3>Месячная 01.07.2015 - 31.07.2015</h3>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+        10%
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4>Бонусный фонд <%- App.decimal(1700000)%> кверов</h4>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4>Кол-во участников 8568</h4>
+    </div>
+</div>
+
+<h6>*Фонд изменяется в зависимости от кол-ва отмененных заказов</h6>
+<div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4>По количеству</h4>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <tr>
+                    <td>143</td>
+                    <td>Я</td>
+                    <td>5</td>
+                    <td><%- App.decimal(1500)%></td>
+                    <td>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+                                87%
+                            </div>
+                        </div>
+                    </td>
+                    <td>+3 <span class="glyphicon glyphicon-arrow-up text-success"></span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-responsive" id="month-of-count"></div>
+        <div id="month-of-count-pagination"></div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <h4>По сумме</h4>
+
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <tr>
+                    <td>143</td>
+                    <td>Я</td>
+                    <td><%- App.decimal(15500)%></td>
+                    <td><%- App.decimal(1500)%></td>
+                    <td>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+                                87%
+                            </div>
+                        </div>
+                    </td>
+                    <td>+3 <span class="glyphicon glyphicon-arrow-up text-success"></span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-responsive" id="month-of-sum"></div>
+        <div id="month-of-sum-pagination"></div>
+    </div>
+</div>
+</div>
+
+

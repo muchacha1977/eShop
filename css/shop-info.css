@@ -1,0 +1,38 @@
+.shop-info .shop-logo img,
+.shop-shipment .shop-logo img,
+.shop-conditions .shop-logo img {
+  width: 100%;
+}
+.shop-info .info-content,
+.shop-shipment .info-content,
+.shop-conditions .info-content {
+  padding: 0 15px;
+}
+.shop-info .info-content h3,
+.shop-shipment .info-content h3,
+.shop-conditions .info-content h3 {
+  margin-top: 0;
+}
+.shop-info .info-content .shipment-table,
+.shop-shipment .info-content .shipment-table,
+.shop-conditions .info-content .shipment-table {
+  width: 100%;
+}
+.shop-info .info-content .shipment-table th,
+.shop-shipment .info-content .shipment-table th,
+.shop-conditions .info-content .shipment-table th,
+.shop-info .info-content .shipment-table td,
+.shop-shipment .info-content .shipment-table td,
+.shop-conditions .info-content .shipment-table td {
+  padding: 10px;
+}
+.shop-info .info-content .shipment-table th,
+.shop-shipment .info-content .shipment-table th,
+.shop-conditions .info-content .shipment-table th {
+  font-weight: bold;
+}
+.shop-info .info-content .shipment-table td,
+.shop-shipment .info-content .shipment-table td,
+.shop-conditions .info-content .shipment-table td {
+  font-weight: normal;
+}

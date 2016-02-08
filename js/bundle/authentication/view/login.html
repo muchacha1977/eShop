@@ -1,0 +1,66 @@
+<div class="modal-dialog modal-sm" id="authentication-dialog">
+    <div class="modal-content" id="authentication-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Вход в систему</h4>
+        </div>
+        <div class="modal-body" >
+            <div class="login-form-wrapper" id="login-form-wrapper">
+
+
+                <form role="form" data-toggle="validator" id="login-form" method="post">
+
+                    <input type="hidden" id="loging-form-remind" name="remind" value="1" disabled>
+                    <div class="form-group login-type">
+                        <button type="button" id="login-form-phone" class="btn btn-default">Телефон</button>
+                        <button type="button" id="login-form-email" class="btn btn-default">Эл. почта</button>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon"><i id="glyphicon" class="glyphicon glyphicon-earphone"></i></div>
+                            <input type="text" class="form-control login-form-phone" id="login-form-name" name="name" value="" placeholder="+7 Телефон без скобок" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
+                            <input type="password" class="form-control" id="login-form-password" name="password" value="" placeholder="Пароль" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group alert alert-danger"  id="login-form-status">
+                        <p>
+                            Пара пользователь пароль не существует
+                        </p>
+                    </div>
+
+                    <div class="form-group" id="login-form-action-login">
+                        <button type="submit" id="login-form-submit" class="btn btn-primary">Войти</button>
+                        <button type="button" class="btn btn-link" id="login-form-remind">Вспомнить пароль</button>
+                    </div>
+
+                    <div class="form-group" id="login-form-action-remind">
+                        <button type="button" id="vent-login-form-action-remind" class="btn btn-primary">Восстановить</button>
+                        <button type="button" class="btn btn-link" id="login-form-action-remind-back">Войти</button>
+                    </div>
+
+                    <div class="form-group">
+                        <p>
+                            Если у вас нет учетной записи в системе Qweras, вам необходимо <button type="button" id="registration" title="Зарегистрироваться" class="">зарегистрироваться</button>
+                        </p>
+                        <p <% if(ENV == "prod") print('class="hidden"') %>>
+                            <a id="test-buyer" href="#">b</a> </span> <a id="test-shop" href="#">s</a> <a id="test-producer" href="#">p</a> <a id="" href="admin.html">Admin</a> <a href="#producer">Producer</a>
+                        </p>
+                    </div>
+					
+					<div class="form-group text-center">
+						<a href="#" id="producerLogin">Войти как производитель</a>
+					</div>
+
+                </form>
+
+            </div>
+        </div>
+    </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->

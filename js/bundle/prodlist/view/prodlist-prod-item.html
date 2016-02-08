@@ -1,0 +1,48 @@
+<section class="media-left">
+	<a href="#product/<%=id%>">
+		<% if (!media[0]) { %><img class="media-object" src="img/nophoto.png" alt="<%- name %>" style="width: 120px;">
+		<% } else { %><img class="media-object" src="rest/v0/product/img/<%= media[0] %>" style="width: 120px;" ><% } %>
+	</a>
+</section>
+<section class="media-body clearfix">
+    <div class="left-info">
+        <div class="advanced-product-price pull-right">
+            1234 <span class="fa fa-rub"></span>
+        </div>
+        <h5 class="media-heading"><a href="#product/<%=id%>"><%= name %></a></h5>
+        <div class="product-rating">
+            <% for(var i=0; i<5; i++ ){ %>
+            <span class="glyphicon  <%= (i>=rate || typeof rate=='undefined')? 'glyphicon-star-empty': 'glyphicon-star' %>"></span>
+            <% } %>
+        </div>
+        <div class="product-description"> <%if (typeof shortDescription == 'undefined') { %> <%= description %> <% } else { %> <%= shortDescription %> <% } %></div>
+        <div class="product-reviews">
+            <a style="display: none;" data-id="<%=id%>">Отзывы<span class="badge"> 28</span></a>
+        </div>
+    </div>
+    <div class="right-info">
+        <div class="barcode" style="width: 174px;  position: relative;  right: 2px;">
+            <%- barCode %>
+        </div>
+        <div class="advanced product-price">
+            <span class="_small _from">от</span><%- App.decimal(stat.minPrice) %> <span class="fa fa-rub"></span><br>
+            <span class="_small _from">до</span><%- App.decimal(stat.maxPrice) %> <span class="fa fa-rub"></span><br>
+        </div>
+
+		<% if (typeof traderViewing !== 'undefined' && traderViewing === true) { %>
+		<div class="advanced">
+			<p><button id="addOffer" type="button" class="btn btn-primary btn-block">Добавить предложение</button></p>
+			<p><button type="button" class="btn btn-primary btn-block">Посмотреть заявки</button></p>
+		</div>
+		<% } %>
+        <% if (typeof shop === 'undefined' || shop === null) { %>
+        <div class="advanced to-product">
+            <a href="#product/<%=id%>" class="btn btn-primary">Посмотреть цены <span class="badge"><%- stat.offers %></span></a>
+        </div>
+        <% } else { %>
+        <div class="advanced to-basket js-to-basket">
+            <button class="btn btn-primary" data-cart="<%= shop %>" data-offer-id="<%= id %>" data-offer-amount="1">В корзину</button>
+        </div>
+        <% } %>
+    </div>
+</section>

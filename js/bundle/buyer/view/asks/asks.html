@@ -1,0 +1,23 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">
+                <div class="barcode">
+                    <%- product.barCode %>
+                </div>
+                <%- product.name %>
+            </h3>
+        </div>
+        <div class="modal-body table-responsive" id="buyer-asks-list">
+
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" id="modal-btn-closed" data-dismiss="modal" class="btn btn-link closed">Закрыть окно</button>
+            <button type="button" id="modal-btn-yes" class="btn btn-primary yes">Назад</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<h3>Количество рефералов на уровнях</h3>
+<div class="table-responsive" id="level">
+    <table class="table table-condensed">
+        <thead>
+        <tr>
+            <th>Уровень:</th>
+            <% _.each(affiliateNetwork, function(el,k,l){ %>
+                <th><%= k+1 %></th>
+            <% }); %>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><b>Кол-во:</b></td>
+            <% _.each(affiliateNetwork, function(el,k,l){ %>
+            <td><%- el %></td>
+            <% }); %>
+        </tr>
+        </tbody>
+    </table>
+</div>

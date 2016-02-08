@@ -1,0 +1,163 @@
+/* -- Popover shops -- */
+.app-shops {
+  .container{
+    position: relative;
+    .popover{
+      left: 0 !important;
+      max-width: none;
+      width: 100%;
+      padding: 1px 0;
+      .arrow{
+        left: 60px !important;
+      }
+      .popover-content{
+        padding: 9px 0;
+      }
+      .popover-head{
+        border-bottom: 1px solid rgb(186, 186, 186);
+        padding: 20px 30px;
+        h3{
+          @media (max-width: 767px){
+            float: none !important;
+          }
+        }
+      }
+      .shops-popover-title{
+        margin-top: 0;
+      }
+
+    }
+  }
+}
+.search-shops-input{
+	width: 290px;
+	margin-left: 50px;
+	padding: 20px 0;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	border: none;
+	box-shadow: none;
+  }
+.search-shops{
+  width: 350px;
+  margin-top: 0;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 4px;
+  padding-left: 1px;
+  @media (max-width: 767px){
+	float: none !important;
+	width: 100%;
+  }
+}
+
+.shops-filters{
+	margin-top: 20px;
+	width: 100%;
+
+	*{
+	  vertical-align: middle;
+	}
+	@media (max-width: 1200px) {
+	  *{
+		vertical-align: top;
+	  }
+	}
+	.filter-button{
+	  color: #404040;
+	  border-bottom: 1px dashed #404040;
+	  text-decoration: none;
+	  line-height: 13px;
+	  margin-right: 30px;
+	  cursor: pointer;
+	  &.active{
+		color: #c53546;
+		border-bottom: 1px dashed #c53546;
+	  }
+	}
+	.alphabet-filter{
+	  position: relative;
+	  display: inline-block;
+	  *{
+		display: inline-block;
+	  }
+	  .sub-filter{
+		display: inline-block;
+		margin-right: 10px;
+		@media (max-width: 767px){
+		  width: 100%;
+		}
+	  }
+	  @media (max-width: 767px){
+		margin-top: 5px;
+		width: 100%;
+	  }
+	  @media (max-width: 767px) and (min-width: 436px){
+		height: 80px;
+	  }
+	  @media (max-width: 435px){
+		height: 110px;
+	  }
+
+	  .filter-action, .sub-filter-trigger{
+		cursor: pointer;
+		color: #404040;
+		border: 1px solid #404040;
+		border-radius: 3px;
+		padding: 0 4px;
+		text-align: center;
+		&:hover{
+		  color: #c53546;
+		  border: 1px solid #c53546;
+		  text-decoration: none
+		}
+		@media (max-width: 1200px) {
+		  margin-bottom: 5px;
+		}
+	  }
+	  .sub-filter-trigger{
+		@media (max-width: 767px){
+		  display: inline-block !important;
+		  position: absolute;
+		  top: 0;
+		}
+		&.russian-block{
+		  @media (max-width: 767px){
+			left: 35px;
+		  }
+		}
+		&.english-block{
+		  @media (max-width: 767px){
+			left: 70px;
+		  }
+		}
+	  }
+	  .filter-action{
+		width: 22px;
+	  }
+	  .sub-filter-block {
+		@media (max-width: 1200px) and (min-width: 992px){
+		  width: 540px;
+		}
+		@media (max-width: 991px) and (min-width: 768px){
+		  width: 320px;
+		}
+		@media (max-width: 767px){
+		  width: 100%;
+		  position: absolute;
+		  top: 35px;
+		}
+	  }
+	}
+  }
+  
+  .shops-container{
+        padding: 20px 30px;
+        .shop-item{
+          display: inline-block;
+          font-size: 21px;
+          width: 276px;
+          cursor: pointer;
+          text-decoration: underline;
+          padding: 2px 50px 2px 6px;
+        }
+      }

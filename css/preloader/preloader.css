@@ -1,0 +1,14 @@
+#preloader .preloader-img {
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    background: url('143.gif') no-repeat center center;
+}
+#preloader{
+    z-index: 999999;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: block;
+}

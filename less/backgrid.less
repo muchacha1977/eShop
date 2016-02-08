@@ -1,0 +1,78 @@
+table {
+  th{
+
+    text-align: center;
+    &.creationTime,
+    &.deliveryDate{
+      text-align: center;
+    }
+
+    &.sortable{
+      a{
+        cursor: pointer;
+
+        &::after {
+          display: inline-block;
+          font: normal normal normal 14px/1 FontAwesome;
+          font-size: inherit;
+          text-rendering: auto;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          transform: translate(0, 0);
+          content: "\f0dc";
+          left: 2px;
+          position: relative;
+          top: 1px;
+        }
+      }
+    }
+
+    &.ascending a::after {
+      content: "\f0dd";
+    }
+
+    &.descending a::after {
+      content: "\f0de";
+    }
+
+    &.unitPrice,
+    &.quantity,
+    &.name,
+    &.group.name,
+    &.linePrice,
+    &.totalPrice,
+    &.itemCount,
+    &.itemPrice,
+    &.shipmentPrice{
+      text-align: right;
+    }
+
+  }
+
+  tr {
+    td {
+      &.number-cell,
+      &.integer-cell{
+        text-align: right;
+      }
+
+      &.date-cell,
+      &.active,
+      &.select-row-cell{
+        text-align: center;
+      }
+
+      &.html-cell{
+        min-width: 70px;
+        .btn-group{
+          position: absolute;
+          margin-top: -5px;
+        }
+      }
+    }
+  }
+}
+
+#trader-orders-current table thead tr th:nth-child(4){
+  text-align: right;
+}

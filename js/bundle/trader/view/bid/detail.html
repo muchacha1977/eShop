@@ -1,0 +1,135 @@
+<div id="ordergroup-detail" class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">Заявка <%- name %> от покупателя <%- buyer.name %>. Создана <%- creationTime %></h3>
+        </div>
+        <div class="modal-body">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4">
+							<a href="#product/<%= product.id %>" target="_blank" title="<%= product.name %>"><%= product.name %></a>
+							<p class="advanced product-code">
+								<span class="glyphicon glyphicon-barcode"></span>
+								<%- product.barCode %>
+							</p>
+							<a href="#product/064A2ADE-C6AD-46D5-AD40-D52DE9846411" class="thumbnail">
+								<!--img src="img/tmp/cupalnik.jpg" alt="<%= product.name %>"-->
+								<img src="rest/v0/product/pimg/<%- product.id %>" alt="<%= product.name %>">
+							</a>
+							
+						</div>
+						<div class="col-xs-12 col-sm-8">
+							<ul class="list-group">
+								<li class="list-group-item active">
+									Условия покупателя
+								</li>
+								<li class="list-group-item">
+									<span class="badge"><%- quantity %> шт.</span>
+									Количество
+								</li>
+								<li class="list-group-item">
+									<span class="badge"><%- App.decimal(unitPrice) %> <span class="fa fa-rub"></span></span>
+									По цене
+								</li>
+								<li class="list-group-item">
+									<span class="badge"><%- App.decimal(totalPrice) %> <span class="fa fa-rub"></span></span>
+									Общая стоимость
+								</li>
+								<li class="list-group-item">
+									<span class="badge"><%- regionName %></span>
+									Куда
+								</li>
+								<li class="list-group-item">
+									<span class="badge"> <%- validUntil %></span>
+									Примерная дата доставки
+								</li>
+								<li class="list-group-item">
+									<span class="badge"> <%- creationTime %></span>
+									Дата размещения
+								</li>
+							</ul>
+							<ul class="list-group">
+								<li class="list-group-item active">
+									Информация в системе
+								</li>
+								<li class="list-group-item">
+									<span class="badge">от <%- App.decimal(product.stat.minPrice) %> до <%- App.decimal(product.stat.maxPrice) %> <span class="fa fa-rub"></span> за штуку</span>
+									Цена
+								</li>
+								<li class="list-group-item">
+									<span class="badge"><%- asks %></span>
+									Откликов на заявку 
+									<% if(asks>0) { %><div><button type="button" id="showAskList" class="btn btn-default"> Показать все</button></div><% } %>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<ul class="list-group" id="askForm">
+						<li class="list-group-item active">
+							<% if (!id) { %>
+							Создать новый отклик
+							<% } else {%>
+							Ваш отклик
+							<% } %>
+						</li>
+						<li class="list-group-item form-group">
+							<label for="askPrice">Моя цена (за шт.)</label>
+							<div class="input-group">
+								<input id="askPrice" type="text" class="form-control" value="<%- ask.unitPrice %>">
+								<span class="input-group-addon">
+									<span class="fa fa-rub text-primary"> </span>
+								</span>
+							</div>
+						</li>
+						<li class="list-group-item form-group">
+							<label for="askQuantity">Количество</label>
+							<input id="askQuantity" type="text" class="form-control" value="<%- ask.quantity %>">
+						</li>
+						<li class="list-group-item form-group">
+							<label for="askQuantity">Дата поставки</label>
+							<div class="input-group date" id="shipmentTimeCalendar">
+                                <input id="shipmentTime" type='text' class="form-control" value="<%- ask.shipmentTimeFormatted %>"/>
+								<span class="input-group-addon">
+									<span class="glyphicon glyphicon-calendar text-primary"> </span>
+									Изменить
+								</span>
+                            </div>
+						</li>
+						<li class="list-group-item form-group">
+							<label>Способ доставки</label>
+							<div id="askShipment">
+								<% _.each(shipments, function(e,i,args){ %>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="askShipmentTypes" id="<%- e.type %>" value="<%- e.type %>" <% if(ask.shipmentTypes[e.type] == true) { %>checked <% } %>>
+										<span class="<%- e.stateimg %>"></span>
+										<%- e.description %>
+									</label>
+								</div>
+								<% }); %>
+							</div>
+							<% if (!id) { %>
+							<button typ="button" id="createAskBtn" class="btn btn-primary btn-block">Откликнуться</button>
+							<% } else {%>
+							<button typ="button" id="createAskBtn" class="btn btn-primary btn-block">Сохранить</button>
+							<p class="text-right"><button type="button" class="btn btn-link" id="removeAsk">Удалить</button></p>
+							<% } %>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="backGridAsksList"></div>
+			
+           
+        </div>
+        <div class="modal-footer">
+            <button type="button" id="modal-btn-no" class="btn yes" data-dismiss="modal" aria-label="Close">Закрыть</button>
+        </div>
+    </div>
+</div>

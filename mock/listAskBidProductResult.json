@@ -1,0 +1,96 @@
+{
+  "type": "listAskBidProductResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 2,
+  "data": [
+    {
+      "type": "askBidProductData",
+      "ask": {
+        "unitPrice": 356.00,
+        "quantity": 3,
+        "shipmentTypes": {
+          "SHIPMENT_TYPE_1": true,
+          "SHIPMENT_TYPE_2": true,
+          "SHIPMENT_TYPE_3": true,
+          "SHIPMENT_TYPE_4": true,
+          "SHIPMENT_TYPE_5": true
+        }
+      },
+      "bid": {
+        "id": "9FF38524-8563-4319-AB0B-7835D2A408B2",
+        "state": "ACTIVE",
+        "productId": "0349CEE6-B4A3-4FDE-94E8-5432DABBC0E9",
+        "quantity": 3,
+        "unitPrice": 356.00,
+        "region": "50",
+        "shipmentTypes": {
+          "SHIPMENT_TYPE_1": true,
+          "SHIPMENT_TYPE_2": true,
+          "SHIPMENT_TYPE_3": true,
+          "SHIPMENT_TYPE_4": true,
+          "SHIPMENT_TYPE_5": true
+        },
+        "asks": 1
+      },
+      "product": {
+        "category_id": "ECFF2B52-07B3-4459-A92D-C2EB4465027D",
+        "id": "0349CEE6-B4A3-4FDE-94E8-5432DABBC0E9",
+        "code": "14475-L",
+        "barCode": "4620144751217",
+        "name": "ÐÐ¾Ð¼Ð±Ð¸Ð½Ð¸Ð·Ð¾Ð½ \"Ð ÐµÑÐ¸Ð½Ð¸\"",
+        "description": "ÐÑÐµÐ»ÐµÑÑÐ½ÑÐ¹ ÐºÐ¾Ð¼Ð±Ð¸Ð½ÐµÐ·Ð¾Ð½ Ñ Ð¾ÑÐ¸Ð³Ð¸Ð½Ð°Ð»ÑÐ½ÑÐ¼ ÐºÐ¾ÑÐ¾ÑÐºÐ¸Ð¼ ÑÑÐºÐ°Ð²Ð¾Ð¼. Ð¡Ð¿ÐµÑÐµÐ´Ð¸ Ð²ÑÑÐ°Ð²ÐºÐ° Ð¸Ð· Ð¿Ð¾Ð»ÑÐ¿ÑÐ¾Ð·ÑÐ°ÑÐ½Ð¾Ð¹ ÑÐºÐ°Ð½Ð¸. Ð¡Ð¿Ð¸Ð½ÐºÐ° Ð¿Ð¾Ð»ÑÐ¾ÑÐºÑÑÑÐ°Ñ.",
+        "media": [
+          "0AB277A9-B48B-42D4-B64D-460CCB278444",
+          "6E3CFA4C-5732-4906-A778-CE47C2400812",
+          "CA4ACE9A-3177-4211-8666-2FA0E392627A",
+          "F5A3E5AC-5C98-4030-99A5-C0E0EF3DECC3"
+        ]
+      }
+    },
+	{
+      "type": "askBidProductData",
+      "ask": {
+        "unitPrice": 356.00,
+        "quantity": 3,
+        "shipmentTypes": {
+          "SHIPMENT_TYPE_1": true,
+          "SHIPMENT_TYPE_2": true,
+          "SHIPMENT_TYPE_3": true,
+          "SHIPMENT_TYPE_4": true,
+          "SHIPMENT_TYPE_5": true
+        }
+      },
+      "bid": {
+        "id": "9FF38524-8563-4319-AB0B-7835D2A408B2",
+        "state": "ACTIVE",
+        "productId": "0349CEE6-B4A3-4FDE-94E8-5432DABBC0E9",
+        "quantity": 3,
+        "unitPrice": 356.00,
+        "region": "50",
+        "shipmentTypes": {
+          "SHIPMENT_TYPE_1": true,
+          "SHIPMENT_TYPE_2": true,
+          "SHIPMENT_TYPE_3": true,
+          "SHIPMENT_TYPE_4": true,
+          "SHIPMENT_TYPE_5": true
+        },
+        "asks": 1
+      },
+      "product": {
+        "category_id": "ECFF2B52-07B3-4459-A92D-C2EB4465027D",
+        "id": "0349CEE6-B4A3-4FDE-94E8-5432DABBC0E9",
+        "code": "14475-L",
+        "barCode": "4620144751217",
+        "name": "ÐÐ¾Ð¼Ð±Ð¸Ð½Ð¸Ð·Ð¾Ð½ \"Ð ÐµÑÐ¸Ð½Ð¸\"",
+        "description": "ÐÑÐµÐ»ÐµÑÑÐ½ÑÐ¹ ÐºÐ¾Ð¼Ð±Ð¸Ð½ÐµÐ·Ð¾Ð½ Ñ Ð¾ÑÐ¸Ð³Ð¸Ð½Ð°Ð»ÑÐ½ÑÐ¼ ÐºÐ¾ÑÐ¾ÑÐºÐ¸Ð¼ ÑÑÐºÐ°Ð²Ð¾Ð¼. Ð¡Ð¿ÐµÑÐµÐ´Ð¸ Ð²ÑÑÐ°Ð²ÐºÐ° Ð¸Ð· Ð¿Ð¾Ð»ÑÐ¿ÑÐ¾Ð·ÑÐ°ÑÐ½Ð¾Ð¹ ÑÐºÐ°Ð½Ð¸. Ð¡Ð¿Ð¸Ð½ÐºÐ° Ð¿Ð¾Ð»ÑÐ¾ÑÐºÑÑÑÐ°Ñ.",
+        "media": [
+          "0AB277A9-B48B-42D4-B64D-460CCB278444",
+          "6E3CFA4C-5732-4906-A778-CE47C2400812",
+          "CA4ACE9A-3177-4211-8666-2FA0E392627A",
+          "F5A3E5AC-5C98-4030-99A5-C0E0EF3DECC3"
+        ]
+      }
+    }
+  ]
+}

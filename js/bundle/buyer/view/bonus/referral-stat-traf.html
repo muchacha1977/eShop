@@ -1,0 +1,32 @@
+
+<div id="chart"></div>
+<h3>Статистика по трафику</h3>
+<div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="form-group">
+            <div class='input-group date' id='period_start'>
+                <span class="input-group-addon">Период с</span>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="form-group">
+            <div class='input-group date' id='period_end'>
+                <span class="input-group-addon">по</span>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <button type="button" class="btn btn-primary" id="vent-period">Загрузить</button>
+    </div>
+</div>
+<div class="table-responsive" id="statistic"></div>
+<div id="pagination"></div>

@@ -1,0 +1,23 @@
+.barcode {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #c53546;
+  border-radius: 3px;
+  color: #c53546;
+  padding: 3px 6px;
+  font-size: 16px;
+}
+.barcode:before {
+  content: "\e040";
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.barcode--mini:before {
+  display: none;
+}

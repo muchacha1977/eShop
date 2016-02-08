@@ -1,0 +1,13 @@
+<div class="col-xs-4"><a href="#shop/<%- id %>" class="js-profile"><%- name %></a></div>
+<div class="col-xs-3"><%- contactManager %></div>
+<div class="col-xs-3 text-center"><%- phone %></div>
+<div class="col-xs-2 text-center">
+	<div class="js-repair-false"  style="display: <%- (repair ? 'none' : 'block') %>">
+		<span data-id="<%- id %>" class="js-action-btn action-btn glyphicon	<%- (active ? 'glyphicon-eye-open js-active' : 'glyphicon-eye-close') %> js-switch-active " title="<%- (active ? 'Выключить' : 'Включить') %>"></span>
+		<span data-id="<%- id %>" class="js-action-btn action-btn glyphicon glyphicon-trash js-delete-shop" title="Удалить"></span>
+		<span data-id="<%- id %>" class="js-action-btn action-btn glyphicon glyphicon-wrench js-repair-shop" title="На исправление"></span>
+	</div>
+	<div class="js-repair-true on-repair-block" style="display: <%- (repair ? 'block' : 'none') %>">
+		<span class="on-repair">На исправлении</span>
+	</div>
+</div>

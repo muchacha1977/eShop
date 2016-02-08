@@ -1,0 +1,46 @@
+/* Carousel Adaptation */
+@media (max-width: 1200px) and (min-width: 992px){
+	#product-list-blk .carousel-caption {
+		font-size: 33px;
+	}
+	.carousel-indicators {
+		bottom: 10px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	#product-list-blk .carousel-caption {
+		font-size: 26px;
+	}
+	.carousel-indicators {
+		bottom: -10px;
+	}
+}
+
+@media (max-width: 767px){
+	#product-list-blk .carousel-caption {
+		font-size: 14px;
+	}
+}
+.carousel-inner .item.active {
+	position: static;
+	perspective:none;
+	opacity: 1;
+	transform: none;
+	transition: none;
+}
+.carousel-inner .item.active.left,
+.carousel-inner .item.active.right {
+	-webkit-transition: -webkit-transform 0.6s ease-in-out;
+    -moz-transition: -moz-transform 0.6s ease-in-out;
+    -o-transition: -o-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+}
+
+#product-list-blk .carousel-caption {
+	z-index: auto;
+}
+.carousel-inner  .btn-primary {
+	position: relative;
+	z-index: 30;
+}

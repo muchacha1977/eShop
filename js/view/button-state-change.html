@@ -1,0 +1,9 @@
+<% if(next.length == 0){  %>
+<div class="text-center"><span class="<%- stateimg %>" data-toggle="tooltip" data-placement="left" title="<%- statepop %>"></span></div>
+<% }else{ %>
+    <div class="btn-group" data-toggle="tooltip" data-placement="left" title="<%- statepop %>">
+        <button type="button" class="btn btn-<%- className %> dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="<%- stateimg %>"></span> <span class="caret"></span>
+        </button>
+    </div>
+<% } %>

@@ -1,0 +1,33 @@
+{
+  "type": "reportsResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 26,
+
+  "data": [
+    {
+      "id"			: 342,
+      "name"		: "Товар такой-то",
+	  "orderSum"	: 265000,
+	  "deliverySum"	: 15000
+    },
+    {
+      "id"			: 3442,
+      "name"		: "Товар эдакий",
+	  "orderSum"	: 100000,
+	  "deliverySum"	: 18500
+    },
+    {
+      "id"			: 3432,
+      "name"		: "Товар Вот ещё",
+	  "orderSum"	: 65000,
+	  "deliverySum"	: 5000
+    },
+    {
+      "id"			: 3422,
+      "name"		: "хм-хм товар",
+	  "orderSum"	: 465000,
+	  "deliverySum"	: 26000
+    }
+  ]
+}

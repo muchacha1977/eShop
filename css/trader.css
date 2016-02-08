@@ -1,0 +1,37 @@
+#upload-prods-list {
+  position: relative;
+  overflow: hidden;
+}
+#fileUploadInput {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  height: 30px;
+  opacity: 0;
+  cursor: pointer;
+  width: 300px;
+}
+#trader-site-container .upload-logo-wrapper {
+  margin-bottom: 20px;
+}
+#trader-site-container .upload-logo-wrapper .control-label {
+  text-align: right;
+}
+#trader-site-container .upload-logo-wrapper img {
+  display: block;
+  width: 130px;
+  margin-bottom: 10px;
+}
+#trader-site-container .upload-logo-wrapper #upload-logo {
+  position: relative;
+  overflow: hidden;
+}
+#trader-site-container .upload-logo-wrapper #upload-logo #fileUploadInput {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  height: 30px;
+  opacity: 0;
+  cursor: pointer;
+  width: 300px;
+}

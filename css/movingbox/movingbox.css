@@ -1,0 +1,319 @@
+
+#carousel_inner {
+    float:left;
+    width:90%;
+    overflow: hidden;
+}
+
+#carousel_ul {
+    position:relative;
+    left:-130px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width:9999px;
+}
+
+#carousel_ul div{
+
+    float: left;
+    width: 100px;
+    padding:0px;
+    height:82px;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom:-16px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#carousel_ul div img {
+.margin-bottom:-4px;
+    cursor:pointer;
+    cursor: hand;
+    border:0px;
+}
+
+.sliderTop #carousel_ul a{ color:#000; text-decoration:none;}
+
+#buttons {
+    padding:0 0 5px 0;
+    float:right;
+}
+
+#buttons a {
+    display:inline;
+    width:41px;
+    height:32px;
+    text-indent:-999em;
+    float:left;
+    outline:0;
+    z-index: 999;
+    text-align: center;
+    margin-top:20px;
+}
+#carousel_ul div p {  line-height: 15px; }
+
+/* Styling for prev and next buttons */
+a#prev {
+    background:url(arrow1.gif) 0 -32px no-repeat;
+}
+
+a#prev:hover {
+    background:url(arrow1.gif) 0 0 no-repeat;
+}
+
+a#next {
+    background:url(arrow1.gif) -41px -32px no-repeat;
+}
+
+a#next:hover {
+    background:url(arrow1.gif) -41px 0 no-repeat;
+}
+
+.fa.qs-icon-animal-feed{
+    background: url(qs-icon-animal-feed.png) no-repeat;
+    width: 42px;
+    height: 32px;
+}
+
+.fa.qs-icon-beauty-health{
+    background: url(qs-icon-beauty-health.png) no-repeat;
+    width: 39px;
+    height: 32px;
+}
+
+.fa.qs-icon-equipment{
+    background: url(qs-icon-equipment.png) no-repeat;
+    width: 42px;
+    height: 32px;
+}
+
+.fa.qs-icon-products-for-children{
+    background: url(qs-icon-products-for-children.png) no-repeat;
+    width: 27px;
+    height: 32px;
+}
+
+.fa.qs-icon-audio-video-and-photos{
+    background: url(qs-icon-audio-video-and-photos.png) no-repeat;
+    width: 44px;
+    height: 32px;
+}
+
+.fa.qs-icon-clothes{
+    background: url(qs-icon-clothes.png) no-repeat;
+    width: 45px;
+    height: 32px;
+}
+
+.fa.qs-icon-for-children{
+    background: url(qs-icon-for-children.png) no-repeat;
+    width: 31px;
+    height: 32px;
+}
+
+.fa.qs-icon-music{
+    background: url(qs-icon-music.png) no-repeat;
+    width: 28px;
+    height: 32px;
+}
+
+.fa.qs-icon-shoes{
+    background: url(qs-icon-shoes.png) no-repeat;
+    width: 36px;
+    height: 32px;
+}
+
+
+.fa.qs-icon-communication-tools{
+    background: url(qs-icon-communication-tools.png) no-repeat;
+    width: 18px;
+    height: 32px;
+}
+
+.fa.qs-icon-computer-technology{
+    background: url(qs-icon-computer-technology.png) no-repeat;
+    width: 35px;
+    height: 32px;
+}
+
+.fa.qs-icon-crafts-and-needlework{
+    background: url(qs-icon-crafts-and-needlework.png) no-repeat;
+    width: 30px;
+    height: 32px;
+}
+
+.fa.qs-icon-stationery{
+    background: url(qs-icon-stationery.png) no-repeat;
+    width: 13px;
+    height: 32px;
+}
+
+
+.fa.qs-icon-appliances{
+    background: url(qs-icon-appliances.png) no-repeat;
+    width: 34px;
+    height: 32px;
+}
+
+.fa.qs-icon-cars{
+    background: url(qs-icon-cars.png) no-repeat;
+    width: 47px;
+    height: 32px;
+}
+
+.fa.qs-icon-furniture{
+    background: url(qs-icon-furniture.png) no-repeat;
+    width: 31px;
+    height: 32px;
+}
+
+.fa.qs-icon-leisure{
+    background: url(qs-icon-leisure.png) no-repeat;
+    width: 50px;
+    height: 32px;
+}
+
+.fa.qs-icon-sports{
+    background: url(qs-icon-sports.png) no-repeat;
+    width: 30px;
+    height: 32px;
+}
+
+
+.fa.qs-icon-building{
+    background: url(qs-icon-building.png) no-repeat;
+    width: 31px;
+    height: 32px;
+}
+
+.fa.qs-icon-electric-equipment{
+    background: url(qs-icon-electric-equipment.png) no-repeat;
+    width: 17px;
+    height: 32px;
+}
+
+.fa.qs-icon-horticulture{
+    background: url(qs-icon-horticulture.png) no-repeat;
+    width: 42px;
+    height: 32px;
+}
+
+.fa.qs-icon-tools{
+    background: url(qs-icon-tools.png) no-repeat;
+    width: 25px;
+    height: 32px;
+}
+
+
+.fa.qs-icon-animals{
+    background: url(qs-icon-animals.png) no-repeat;
+    width: 42px;
+    height: 32px;
+}
+
+.fa.qs-icon-books{
+    background: url(qs-icon-books.png) no-repeat;
+    width: 44px;
+    height: 32px;
+}
+
+.fa.qs-icon-fuel{
+    background: url(qs-icon-fuel.png) no-repeat;
+    width: 25px;
+    height: 32px;
+}
+
+.fa.qs-icon-grease{
+    background: url(qs-icon-grease.png) no-repeat;
+    width: 20px;
+    height: 32px;
+}
+
+.fa.qs-icon-kitchen{
+    background: url(qs-icon-kitchen.png) no-repeat;
+    width: 19px;
+    height: 32px;
+}
+
+
+.fa.qs-icon-cleaning-products{
+    background: url(qs-icon-cleaning-products.png) no-repeat;
+    width: 39px;
+    height: 32px;
+}
+
+.fa.qs-icon-health{
+    background: url(qs-icon-health.png) no-repeat;
+    width: 25px;
+    height: 32px;
+}
+
+.fa.qs-icon-security{
+    background: url(qs-icon-security.png) no-repeat;
+    width: 45px;
+    height: 32px;
+}
+
+.fa.qs-icon-tool-storage{
+    background: url(qs-icon-tool-storage.png) no-repeat;
+    width: 38px;
+    height: 32px;
+}
+
+.fa.qs-icon-accessories{
+    background: url(qs-icon-accessories.png) no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.fa.qs-icon-other{
+    background: url(qs-icon-other.png) no-repeat;
+    width: 39px;
+    height: 32px;
+}
+
+
+.fa.qs-icon-food{
+    background: url(qs-icon-food.png) no-repeat;
+    width: 36px;
+    height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+<div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+        <h2>Доступно <%- totalBonus() %> <span class="fa fa-rub"></span><br>Ожидается <%- totalBonus() %> <span class="fa fa-rub"></span></h2>
+
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="clearfix"><br></div>
+
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="bonusTransfer">Бонусы (в рублях)</label>
+                <div class="input-group input-group-lg">
+                    <div class="input-group-addon"><span class="fa fa-rub"></span></div>
+                    <input type="number" min="1" class="form-control" id="bonusTransfer" name="bonusTransfer" placeholder="Введите сумму">
+
+                    <span class="input-group-btn visible-lg visible-md">
+                       <button type="submit" class="btn btn-primary">Перечислить</button>
+                      </span>
+
+                </div>
+            </div>
+
+            <span class="form-group input-group-btn visible-xs visible-sm">
+                       <button type="submit" class="btn btn-primary">Перечислить</button>
+                      </span>
+
+            <span id="bonusTransferStatus" class="help-block">
+               <strong>Внимание!</strong> Вывод возможен от 1 000,00 руб.
+            </span>
+        </form>
+
+
+    </div>
+</div>
+
+<h3>История</h3>
+<div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="form-group">
+            <div class='input-group date' id='period_start'>
+                <span class="input-group-addon">от</span>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="form-group">
+            <div class='input-group date' id='period_end'>
+                <span class="input-group-addon">до</span>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <button type="button" class="btn btn-primary" id="vent-period">Показать</button>
+    </div>
+</div>
+<div class="table-responsive" id="list"></div>
+<div id="pagination"></div>

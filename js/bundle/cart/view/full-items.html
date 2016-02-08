@@ -1,0 +1,8 @@
+<td class="img"><img src="rest/v0/product/pimg/<%- productId %>" alt='<%- productName %>'></td>
+<td class="name"><a href="#product/<%- productId %>" target="_blank" title='<%- productName %>'><%= productName %></a></td>
+<td class="ean"><%- App.barCode(productEan) %></td>
+<td class="shop"><a href="#prodlist/-/<%- shopId %>/-" title="Открыть" target="_blank"><%- shopName %></a> </td>
+<td class="price text-right"><%- App.decimal(offerPrice)  %></td>
+<td class="total text-right"><%- App.decimal(offerPrice*amount) %></td>
+<td class="amount"><span class="hidden"><%- amount %></span><input min="1"  class="amount small form-control" name="amount" type="number" value="<%- amount %>"></td>
+<td class="action"> <button type="button" class="cart-item-remove btn btn-link"><i class="glyphicon glyphicon-trash"> </i></button>  </td>

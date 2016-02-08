@@ -1,0 +1,164 @@
+#GoodprofyRegistration{
+  .modal-content {
+    border-radius: 3px;
+
+    .modal-header {
+      padding: 25px 27px 17px 27px;
+
+      h4 {
+        font-size: 19px;
+        font-weight: 100;
+      }
+
+      .close {
+        font-size: 42px;
+        color: #C53546;
+        margin-top: -6px;
+        opacity: 1;
+        &:hover{
+          opacity: .7;
+        }
+      }
+    }
+
+    .modal-body {
+      padding: 15px 15px 0 30px;
+
+      .arrow{
+        color: #C53546;
+      }
+
+      form {
+        margin: 0;
+
+        label {
+          font-weight: 100;
+        }
+
+        .form{
+
+          &-control{
+            height: 30px;
+            width: 200px;
+            border-radius: 3px;
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+
+            &.error{
+              background-color: #FFA5A5;
+            }
+          }
+
+          &-group{
+            margin-bottom: 0;
+          }
+
+        }
+
+        .input-group {
+          /*margin: 11px 0 0 0;*/
+
+          &-addon{
+            padding: 6px 7px;
+          }
+        }
+      }
+    }
+
+
+    .modal-footer {
+      border-top: 0;
+      padding: 15px 15px 39px 30px;
+      text-align: left;
+
+      &.step2{
+        padding: 15px 15px 59px 30px;
+      }
+
+      .after-arrow-right::after{
+        clear: both;
+        content: "→";
+        display: inline-block;
+        position: relative;
+        top: 6px;
+        left: -31px;
+        color: #C53546;
+      }
+
+      .before-arrow-left{
+        display: inline-block;
+        position: absolute;
+        &::before{
+          clear: both;
+          content: "←";
+          display: inline-block;
+          position: relative;
+          top: 6px;
+          left: -31px;
+          color: #C53546;
+        }
+      }
+
+      .btn{
+        padding: 5px 17px;
+        border-radius: 3px;
+
+
+
+        &-registration{
+          &-seller{
+            padding: 5px 21px;
+          }
+
+          &-submit{
+            background-color: #C53546;
+            color: #fff;
+            position: absolute;
+            right: 28px;
+            padding: 5px 38px;
+
+            &:hover{
+              color: #333;
+              background-color: #e6e6e6;
+              border-color: #adadad;
+            }
+          }
+        }
+
+        &-default{
+
+          &:hover{
+            color: #FFFFFF;
+            background-color: #C53546;
+            border-color: #FFFFFF;
+          }
+        }
+
+        &-link{
+          color: #C53546;
+          text-decoration: underline;
+
+          &:hover{
+            text-decoration: none;
+          }
+        }
+
+        &-back{
+          padding: 0;
+          position: relative;
+          top: 6px;
+          left: -31px;
+        }
+      }
+    }
+  }
+
+
+
+
+  @media (min-width: 768px){
+    .modal-dialog {
+      width: 401px;
+    }
+  }
+}

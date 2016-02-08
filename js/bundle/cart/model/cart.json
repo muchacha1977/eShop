@@ -1,0 +1,42 @@
+[
+  {
+    "id": "12CB378D-C466-43D3-847C-BD44F2838A10",
+    "productId": "06092DE4-1E0B-4E25-AA9E-ECEB0CCBB481",
+    "offerId": "12A020B2-31F8-4B80-883B-AB09BC356313",
+    "shopId": "3DB13B13-E596-466B-A706-CA18238C29FC",
+    "amount": 8,
+    "creationTime": "4/28/15 2:18 PM",
+    "productName": "Купальник \"Marc\"",
+    "productEan": "6990126831218",
+    "offerPrice": 2392.67,
+    "shopName": "Мейдисон",
+    "state": "DELETED"
+  },
+  {
+    "id": "46FC95C5-614A-484F-94C1-2B80374EA5DF",
+    "productId": "0671DC25-7191-4585-A82C-D3332187D460",
+    "offerId": "2E9DE8CC-43EE-4D48-8E44-68AB12B02E51",
+    "shopId": "3C9CEFA1-A235-41CC-A389-1A7FC884AADD",
+    "amount": 10,
+    "creationTime": "4/28/15 2:18 PM",
+    "productName": "Корсет \"Hell Cat\"",
+    "productEan": "1270108412202",
+    "offerPrice": 1556.61,
+    "shopName": "Go Go",
+    "state": "OK"
+  },
+  {
+    "id": "5C6DED0D-2869-4FE3-842D-1D09CC4A059B",
+    "productId": "06413F2D-1395-470B-8481-C9AE35CC83CC",
+    "offerId": "685431B2-2E39-4F40-A474-769AFB22BAAA",
+    "shopId": "3C9CEFA1-A235-41CC-A389-1A7FC884AADD",
+    "amount": 9,
+    "creationTime": "4/28/15 2:18 PM",
+    "productName": "Корсет \"Hell Cat\"",
+    "productEan": "6990062131207",
+    "offerPrice": 1556.61,
+    "shopName": "Go Go",
+    "currentPrice": 1556.62,
+    "state": "CHANGED"
+  }
+]

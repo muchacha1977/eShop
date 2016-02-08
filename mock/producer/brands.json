@@ -1,0 +1,51 @@
+{
+  "type": "brandsResult",
+  "offset": 0,
+  "limit": 10,
+  "total": 26,
+
+  "data": [
+    {
+      "id": 342,
+      "name": "Adibao",
+	  "productsQuantity": 1200,
+	  "monthIncome"	: 4500,
+	  "income"	: 450000
+    },
+    {
+      "id": 343,
+      "name": "Greebok",
+	  "productsQuantity": 130,
+	  "monthIncome"	: 4500,
+	  "income"	: 40000
+    },
+    {
+      "id": 344,
+      "name": "Lengo",
+	  "productsQuantity": 54,
+	  "monthIncome"	: 53,
+	  "income"	: 9840
+    },
+    {
+      "id": 345,
+      "name": "Рита",
+	  "productsQuantity": 10,
+	  "monthIncome"	: 4021,
+	  "income"	: 7000
+    },
+    {
+      "id": 346,
+      "name": "Abibas",
+	  "productsQuantity": 12,
+	  "monthIncome"	: 1500,
+	  "income"	: 47000
+    },
+    {
+      "id": 347,
+      "name": "Reebock",
+	  "productsQuantity": 67,
+	  "monthIncome"	: 700,
+	  "income"	: 98424
+    }
+  ]
+}

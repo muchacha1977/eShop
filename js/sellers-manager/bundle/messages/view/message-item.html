@@ -1,0 +1,9 @@
+<div class="col-xs-4"><%- name %></div>
+<div class="col-xs-4">
+	<a href="#shop-messages/<%- id %>">
+		<%- tickets %>
+		<% if (tickets == 1) { %>тикет
+		<% } else if (tickets > 1 && tickets < 5) { %>тикета
+		<% } else { %>тикетов<% } %>
+	</a>
+</div>

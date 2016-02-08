@@ -1,0 +1,167 @@
+<div class="product__section__row product__section__row--breadcrumbs col-xs-12 col-md-12 col-lg-12">
+    <div class="clearfix visible-lg visible-md visible-sm">
+        <div class="pull-right">
+            <a href="#" class="btn btn-primary" onclick="history.go(-1);return false;">Вернуться обратно</a>
+        </div>
+
+    </div>
+    <div class="clearfix visible-xs">
+        <div class="pull-left">
+            <a href="#" class="btn btn-primary" onclick="history.go(-1);return false;">Вернуться обратно</a>
+        </div>
+        <div class="clearfix"><br></div>
+        <div class="clearfix"><br></div>
+    </div>
+
+
+    <div id="breadCrumbs">
+        &nbsp;
+    </div>
+</div>
+<div class="product__section__row product__section__row--title">
+    <div class="barcode">
+        <%- App.barCode(barCode) %>
+    </div>
+    <div class="visible-xs">
+        <div class="clearfix"><br></div>
+    </div>
+    <h2><%- name %></h2>
+</div>
+
+<div class="product__section__row product__section__row--content col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <!--<div class="product__section__row__image col-xs-4 col-sm-4 col-md-4 col-lg-4">-->
+    <!--<a href="rest/v0/product/img/<%- media[0] %>" target="_blank" title="<%- name %>">-->
+    <!--<img class="js-main-img" src="rest/v0/product/img/<%- media[0] %>" class="" alt="<%- name %>">-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--<% if (media.length>1){ %>-->
+    <!--<div class="product__section__row__images col-xs-1 col-sm-1 col-md-1 col-lg-1">-->
+    <!--<% for (var i = 0; i < media.length && i < 5; ++i) { %>-->
+    <!--<a class="js-img" href="rest/v0/product/img/<% print(media[i]); %>" target="_blank" class="<% if(i==0) print('active') %>">-->
+    <!--<div class="product__section__row__images__image img-thumbnail" style="background-image: url('rest/v0/product/img/<% print(media[i]); %>')" data-src="rest/v0/product/img/<% print(media[i]); %>"></div>-->
+    <!--</a>-->
+    <!--<% } %>-->
+    <!--</div>-->
+    <!--<% } %>-->
+
+
+	
+	<% if (!media[0]) { %>
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+		<img class="js-main-img img-responsive" src="img/nophoto.png" alt="<%- name %>">
+	</div>
+	<% } else { %>
+    <div class="product__section__row__image col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <a title="<%- name %>">
+            <img class="js-main-img" src="rest/v0/product/img/<%- media[0] %>" alt="<%- name %>">
+        </a>
+    </div>
+	<% } %>
+
+    <div class="clearfix visible-xs">
+        <div class="clearfix"><br></div>
+    </div>
+    <% if (media.length>1){ %>
+    <div class="product__section__row__images col-xs-12 col-sm-1 col-md-1 col-lg-1">
+        <% for (var i = 0; i < media.length && i < 5; ++i) { %>
+        <a class="js-img <% if(i==0) print('active') %>">
+            <div class="product__section__row__images__image img-thumbnail"
+                 style="background-image: url('rest/v0/product/img/<% print(media[i]); %>')"
+                 data-src="rest/v0/product/img/<% print(media[i]); %>"></div>
+        </a>
+        <% } %>
+    </div>
+    <% } %>
+    <div class="clearfix visible-xs">
+        <div class="col-xs-6 col-sm-3">
+            <div class="clearfix"><br></div>
+        </div>
+    </div>
+    <div class="product__section__row__information <% if (media.length>1){ %>col-xs-12 col-sm-7 col-md-7 col-lg-7<% }else{ %>col-xs-12 col-sm-8 col-md-8 col-lg-8<% } %>">
+        <div class="product__section__row__description col-xs-12 col-sm-7 col-md-7 col-lg-7">
+            <p><%= shortDescription %></p>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+				
+				<ul class="list-group">
+					<% if(typeof brand != 'undefined') { %><li class="list-group-item">
+						<span class="badge"><%- brand.name %></span>
+						Бренд
+					</li><% } %>
+					<% if(typeof manufacturer != 'undefined') { %><li class="list-group-item">
+						<span class="badge"><a href="#manufacturer/<%- manufacturer.id %>"><%- manufacturer.name %> <span class="glyphicon glyphicon-circle-arrow-right"></span></a></span>
+						Производитель
+					</li><% } %>
+					<% if(countryInfo != null) { %><li class="list-group-item">
+						<span class="badge"><%- countryInfo.name %> <img src="img/flags/<%- countryInfo.filepath %>" style="vertical-align: bottom;"></span>
+						Страна
+					</li><% } %>
+				</ul>
+				
+				<% if (details.length>0) { %>
+                <div class="product__section__row__characteristics table-responsive">
+                    <h3>Основные характеристики</h3>
+                    <table class="table">
+                        <tbody>
+                        <% _.each(details, function(detail) { %>
+                        <tr>
+                            <td><span><%- detail.name %></span></td>
+                            <td><span><%- detail.value %></span></td>
+                        </tr>
+                        <% }) %>
+                        <tr>
+                            <td><a href="#prod-details" id="triggerDetailsBtn">Показать все</a></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+				<% } %>
+            </div>
+            <div class="clearfix visible-lg visible-md visible-sm">
+                <div class="product__section__row__addons col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                    <div class="bid panel panel-default">
+                        <!--a class="compare__uri__add" href="#" title="Добавить к сравнению">Добавить к сравнению</a>-->
+                        <div class="addtocompare" id="addToCompareButton" title="Добавить к сравнению">Добавить к
+                            сравнению
+                        </div>
+                        <% if(traderViewing == true) { %>
+                        <div class="panel-body text-center">
+                            <button class="btn btn-primary" id="add-offer">Добавить предложение</button>
+                        </div>
+                        <% } else {%>
+                        <div class="panel-body text-center">
+                            Я не нашел подходящего<br>предложения и хочу<br>
+                            <button class="btn btn-primary" id="add-bid">Разместить заявку</button>
+                        </div>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix visible-xs col-xs-12">
+                <div class="clearfix visible-xs">
+                    <div class="product__section__row__characteristics">
+                        <div class="bid panel panel-default">
+                            <!--a class="compare__uri__add" href="#" title="Добавить к сравнению">Добавить к сравнению</a>-->
+                            <div class="addtocompare" id="addToCompareButton" title="Добавить к сравнению">Добавить к
+                                сравнению
+                            </div>
+                            <% if(traderViewing == true) { %>
+                            <div class="panel-body text-center">
+                                <button class="btn btn-primary" id="add-offer">Добавить предложение</button>
+                            </div>
+                            <% } else {%>
+                            <div class="panel-body text-center">
+                                Я не нашел подходящего<br>предложения и хочу<br>
+                                <button class="btn btn-primary" id="add-bid">Разместить заявку</button>
+                            </div>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

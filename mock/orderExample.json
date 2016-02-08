@@ -1,0 +1,84 @@
+{"type":"listOrderResult","offset":0,"limit":10,"total":3,
+  "data":[
+    {"type":"order",
+      "product":
+                {"id":"0265A292-A77D-4CB7-B6A1-48FE110B25E2",
+                  "name":"Колье \"Megan\""
+                },
+      "shop":
+                {"id":"A18B4613-C462-42A6-B37D-42A1A8B74365",
+                  "name":"Бейнер Джон"
+                },
+      "buyer":
+                {"id":"02CE33BF-9D70-41DA-8167-B19FECE58C05",
+                  "name":"Ипат Ширяев"
+                },
+      "offer":"444853BF-2A40-4529-AC66-DB8B7571093F",
+      "creationTime":"14.04.15",
+      "group":
+              {"id":"6A1CC3A3-4420-4026-B515-6847139CBF68",
+                "name":"11453254"
+              },
+      "discount":0,
+      "id":"449D278F-8821-4D0E-A0DA-721DE487C7C0",
+      "linePrice":2518.20,
+      "name":"66469321",
+      "quantity":1,
+      "state":"CREATED",
+      "totalPrice":2518.20,
+      "unitPrice":2518.20},
+    {"type":"order",
+      "product":
+                {"id":"0265A292-A77D-4CB7-B6A1-48FE110B25E2",
+                  "name":"Колье \"Megan\""
+                },
+      "shop":
+              {"id":"BEA25098-1BF7-41A6-8DB7-53EE8B6D330C",
+                "name":"Gonfond"
+              },
+      "buyer":
+              {"id":"02CE33BF-9D70-41DA-8167-B19FECE58C05",
+                "name":"Ипат Ширяев"
+              },
+      "offer":"14D40CD9-9C1C-4074-A9D0-82765C9CA6A6",
+      "creationTime":"14.04.15",
+      "group":
+                {"id":"A0C9C901-B7E2-45D3-9FB8-38A4D9527AA7",
+                  "name":"85776949"},
+      "discount":0,
+      "id":"5BE47942-0F5A-4906-BCD0-606AD6343636",
+      "linePrice":1468.95, //unitPrice*quantity = linePrice
+      "name":"71934122",
+      "quantity":1,
+      "state":"CREATED",
+      "totalPrice":1468.95, //totalPrice = linePrice - discount
+      "unitPrice":1468.95
+    },
+  {"type":"order",
+    "product":
+                {"id":"0265A292-A77D-4CB7-B6A1-48FE110B25E2",
+                  "name":"Колье \"Megan\""
+                },
+    "shop":
+                {"id":"BCD58914-98CE-4021-867B-BAA322E98E68",
+                  "name":"Go Go"
+                },
+    "buyer":
+                {"id":"02CE33BF-9D70-41DA-8167-B19FECE58C05",
+                  "name":"Ипат Ширяев"
+                },
+    "offer":"50AABB1B-6E98-482B-8F5D-A49B80E68F62",
+    "creationTime":"14.04.15",
+    "group":
+            {"id":"A22F325A-6B7B-496C-A350-D5F1265C8DFA",
+              "name":"61234344"},
+    "discount":0,
+    "id":"B11CB472-5561-41FA-B94E-322AA13DCF93",
+    "linePrice":1245.11,
+    "name":"15603549",
+    "quantity":1,
+    "state":"CREATED",
+    "totalPrice":1245.11,
+    "unitPrice":1245.11}
+  ]
+}

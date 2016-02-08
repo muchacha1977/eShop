@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Sans+Caption:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900);
+#search-region {
+  margin-top: 22px;
+}
+#search-region #do-categories {
+  height: 40px;
+  border-top: 2px solid #C53546;
+  border-bottom: 2px solid #C53546;
+  border-left: 2px solid #C53546;
+  border-right: 2px solid #C53546;
+  font-size: 16px;
+  color: #404040;
+}
+#search-region #do-categories,
+#search-region #do-categories:hover,
+#search-region #do-categories:active {
+  text-decoration: none;
+}
+#search-region #do-categories span {
+  position: relative;
+  top: 3px;
+  font-size: 14px;
+}
+#search-region .form-control {
+  height: 40px;
+  border-top: 2px solid #C53546;
+  border-bottom: 2px solid #C53546;
+  font-size: 16px;
+}
+#search-region .search-input-wrapper {
+  position: relative;
+}
+#search-region .search-input-wrapper #q-search {
+  float: none;
+}
+#search-region .search-input-wrapper .clear-btn {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 10;
+  color: #404040;
+}
+#search-region .search-input-wrapper .clear-btn:hover {
+  text-decoration: none;
+  color: #c53546;
+}
+#search-region #do-search,
+#search-region #do-search-dropdown {
+  height: 40px;
+  width: 146px;
+  font-size: 21px;
+}
+#search-region .dropdown-menu {
+  right: 0;
+  left: initial;
+}
+#search-region .dropdown-menu li {
+  text-align: right;
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+  cursor: pointer;
+}
+#search-region .dropdown-menu li:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}

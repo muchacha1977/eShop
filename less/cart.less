@@ -1,0 +1,103 @@
+.tablesorter-sticky-wrapper{
+  box-shadow: 0px 2px 11px #ccc;
+  background: #FFFFFF;
+}
+
+#cart{
+  input[name=amount],
+  .amount{
+    width: 56px;
+    height: 28px;
+  }
+}
+
+#cart-full {
+  input[name=amount],
+  .amount{
+    width: 56px;
+    height: 28px;
+  }
+
+  .shop-sum {
+    i {
+      font-size: 16px;
+    }
+  }
+
+  .cart-full-form{
+    padding-top: 21px;
+    border-top: 1px solid #FAFAFA;
+
+    .well.shop-sum{
+      padding-top: 0;
+      padding-bottom: 11px;
+    }
+  }
+
+  h4{
+    &.shop-name{
+      a {
+        i {
+          &:before{
+            content: "\2212";
+          }
+        }
+
+        &.collapsed{
+          i {
+            &:before{
+              content: "\2b";
+            }
+          }
+        }
+      }
+    }
+  }
+
+  table {
+
+    thead{
+
+
+      th{
+        &.sortable{
+          cursor: pointer;
+        }
+
+        &:focus{
+          outline: -webkit-focus-ring-color auto 0px;
+        }
+      }
+    }
+
+    tbody {
+
+      tr {
+        &.group-header{
+          td {
+            text-align: left;
+            text-transform: capitalize;
+            &:first-child {
+              text-align: left;
+            }
+          }
+
+        }
+
+        td {
+          vertical-align: middle;
+          border-top: 1px solid transparent;
+
+          &:first-child {
+            text-align: center;
+          }
+
+          &.img img{
+            max-width: 50px;
+            max-height: 50px;
+          }
+        }
+      }
+    }
+  }
+}

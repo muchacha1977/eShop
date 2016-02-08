@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Sans+Caption:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900);
+.messages-page .messages-list-wrapper {
+  margin-top: 20px;
+}
+.messages-page .messages-list-wrapper .message-item {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #c4c4c4;
+}
+.messages-page .messages-list-wrapper .message-item:first-of-type {
+  border-top: none;
+}

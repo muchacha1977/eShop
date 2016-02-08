@@ -1,0 +1,48 @@
+{"type":"listOrderGroupResult","offset":0,"limit":10,"total":2,"data":
+[
+  {
+    "type":"orderGroup",
+    "shipmentDate":"15.04.15",
+    "creationTime":"14.04.15",
+    "shop":{
+            "id":"3038F9DA-6757-4819-B217-D6B893E6AC3E",
+            "name":"Go Go"
+            },
+    "buyer":"E76687C5-BF6C-4F25-A4DB-385C0BB47E08",
+    "id":"5966E1E6-7696-4B1B-BF4D-C4186446BC64",
+    "itemCount":1,
+    "itemPrice":12227.71,
+    "name":"51073047",
+    "orders":
+        [{
+          "product":
+                  {
+                    "id":"9D7220E7-8D5D-4DE4-9A4A-DF33025EA52B",
+                    "name":"Боди \"Sunshine\""
+                  },
+          "shop":
+                  {
+                    "id":"3038F9DA-6757-4819-B217-D6B893E6AC3E",
+                    "name":"Go Go"
+                  },
+          "buyer":
+                  {
+                    "id":"E76687C5-BF6C-4F25-A4DB-385C0BB47E08",
+                    "name":"Ипат Ширяев"},
+          "offer":"9D8FF139-E6D1-41EB-B039-19E0E94D8419",
+          "creationTime":"14.04.15",
+          "group":{"id":"5966E1E6-7696-4B1B-BF4D-C4186446BC64","name":"51073047"},
+          "discount":0.00,
+          "id":"FB43D999-81ED-4F40-8E5D-7E149DB7B759",
+          "linePrice":12227.71,
+          "name":"35707832",
+          "quantity":11,
+          "state":"CREATED",
+          "totalPrice":12227.71,
+          "unitPrice":1111.61}
+        ],
+    "shipmentPrice":300.00,
+    "shipmentType":"SHIPMENT_TYPE_1",
+    "totalPrice":12527.71
+  },
+  {"type":"orderGroup","shipmentDate":"15.04.15","creationTime":"14.04.15","shop":{"id":"3038F9DA-6757-4819-B217-D6B893E6AC3E","name":"Go Go"},"buyer":"E76687C5-BF6C-4F25-A4DB-385C0BB47E08","id":"7181387A-CA58-4289-BD05-5A69D9A0AD3D","itemCount":1,"itemPrice":2846.22,"name":"84946906","orders":[{"product":{"id":"004FF855-14D3-4052-90CB-8FF0DAFE2DB9","name":"Платье \"Acasta\""},"shop":{"id":"3038F9DA-6757-4819-B217-D6B893E6AC3E","name":"Go Go"},"buyer":{"id":"E76687C5-BF6C-4F25-A4DB-385C0BB47E08","name":"Ипат Ширяев"},"offer":"1C195445-695C-4550-A33C-32B940166BFC","creationTime":"14.04.15","group":{"id":"7181387A-CA58-4289-BD05-5A69D9A0AD3D","name":"84946906"},"discount":0.00,"id":"FFD81731-1540-48A0-98C0-AE7C3CB2B969","linePrice":2846.22,"name":"01632626","quantity":2,"state":"CREATED","totalPrice":2846.22,"unitPrice":1423.11}],"shipmentPrice":300.00,"shipmentType":"SHIPMENT_TYPE_1","totalPrice":3146.22}]}

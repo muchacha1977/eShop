@@ -1,0 +1,95 @@
+<h4 class="shop-name">
+    <a data-toggle="collapse" href="#collapseShop<%- shop.id %>" aria-expanded="false" aria-controls="collapseShop<%- shop.id %>"><i class="btn-sm glyphicon"></i></a>
+    Ваш заказ в магазине <%- shop.name %> <span class="short-info hidden"> на сумму <%- shop.sum %> <i style="font-size: 16px;" class="fa fa-rub"></i>, товаров: <%- shop.total %>.</span></h4>
+<div class="collapse in" id="collapseShop<%- shop.id %>" data-shop-id="<%- shop.id %>">
+    <div id="cart-full-items-products" class="table-responsive">
+
+    </div>
+    <form class="form-horizontal">
+        <div class="cart-full-form row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Телефон для связи</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control uProfilePhone" name="phone" id="phone" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Адрес доставки</label>
+                    <div class="col-sm-8">
+                        <select name="address" id="address" class="form-control">
+                            <% _.each(shop.address, function(value, key, list) { %>
+                            <option value="<%- value.get('id') %>"
+                                    data-address-deflt="<%- value.get('deflt') %>"
+                                    data-address-region="<%- value.get('region') %>"
+                                    data-address-id="<%- value.get('id') %>"
+                                    data-address-data="<%- value.get('data') %>"
+                            <% if( value.get('deflt')) { %> selected="selected" <% } %>
+                            ><%- value.get('name') %> </option>
+                            <% }); %>
+                            <option>Добавить новый</option>
+                        </select>
+                        <p class="help-block" id="address-help"><%- shop.defaultAddress.data%></p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="shipments" class="col-sm-4 control-label">Тип доставки</label>
+                    <div class="col-sm-8">
+                        <select name="shipments" id="shipments" class="form-control">
+
+                            <% _.each(shop.shipments, function(value, key, list) { %>
+                                <option value="<%- value.get('type') %>"
+                                        data-shipments-price="<%- value.get('price') %>"
+                                        data-shipments-type="<%- value.get('type') %>"
+                                        data-shipments-days="<%- value.get('days') %>"
+                                        data-shipments-id="<%- value.get('id') %>"
+                                        data-shipments-description="<%- value.get('description') %>"
+                                        <% if( value.get('id') == shop.defaultShipments.id ) { %> selected="selected" <% } %>
+                                        ><%- value.get('description') %> </option>
+                            <% }); %>
+                        </select>
+                        <p class="help-block" id="shipments-help">Примерная дата доставки: <span><%- shop.defaultShipments.days  %></span></p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment" class="col-sm-4 control-label">Комментарий</label>
+                    <div class="col-sm-8">
+                        <textarea name="comment" id="comment" class="form-control" rows="5"><%-shop.comment%></textarea>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="form-group well">
+                    <label for="bonus" class="col-sm-4 control-label">Оплатить бонусами</label>
+                    <div class="col-sm-5">
+                        <input name="bonus" id="bonus" type="number" min="0" max="3000" class="form-control" disabled  placeholder="">
+                    </div>
+                    <label for="bonus" class="col-sm-3 control-label text-left">Доступно 0</label>
+                </div>
+
+                <div class="form-group text-left">
+                    <div class="well shop-sum">
+                        <h4>Всего товаров <strong><%- shop.total %></strong></h4>
+                        <h4>Итого без стоимости доставки <strong><%- App.decimal(shop.sum) %></strong> <span><i class="fa fa-rub"></i></span></h4>
+                        <h4>Cтоимости доставки <strong><%- App.decimal(shop.defaultShipments.price) %></strong> <span><i class="fa fa-rub"></i></span></h4>
+                        <h4>Итого с доставкой <strong id="sum-with-shipment"><%- App.decimal(Number(shop.sum)+Number(shop.defaultShipments.price)) %></strong> <span><i class="fa fa-rub"></i></span></h4>
+                    </div>
+                    <button type="submit" id="cart-order-submit" class="btn btn-primary btn-lg">Оформить <i class="glyphicon glyphicon-thumbs-up"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <div class="clearfix">
+        <br>
+        <br>
+        <br>
+    </div>
+</div>
+
+<hr>
+
+

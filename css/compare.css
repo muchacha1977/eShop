@@ -1,0 +1,19 @@
+.compare__uri__add {
+  display: inline-block;
+}
+.compare__uri__add::before {
+  content: "\e011";
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 5px;
+}

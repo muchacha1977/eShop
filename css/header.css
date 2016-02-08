@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Sans+Caption:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900);
+header {
+  padding: 17px 0 3px 0;
+  border-bottom: 1px solid #C0C0C0;
+  box-shadow: 0px 1px 5px #E4E4E4;
+}
+@media (min-width: 992px) {
+  header {
+    height: 117px;
+  }
+}
+header .user-action {
+  margin-top: 15px;
+}
+header #logo-region img {
+  margin-bottom: -4px;
+  position: relative;
+  top: -7px;
+}
+header #contacts-region {
+  padding: 0 5px 11px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #404040;
+}
+header #contacts-region strong {
+  font-size: 15pt;
+}
+header #contacts-region small {
+  font-size: 11px;
+  position: relative;
+  top: -4px;
+}
+header #contacts-region .glyphicon {
+  font-size: 18px;
+}
+header .dropdown .open #login-button {
+  color: #FF5E71;
+}
+header #login-button {
+  color: #404040;
+  text-decoration: none;
+  padding: 0;
+  display: block;
+  text-align: right;
+  padding-right: 27px;
+}
+header #login-button:active,
+header #login-button:hover {
+  color: #FF5E71;
+  text-decoration: none;
+}
+header #login-button .glyphicon-log-in {
+  position: relative;
+  top: 1px;
+}
+header #cart-region {
+  width: 269px;
+}
+header #cart-region .btn-link {
+  color: #404040;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+  height: 22px;
+}
+header #cart-region .btn-link .glyphicon-shopping-cart {
+  right: 0;
+  top: 2px;
+}
+header #cart-region .btn-link .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #c53546;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid #c53546;
+}
+header #cart-region .btn-link .badge .glyphicon-ruble {
+  font-size: 9px;
+}
+header #cart-region .btn-link:hover,
+header #cart-region .btn-link:active {
+  color: #FF5E71;
+  text-decoration: none;
+}
+header #cart-region .btn-link .glyphicon-chevron-down {
+  font-size: 13px;
+  /*margin-left: -5px;*/
+}
+header #cart-region .btn-link .glyphicon-shopping-cart {
+  /*margin-right: -5px;*/
+}
+header #cart-region .cart-button {
+  margin-top: 21px;
+  padding: 8px 16px 0 16px;
+  width: 269px;
+  position: relative;
+}
+header #cart-region .cart-button ul,
+header #cart-region .cart-button li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header #cart-region .cart-button-items p {
+  font-size: 11px;
+  margin: 10px 0 10px;
+}
+header #cart-region .cart-button-items-wapper-item-img {
+  max-width: 50px;
+  max-height: 50px;
+  overflow: hidden;
+  display: inline-block;
+}
+header #cart-region .cart-button-items-wapper-item-img img {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+header #cart-region .cart-button-items-wapper-item-info {
+  width: 175px;
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: top;
+  line-height: 13px;
+  position: relative;
+}
+header #cart-region .cart-button-items-wapper-item-info a {
+  font-size: 12px;
+  text-decoration: underline;
+}
+header #cart-region .cart-button-items-wapper-item-info div {
+  font-size: 11px;
+  position: absolute;
+  bottom: -25px;
+}
+header #cart-region .cart-button-items-btn {
+  text-align: center;
+  padding: 18px;
+}
+header #cart-region .cart-button-items-btn .btn {
+  padding: 4px 48px;
+}
+header .sellers-manager-header-wrapper,
+header .good-manager-header-wrapper {
+  padding: 10px 30px;
+}
+header .sellers-manager-header-wrapper .manager-menu,
+header .good-manager-header-wrapper .manager-menu {
+  margin: 20px 0;
+}
+header .sellers-manager-header-wrapper .manager-menu a,
+header .good-manager-header-wrapper .manager-menu a {
+  width: 150px;
+}
+header .sellers-manager-header-wrapper .manager-menu a.active,
+header .good-manager-header-wrapper .manager-menu a.active {
+  background-color: #c53546;
+  color: #fff;
+}
+header .sellers-manager-header-wrapper .manager-menu a.active:hover,
+header .good-manager-header-wrapper .manager-menu a.active:hover {
+  background-color: #c53546;
+  color: #fff;
+}

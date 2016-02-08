@@ -1,0 +1,221 @@
+.m-item-mock-custom {
+  background-color: #eeeeee;
+  height: 280px;
+}
+.m-item-index {
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main {
+  background-color: #eeeeee;
+  height: 130px;
+}
+.m-item-mock-main-1 {
+  background: url("img/banner5000.jpg");
+  background-repeat: no-repeat;
+   background-color: #eeeeee;
+  height: 130px;
+  display: block;
+}
+.m-item-mock-main-2 {
+  background: url("img/banner1usd.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+}
+.m-item-mock-main-3  {
+  background: url("img/trader_pos_v1.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 280px;
+}
+.m-item-mock-main-4 {
+  background: url("img/4.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-5 {
+  background: url("img/5-1.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-6 {
+  background: url("img/6.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-7  {
+  background: url("img/7.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-8 {
+   background: url("img/8.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-9  {
+    background: url("img/9.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+}
+.m-item-mock-main-10  {
+  background: url("img/10.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+}
+.m-item-mock-main-11  {
+  background: url("img/11.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+}
+.m-item-mock-main-12  {
+  background: url("img/12.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+}
+.m-item-mock-main-13  {
+  background: url("img/13.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+}
+.m-item-mock-main-14  {
+  background: url("img/14.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+}
+.m-item-mock-main-15 {
+    background: url("img/15.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 280px;
+}
+.m-item-mock-main-16 {
+    background: url("img/16.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 280px;
+}
+.m-item-mock-main-17 {
+  background: url("img/17-1.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-18 {
+  background: url("img/18-1.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-19 {
+  background: url("img/19.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-20 {
+  background: url("img/20-1.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-21 {
+  background: url("img/21-1.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+  margin-bottom:20px;
+}
+.m-item-mock-main-22 {
+   background: url("img/22.jpg");
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  height: 130px;
+}
+.overlay-hidden {
+    opacity: 0.0;
+    filter: alpha(opacity=0);  /* IE8 and lower */
+}
+
+
+.home__trader {
+
+}
+
+.home__trader p {
+  font-size: 28pt;
+  text-transform: uppercase;
+  position: relative;
+  top: 150px;
+  background-color: #C53546;
+  color: #fff;
+}
+
+.home__trader a {
+  position: relative;
+  top: 157px;
+}
+
+
+#trader-action{
+  cursor: pointer;
+}
+
+#banner5000{
+
+}
+
+.banner5000__descr{
+  height: 130px;
+}
+
+.banner5000__descr p{
+  font-size: 12pt;
+  padding-top: 14px;
+  color: #C53546;
+}
+
+.banner5000__descr p i{
+  font-size: 10pt;
+}
+
+.banner_usd__descr{
+  font-size: 12pt;
+  color: #C53546;
+  line-height: 18px;
+}
+
+
+
+.banner5000__btn{
+  height: 130px;
+}
+
+.vcenter{
+  float:none;
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:-4px;
+}

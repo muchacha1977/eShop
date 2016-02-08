@@ -1,0 +1,17 @@
+{
+    "id": 777,
+    "aid": 777,
+    "levelIncome": 6,
+    "levelNumberReferrals": 109,
+    "levelReferrals": 6,
+    "totalReferrs": 450,
+    "totalDay": 34500,
+    "totalMonth": 45952,
+    "totalYear": 845952,
+    "totalTime": 84567897,
+    "affiliateNetwork": [15,58,156,385,487,801],
+    "statPreviusDay": {
+        "max": 456135,
+        "nick": "Alex"
+    }
+}

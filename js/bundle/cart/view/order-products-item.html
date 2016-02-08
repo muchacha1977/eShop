@@ -1,0 +1,7 @@
+<td class="img"></td>
+<td class="img text-right"><img src="rest/v0/product/pimg/<%- productId %>" alt='<%- productName %>'></td>
+<td class="name"><a href="#product/<%- productId %>" target="_blank" title='<%- productName %>'><%- productName %></a><div class="ean">Штрих код <%- App.barCode(productEan) %></div></td>
+<td class="price text-right"><%- App.decimal(offerPrice) %> <i class="fa fa-rub"></i></td>
+<td class="total text-right"><%- App.decimal(offerPrice*amount) %> <i class="fa fa-rub"></i></td>
+<td class="amount"><span class="hidden"><%- amount %></span><input min="1"  class="amount small form-control" name="amount" type="number" value="<%- amount %>"></td>
+<td style="width: 56px;" class="action"> <button data-toggle="tooltip" data-placement="top" title="Удалить из заказа, оставить в корзине" type="button" class="cart-item-remove btn btn-link"><i class="glyphicon glyphicon-trash"> </i></button>  </td>

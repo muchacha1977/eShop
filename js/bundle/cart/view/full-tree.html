@@ -1,0 +1,100 @@
+<div id="cart-full" class="cart-full">
+    <ol class="breadcrumb">
+        <li><a href="#home" class="breadcrumb__uri breadcrumb__uri--home"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="#catalog" class="breadcrumb__uri">Каталог</a></li>
+        <li class="active">Корзина</li>
+    </ol>
+
+    <div id="cart-full-before" class="cart-full-before row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>Корзина
+                <div class="pull-right">
+                    <a href="#cart" class="btn btn-default" id="cart-full-list"><i class="fa fa-list"> </i> </a>
+                    <a href="#cart/tree" class="btn btn-default active" id="cart-full-tree"> <i class="fa fa-indent"> </i></a>
+                </div>
+            </h2>
+            <br>
+        </div>
+    </div>
+
+    <div class="table-responsive" id="cart-full-items">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Магазин</th>
+                    <th data-sorter="false"></th>
+                    <th class="sortable">Наименование</th>
+                    <th data-sorter="false">Штрихкод</th>
+                    <th class="sortable text-right">Цена</th>
+                    <th class="sortable text-right">Стоимость</th>
+                    <th style="width: 89px;" class="sortable">Кол-во</th>
+                    <th style="width: 56px;" data-sorter="false"></th>
+                </tr>
+            </thead>
+
+            <% _.each(shop, function(value, key, list) { %>
+                <tbody class="tablesorter-no-sort">
+                    <tr>
+                        <td colspan="2" style="  text-align: left;"><a href="#collapse-<%= value.shop.id %>" data-toggle="collapse" aria-expanded="true" aria-controls="collapse-<%- value.shop.id %>" class=""><%- value.shop.name %></a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                </tbody>
+                <tbody class="collapse in" id="collapse-<%- value.shop.id %>">
+
+                    <% _.each(value.shop.offers, function(v, k, l) { %>
+
+                        <tr class="">
+                            <td></td>
+                            <td class="img"><img src="rest/v0/product/pimg/<%- v.productId %>" alt='<%- v.productName %>'/></td>
+                            <td class="name text-left"><%- v.productName %></td>
+                            <td class="ean"><%- App.barCode(v.productEan) %></td>
+                            <td class="price text-right"><%- App.decimal(v.offerPrice) %></td>
+                            <td class="total text-right"><%- App.decimal(v.offerPrice*v.amount) %></td>
+                            <td class="amount text-center"><span class="hidden"><%- v.amount %></span><input min="1"  data-offer-id="<%- v.offerId %>" class="amount small form-control" name="amount" type="number" value="<%- v.amount %>"></td>
+                            <td class="action text-center"> <button data-offer-id="<%- v.offerId %>" type="button" class="cart-item-remove btn btn-link glyphicon glyphicon-trash"></button>  </td>
+                        </tr>
+                    <% }); %>
+                </tbody>
+                <tbody class="tablesorter-no-sort collapse in" id="collapse-<%- value.shop.id %>">
+                <tr class="breadcrumb">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2" class="text-right"><strong>Итого <%- App.decimal(value.shop.sum) %></strong> <i class="fa fa-rub"></i></td>
+                    <td class="text-center"><strong><%- value.shop.total %></strong></td>
+                    <td> </td>
+                </tr>
+
+                </tbody>
+            <% }); %>
+
+            <tfoot>
+                <tr class="breadcrumb">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2" class="text-right"><strong>Итого <%- totalPrice() %></strong> <i class="fa fa-rub"></i></td>
+                    <td class="text-center"><strong><%- total() %></strong></td>
+                    <td> </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div id="cart-full-after" class="cart-full-after row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="pull-right">
+                <a href="#cart/order" class="btn btn-primary btn-lg">Перейти к оформлению заказа</a>
+            </div>
+        </div>
+    </div>
+
+</div>

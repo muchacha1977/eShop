@@ -1,0 +1,76 @@
+<div id="cart-full" class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">Заказ №<%- name %> от <%- creationTime %></h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="row">
+                <div class="col-sm-8">
+                    <ul class="list-group">
+                        <li class="list-group-item">Способ доставки: <%- shipmentDescr %></li>
+                        <li class="list-group-item">Примерная дата доставки: <%- shipmentDate  %></li>
+                        <li class="list-group-item">Адрес доставки: <%- shipmentAddress %></li>
+                        <% if(! _.isEmpty(comment) ) { %>
+                        <li class="list-group-item">
+                            <h5>Комментарий к заказу:</h5>
+                            <p><%- comment %></p>
+                        </li>
+                        <% } %>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="list-group">
+                        <li class="list-group-item" id="region-state" >
+                        </li>
+                    </ul>
+                    <ul class="list-group <% if(state == 'CREATED' || state == 'CANCELLED') print('hidden') %>">
+                        <li class="list-group-item">Продавец <%- shop.name%></li>
+                        <li class="list-group-item">Телефон <a href="call:"></a> </li>
+                        <li class="list-group-item"><button type="button" id="callback" class="btn btn-primary">Обратный звонок</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>
+                        Состав заказа
+                    </h4>
+                    <div id="buyer-orders-list" class="table-responsive"></div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div id="region-bulk-actions"></div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="text-right">
+                        Стоимость доставки
+                        <%- App.decimal(shipmentPrice) %> <i class="fa fa-rub"></i>
+                    </div>
+                    <div class="text-right">
+                        <b>Итого товаров: <%- itemCount %> на сумму: </b>
+                        <b><%- App.decimal(itemPrice) %></b> <i class="fa fa-rub"></i>
+                    </div>
+                    <div class="text-right">
+                        <b>Итого с доставкой: </b>
+                        <b><%- App.decimal(totalPrice) %></b> <i class="fa fa-rub"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" id="modal-btn-closed" data-dismiss="modal" class="btn btn-link closed">Закрыть окно</button>
+            <button id="vent-ordergroup-shipped" type="button" class="btn btn-primary <% if(state != 'ACKNOWLEDGED') print('hidden') %>">Подтвердить получение</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<li style="list-style-type: none;">
+        <a href="<%= href %>">
+            <% if (flag) { %> <strong>  <% } %>
+                <%= name %>
+            <% if (flag) { %> </strong>  <% } %>
+        </a>
+    <% if(typeof(count) != "undefined") { %>
+        <span class="pull-right badge"> <%= count %> </span>
+    <% } %>
+</li>

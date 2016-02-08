@@ -1,0 +1,129 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">
+                <div class="barcode">
+                    <%- bid.product.barCode %>
+                </div>
+                <%- bid.product.name %>
+            </h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="ask">
+                <form class="form-horizontal">
+
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+
+                            <a href="#product/<%- bid.product.id %>" target="_blank" class="thumbnail">
+                                <img src="rest/v0/product/pimg/<%- bid.product.id %>" alt='<%- bid.product.name %>'>
+                            </a>
+
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                            <ul class="list-group">
+
+                                <li class="list-group-item">
+
+                                    <div class="form-group">
+                                        <label class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Адрес доставки</label>
+
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <select name="shipmentAddress" id="address" class="form-control">
+                                                <% _.each(address, function(value, key, list) { %>
+                                                <option value="<%- value.id %>"
+                                                        data-address-deflt="<%- value.deflt %>"
+                                                        data-address-region="<%- value.region %>"
+                                                        data-address-id="<%- value.id %>"
+                                                        data-address-data="<%- value.data %>"
+                                                <% if (value.deflt) { %> selected="selected" <% } %>
+                                                ><%- value.name %> </option>
+                                                <% }); %>
+                                            </select>
+
+                                            <p class="help-block" id="address-help"></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="shipments" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Тип
+                                            доставки</label>
+
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <select name="shipmentType" id="shipments" class="form-control">
+
+                                                <% _.each(shipments, function(value, key, list) { %>
+                                                <% if( shipmentTypes[value.type] == true ){%>
+                                                <option value="<%- value.type %>"
+                                                        data-shipments-price="<%- value.price %>"
+                                                        data-shipments-type="<%- value.type %>"
+                                                        data-shipments-days="<%- value.days %>"
+                                                        data-shipments-id="<%- value.id %>"
+                                                        data-shipments-description="<%- value.description %>"
+
+                                                        ><%- value.description %>
+                                                </option>
+                                                <% }}); %>
+
+                                            </select>
+
+                                            <p class="help-block" id="shipments-help">Примерная дата доставки: <span><%- bid._deliveryDate  %></span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="comment" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Комментарий</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <textarea name="comment" id="comment" class="form-control" rows="3"><%-shop.comment%></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="shipments" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Цена за
+                                            шт.</label>
+
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <%- App.decimal(unitPrice) %> <span class="fa fa-rub"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="shipments"
+                                               class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Кол-во</label>
+
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <%- quantity %>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="shipments"
+                                               class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Сумма</label>
+
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <%- App.decimal(unitPrice*quantity) %> <span class="fa fa-rub"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" id="modal-btn-closed" data-dismiss="modal" class="btn btn-link closed">Закрыть окно</button>
+            <button type="button" id="modal-btn-back" class="btn btn-default">Назад</button>
+            <button type="button" id="modal-btn-order" class="btn btn-primary order">Заказать <i class="glyphicon glyphicon-thumbs-up"></i></button>
+        </div>
+    </div>
+</div>

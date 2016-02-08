@@ -1,0 +1,31 @@
+{
+  "type": "Docs",
+  "offset": 0,
+  "limit": 10,
+  "total": 30,
+
+  "data": [
+    {
+      "id"		: 342,
+      "name"	: "Сравнительная таблица учёта инфорамационных потоков",
+	  "type"	: "Microsoft Excel",
+	  "ico"		: "fa-file-excel-o",
+	  "size"	: "12Кб"
+    },
+    {
+      "id"		: 3422,
+      "name"	: "Документация",
+	  "type"	: "Microsoft Word",
+	  "ico"		: "fa-file-word-o",
+	  "size"	: "12Кб"
+    },
+    {
+      "id"		: 4,
+      "name"	: "Договор для дилеров",
+	  "type"	: "Adobe Reader",
+	  "ico"		: "fa-file-pdf-o",
+	  "size"	: "12Кб"
+    }
+
+  ]
+}

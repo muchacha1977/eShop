@@ -1,0 +1,101 @@
+<div id="bid" class="modal-dialog modal-lg  col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">Размещение заявки</h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="form-group">
+                        <label for="bidPrice">Цена:</label>
+                        <div class="input-group">
+                            <input id="bidPrice" type='text' class="form-control" value="<%- unitPrice %>"/>
+							<span class="input-group-addon">
+								<span class="fa fa-rub text-primary"> </span>
+							</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bidCount">Количество:</label>
+                        <input id="bidCount" type='text' class="form-control" value="<%- quantity %>"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="bidCount">Сумма:</label>
+						<div class="input-group">
+                            <input id="bidSum" readonly type='text' class="form-control" value="0"/>
+							<span class="input-group-addon">
+								<span class="fa fa-rub text-primary"> </span>
+							</span>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-xs-12 col-sm-4">
+                    <div class="form-group">
+                        <label for="bidRegion">Регион:</label>
+                        <div class="form-group">
+                            <select name="region" type="text" class="form-control" id="bidRegion">
+								<% _.each(regionData, function(value){
+								%>
+									<option <%= (value.id==region)? 'selected': '' %> value="<%- value.id %>"><%- value.name %></option>
+								<%
+
+								}) %>
+							</select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bidDeliveryDate">Дата доставки:</label>
+                        <div class="form-group">
+                            <div class="input-group date" id="bidDeliveryDateCalendar">
+                                <input id="bidDeliveryDate" type='text' class="form-control"/>
+								<span class="input-group-addon">
+									<span class="glyphicon glyphicon-calendar text-primary"> </span>
+									Изменить
+								</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bidDateInp">Действует до:</label>
+                        <div class="form-group">
+                            <div class="input-group date" id="bidDate">
+                                <input id="bidDateInp" type='text' class="form-control"/>
+								<span class="input-group-addon">
+									<span class="glyphicon glyphicon-calendar text-primary"> </span>
+									Изменить
+								</span>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="form-group">
+						<label>Способ доставки</label>
+						<div id="bidShipment">
+							<% _.each(shipments, function(e,i,args){ %>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" class="bidShipmentTypes" id="<%- e.id %>" value="<%- e.id %>" checked>
+									<span class="<%- e.shipmentTypeImg %>"></span>
+									<%- e.shipmentpop %>
+								</label>
+							</div>
+							<% }); %>
+						</div>
+					</div>
+				</div>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" id="modal-btn-no" class="btn yes" data-dismiss="modal" aria-label="Close">Отмена
+            </button>
+
+            <button type="button" id="modal-btn-yes" class="btn no btn-primary">Сохранить</button>
+        </div>
+    </div>
+</div>

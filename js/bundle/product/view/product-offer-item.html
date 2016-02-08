@@ -1,0 +1,31 @@
+<td class="seller">
+    <a class="js-shop-href" href="#prodlist/-/<%= shop.id %>/-" href="#">
+        <%= shop.name %>
+    </a>
+</td>
+<td class="has-good"><%= quantity %></td>
+<td class="price"><%= price %></td>
+<td class="delivery">
+    Тип 1
+    <!--<span class="fa fa-male <% if (!shipmentTypes.type1) { %>text-muted<% } %>"> </span>-->
+    <!--<span class="fa fa-truck <% if (!shipmentTypes.type2) { %>text-muted<% } %>"> </span>-->
+    <!--<span class="fa fa-rocket <% if (!shipmentTypes.type3) { %>text-muted<% } %>"> </span>-->
+    <!--<span class="fa fa-plane <% if (!shipmentTypes.type4) { %>text-muted<% } %>"> </span>-->
+    <!--<span class="fa fa-envelope-o <% if (!shipmentTypes.type5) { %>text-muted<% } %>"> </span>-->
+</td>
+<td class="good-amount">
+    <div class="input-group counter">
+        <span class="input-group-btn left-btn">
+            <button class="btn btn-default js-amount-minus" type="button" disabled>-</button>
+        </span>
+        <input type="text" class="form-control js-amount-input" value="1">
+        <span class="input-group-btn right-btn">
+            <button class="btn btn-default js-amount-plus" type="button">+</button>
+        </span>
+    </div>
+</td>
+<td class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <button class="btn btn-primary product-btn-cart-small glyphicon glyphicon-shopping-cart" type="button" data-cart="<%=id%>" data-offer-id="<%=id%>" data-offer-amount="1"></button>
+    <button class="btn btn-primary product-btn-cart" type="button" data-offer="<%=id%>" data-cart="<%=id%>" data-offer-amount="1">В корзину</button>
+</td>
+

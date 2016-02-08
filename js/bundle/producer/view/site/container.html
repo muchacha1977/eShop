@@ -1,0 +1,81 @@
+
+<div class="row">
+	<div class="col-xs-12 col-sm-4">
+		<ul class="list-group">
+			<li class="list-group-item active">Логотип</li>
+			<li class="list-group-item upload-logo-wrapper text-center">
+				<img id="producer-logo" class="img-responsive" >
+				<a id="upload-logo" href="#" class="btn btn-primary btn-sm" style="position: relative; overflow: hidden;">
+					<span class="fa fa-upload"> </span>
+					Загрузить логотип
+					<input type="file" id="fileUploadInput" name="data" style="left: 0; right: 0; top:0; bottom: 0;">
+				</a>
+			</li>
+		</ul>
+		<ul class="list-group">
+			<li class="list-group-item active">Документы</li>
+			<li class="list-group-item">
+				<div class="text-center">
+					<a id="upload-logo" href="#" class="btn btn-primary btn-sm" style="position: relative; overflow: hidden;">
+						<span class="fa fa-upload"> </span>
+						Загрузить новый документ
+						<input type="file" id="docUploadInput" name="data" style="left: 0; right: 0; top:0; bottom: 0;">
+					</a>
+				</div>
+				<div id="docs-list"></div>
+				<div id="docs-pagination"></div>
+			</li>
+		</ul>
+	</div>
+	<div class="col-xs-12 col-sm-8" id="producerInfoForm">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<h3>Основная информация</h3>
+				<div class="form-group">
+					<label for="name">Полное наименование</label>
+					<input type="text" class="form-control" id="name" placeholder="" value="<%- name %>">
+				</div>
+				<div class="form-group">
+					<label for="site">Сайт</label>
+					<div class="input-group">
+						<span class="input-group-addon">http://</span>
+						<input type="text" class="form-control" id="site" value="<%- site %>">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="description">Краткое описание</label>
+					<textarea class="form-control" rows="3" id="description"><%- description %></textarea>
+				</div>
+				<div class="form-group">
+					<label for="appeal">Обращение к дилерам</label>
+					<textarea class="form-control" rows="3" id="appeal"><%- appeal %></textarea>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<h3>Реквизиты</h3>
+				<div class="form-group">
+					<label for="address">Адрес</label>
+					<input type="text" class="form-control" id="address" placeholder="" value="<%- address %>">
+				</div>
+				<div class="form-group">
+					<label for="phone">Телефон</label>
+					<input type="text" class="form-control" id="phone" placeholder="" value="<%- phone %>">
+				</div>
+				<div class="form-group">
+					<label for="inn">ИНН</label>
+					<input type="text" class="form-control" id="inn" placeholder="" value="<%- inn %>">
+				</div>
+				<div class="form-group">
+					<label for="kpp">КПП</label>
+					<input type="text" class="form-control" id="kpp" placeholder="" value="<%- kpp %>">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<button type="button" class="btn btn-primary btn-lg" id="saveProducerInfoBtn">Сохранить</button>
+			</div>
+		</div>
+	</div>
+</div>
+

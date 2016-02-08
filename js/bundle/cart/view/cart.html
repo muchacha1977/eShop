@@ -1,0 +1,24 @@
+<div class="dropdown" id="cart">
+    <a id="cart-button" type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="glyphicon glyphicon-shopping-cart"> </span>
+        В корзине <span class="badge"><%= total() %></span> товарa
+        на <span class="badge"><%= totalPrice() %><span class="glyphicon glyphicon-ruble"></span></span>
+        <span class="glyphicon glyphicon-chevron-down"></span>
+    </a>
+    <div id="cart-dropdown"  class="dropdown-menu login-area cart-button" role="menu" aria-labelledby="cart-button">
+        <ul id="cart-dropdown-items">
+
+        </ul>
+        <ul id="cart-dropdown-action">
+            <li class="cart-button-items cart-button-items-btn">
+                <div class="clearfix"><br></div>
+                <a href="#cart" type="button" class="btn btn-default btn-sm">Перейти в корзину</a>
+            </li>
+            <li class="cart-button-items cart-button-items-btn">
+                <div class="clearfix"><p></p></div>
+                <button id="cart-order" type="button" class="btn btn-primary">Оформить заказ</button>
+                <div class="clearfix"><br></div>
+            </li>
+        </ul>
+    </div>
+</div>

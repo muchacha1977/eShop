@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "creation": "12.06.2015",
+      "nick": "Vovan",
+      "sum": 23000,
+      "referrals": 23,
+      "vvp": 2
+    },
+    {
+      "creation": "13.06.2015",
+      "nick": "Yula",
+      "sum": 203000,
+      "referrals": 85,
+      "vvp": 15
+    },
+    {
+      "creation": "14.06.2015",
+      "nick": "Yula",
+      "sum": 1158,
+      "referrals": 8,
+      "vvp": 2
+    },
+    {
+      "creation": "14.06.2015",
+      "nick": "Yula",
+      "sum": 1158,
+      "referrals": 8,
+      "vvp": 2
+    },
+    {
+      "creation": "14.06.2015",
+      "nick": "Yula",
+      "sum": 1158,
+      "referrals": 8,
+      "vvp": 2
+    }
+
+  ]
+}

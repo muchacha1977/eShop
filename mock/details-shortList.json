@@ -1,0 +1,38 @@
+{
+  "type": "detailsResult",
+  "offset": 0,
+  "limit": 6,
+  "total": 6,
+  "data": [
+    {
+      "type": "detail",
+	  "name": "Тип автомобиля",
+	  "value": "легковой"
+    },
+    {
+      "type": "detail",
+	  "name": "Тип двигателя",
+	  "value": "бензиновый"
+    },
+    {
+      "type": "detail",
+	  "name": "Тип аккумулятора",
+	  "value": "никилиево-марганцовый"
+    },
+    {
+      "type": "detail",
+	  "name": "Цвет",
+	  "value": "классный"
+    },
+    {
+      "type": "detail",
+	  "name": "Тип КП",
+	  "value": "автомат"
+    },
+    {
+      "type": "detail",
+	  "name": "Высота в холке",
+	  "value": "2 метра"
+    }
+  ]
+}

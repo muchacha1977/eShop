@@ -1,0 +1,70 @@
+<div class="modal-body" id="offerAddForm">
+	<div class="row">
+		<div class="col-xs-12">
+			<% if(typeof id != 'undefined') { %>
+			<div class="alert alert-info">
+				У вас уже имеется предложение по данному товару. Вы можете отредактировать его.
+			</div>
+			<% }%>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" id="offerActive" <% if(active===true) { %> checked <% } %>> Предложение действительно
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6">
+			<div class="form-group">
+				<label for="offerPrice">Цена:</label>
+				<div class="input-group">
+					<input id="offerPrice" type='text' class="form-control" value="<%- unitPrice %>"/>
+					<span class="input-group-addon">
+						<span class="fa fa-rub text-primary"> </span>
+					</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="offerQuantity">Количество:</label>
+				<input id="offerQuantity" type='text' class="form-control" value="<%- quantity %>"/>
+			</div>
+			<div class="form-group">
+				<label for="offerValidUntil">Действует до:</label>
+				<div class="form-group">
+					<div class="input-group date" id="offerValidUntilCalendar">
+						<input id="offerValidUntil" type='text' class="form-control" value="<%- validUntil %>"/>
+						<span class="input-group-addon">
+							<span class="glyphicon glyphicon-calendar text-primary"> </span>
+							Изменить
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6">
+			<div class="form-group">
+				<label>Способ доставки:</label>
+				<div id="offerShipment">
+					<% _.each(shipments, function(e,i,args){ %>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" class="offerShipmentTypes" id="<%- e.type %>" value="<%- e.type %>"
+								<% if(typeof shipmentTypes[e.type] != 'undefined' && shipmentTypes[e.type] === true) { %> checked <% } %>>
+							<span class="<%- e.stateimg %>"></span>
+							<%- e.description %>
+						</label>
+					</div>
+					<% }); %>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="modal-footer">
+	<% if(typeof id != 'undefined') { %><div class="pull-left">
+		<button type="button" id="modal-btn-delete" class="btn btn-link">Удалить</button>
+	</div><% } %>
+	<button type="button" id="modal-btn-ok" class="btn yes btn-primary">Сохранить</button>
+	<button type="button" id="modal-btn-no" class="btn no" data-dismiss="modal" aria-label="Close">Закрыть</button>
+</div>

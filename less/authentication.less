@@ -1,0 +1,102 @@
+.login-area{
+  position: relative;
+  margin-top: 10px;
+  @media (min-width: @screen-xs-min) and (max-width: @screen-xs-max){
+    margin-right: -64;
+  }
+ 
+  border-top: 0;
+  border-right: @border-base;
+  border-left: @border-base;
+  border-bottom: @border-base;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-box-shadow: 0 8px 13px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.09);
+}
+
+.login{
+  &-form{
+    &-wrapper {
+      #login-form-email{
+        margin-left: 13px;
+      }
+    }
+  }
+
+  &-type{
+    text-align: center;
+  }
+}
+
+#login-form-wrapper{
+  button#registration{
+    padding: 0;
+    background: transparent;
+    border: 0;
+    color: #c53546;
+  }
+
+  button#registration:hover{
+    text-decoration: underline;
+    color: #892531;
+  }
+}
+
+#authentication{
+  &-dialog{
+    .login{
+      &-form{
+        &-wrapper {
+          width: 100%;
+        }
+      }
+    }
+
+    .login-type button{
+      padding: 4px 22px;
+    }
+
+  }
+}
+
+.dropdown-menu{
+
+  #authentication {
+    &-dialog {
+      .login-type button{
+        padding: 4px 30px;
+      }
+    }
+  }
+  .modal{
+    &-dialog{
+      margin: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-clip: padding-box;
+      border: none;
+      width: 300px;
+
+      #login-form-wrapper{
+        padding: 10px 24px;
+      }
+    }
+
+    &-content{
+      margin: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-clip: padding-box;
+      border: none;
+    }
+
+    &-body{
+      padding: 0;
+    }
+
+    &-header{
+      display: none;
+    }
+  }
+}

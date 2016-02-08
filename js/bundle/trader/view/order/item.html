@@ -1,0 +1,35 @@
+<td class="shop-ordergroup-td text-center"><input class="shop-ordergroup-checkbox" value="<%- id %>" type="checkbox"> </td>
+<td class="shop-ordergroup-td detail"><a href="#" title="Изменить"><%- group.name %></a></td>
+<td class="shop-ordergroup-td detail"><%- group.date %></td>
+<td class="shop-ordergroup-td detail"><%- name %></td>
+<td class="shop-ordergroup-td detail"><%- creationTime %></td>
+<td class="shop-ordergroup-td detail"><%- product.name %></td>
+<td class="text-right shop-ordergroup-td detail"><%- quantity %></td>
+<td class="text-right shop-ordergroup-td detail"><%- linePrice %></td>
+<td class="text-right shop-ordergroup-td detail"><%- discount %></td>
+<td class="text-right shop-ordergroup-td detail"><%- totalPrice %></td>
+<td class="shop-ordergroup-td detail"><%- buyer.name %></td>
+<td class="shop-ordergroup-td">
+    <span class="hide"><%- state %></span>
+    <div class="dropdown">
+
+        <% _.each(stateArgs, function(e,i,args){
+        if ( e.state == state ) {
+        %>
+        <button data-state="<%- e.type %>" id="stateViews" class="btn btn-<%= e.className ? e.className : 'primary' %>" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="left" title="<%- e.statepop %>">
+
+            <span class="<%- e.stateimg %>"></span> <span class="glyphicon glyphicon-triangle-bottom"></span>
+        </button>
+        <% }}); %>
+
+        <ul class="dropdown-menu" role="menu" aria-labelledby="shipmentType">
+            <% _.each(stateArgs, function(e,i,args){
+                if ( e.access == 'trader' ){
+            %>
+            <li role="presentation"><a class="order-state-menuitem" role="menuitem"
+                                       tabindex="-1" data-state="<%- e.state %>" href="#"><span class="<%- e.stateimg %>"></span> <%- e.statepop %></a></li>
+            <% }}); %>
+        </ul>
+    </div>
+</td>
